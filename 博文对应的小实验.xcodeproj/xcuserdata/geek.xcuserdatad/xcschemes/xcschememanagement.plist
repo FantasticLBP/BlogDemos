@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>双列表联动（外卖App）.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>模仿微信公众号网页效果，长按webview图片保存到相册.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>93396E4B1F77908800563664</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>93DA8F6F1F4EC7330078163E</key>
 		<dict>
 			<key>primary</key>
