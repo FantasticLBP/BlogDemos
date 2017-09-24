@@ -4,7 +4,7 @@
 
 [![platform](https://img.shields.io/badge/platform-iOS-red.svg)]()
 [![weibo](https://img.shields.io/badge/weibo-%40杭城小刘-green.svg)](http://weibo.com/3194053975/profile?rightmod=1&wvr=6&mod=personinfo&is_hot=1)
-[![Updated](https://img.shields.io/badge/Updated-2017--08--24-green.svg)]()
+[![Updated](https://img.shields.io/badge/Updated-2017--09--24-green.svg)]()
 
 ### Demo1:模仿微信公众号文章效果，长按UIWebView上的图片，弹出对话框，用户点击确定则保存图片到本地相册。
 
@@ -40,7 +40,7 @@
 ## 效果图
 
 * 如果需要查看详情请看[博文](http://www.jianshu.com/p/dab98fbe0736)或者下载代码运行查看效果。
-![效果图](https://raw.githubusercontent.com/FantasticLBP/iOSKonwledge-Kit/master/assets/2017-09-24%2015_35_52.gif "效果图")
+* ![效果图](https://raw.githubusercontent.com/FantasticLBP/iOSKonwledge-Kit/master/assets/2017-09-24%2015_35_52.gif "效果图")
 
 
 
