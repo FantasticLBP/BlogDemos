@@ -31,13 +31,15 @@
 * 左边的UITableView是只有1个section和n个row
 * 右边的UITableView具有n个section（这里的section 个数恰好是左边UITableView的row数量），且每个section下的row由对应的数据源控制
 
-#### 有巨坑
+#### 缺陷
 
 * 观察了下，发现右侧滚动的时候左侧会上下选中，所以也就是只要让右侧滚动的时候，左侧的UITableView单方向选中，不要滚动就好，所以由于UITableView也是UIScrollview，所以在scrollViewDidScroll方法中判断右侧的UITableView是向上还是向下滚动，以此作为判断条件来让左侧的UITableView选中相应的行。
 
 * 且之前是在scrollview代理方法中让左侧的tableview选中，这样子又会触发左侧tableview的选中事件，从而导致右侧的tablview滚动，造成不严谨的联动逻辑
 
 ## 效果图
+
+* 如果需要查看详情请看[博文](http://www.jianshu.com/p/dab98fbe0736)或者下载代码运行查看效果。
 ![效果图](https://raw.githubusercontent.com/FantasticLBP/iOSKonwledge-Kit/master/assets/2017-09-24%2015_35_52.gif "效果图")
 
 
