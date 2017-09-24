@@ -24,5 +24,23 @@
 * 如果需要查看详情请看[博文](http://www.jianshu.com/p/9304a1e7ae97)或者下载代码运行查看效果。
 
 
+### Demo2:模仿外卖App实现双列表联动功能。
+
+#### 主要思路
+
+* 左边的UITableView是只有1个section和n个row
+* 右边的UITableView具有n个section（这里的section 个数恰好是左边UITableView的row数量），且每个section下的row由对应的数据源控制
+
+#### 有巨坑
+
+* 观察了下，发现右侧滚动的时候左侧会上下选中，所以也就是只要让右侧滚动的时候，左侧的UITableView单方向选中，不要滚动就好，所以由于UITableView也是UIScrollview，所以在scrollViewDidScroll方法中判断右侧的UITableView是向上还是向下滚动，以此作为判断条件来让左侧的UITableView选中相应的行。
+
+* 且之前是在scrollview代理方法中让左侧的tableview选中，这样子又会触发左侧tableview的选中事件，从而导致右侧的tablview滚动，造成不严谨的联动逻辑
+
+## 效果图
+![效果图](https://raw.githubusercontent.com/FantasticLBP/iOSKonwledge-Kit/master/assets/2017-09-24%2015_35_52.gif "效果图")
+
+
+
 *各位同学觉得有帮助的欢迎给个star，我会继续优化代码。
 如果有不懂的地方可以加入QQ交流群讨论：<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=c9dc4ab0b2062e0004b3b2ed556da1ce898631742e15780297feb3465ad08eda">**515066271**</a>。这个QQ群讨论技术范围包括：iOS、H5混合开发、前端开发、PHP开发，欢迎大家讨论技术。
