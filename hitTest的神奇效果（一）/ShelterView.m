@@ -7,8 +7,8 @@
 //
 
 #import "ShelterView.h"
-
 @implementation ShelterView
+
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     NSLog(@"%s",__func__);
