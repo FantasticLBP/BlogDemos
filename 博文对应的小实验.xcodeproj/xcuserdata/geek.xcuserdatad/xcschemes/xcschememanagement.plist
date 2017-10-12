@@ -4,25 +4,110 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>博文对应的小实验.xcscheme</key>
+		<key>Category中增加属性.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
-		<key>模仿微信公众号网页效果，长按webview图片保存到相册.xcscheme</key>
+		<key>UIWebView迁移到WKWebView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>hitTest的神奇效果（一）.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>view跟随手势拖动效果.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>双列表联动.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>模仿微信公众号网页效果，长按webview图片保存到相册.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>模仿系统找出事件的最佳响应者.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>登陆动画.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>高性能地给UIImageView加个圆角.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>932942D11F54F96100B45757</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>933009A01F5E321800833053</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>933009C31F5E4FC000833053</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9341224B1F8B52B6009ED30A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>934122651F8B7928009ED30A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9360251E1F5B094E002526D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>936E2ABE1F79FC2900A930DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>939567571F6438FE00662FAC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>93B3368E1F641E820073ABDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>93DA8F6F1F4EC7330078163E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>93DA8F8D1F4EC7480078163E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>93E95C721F74A62300057E41</key>
 		<dict>
 			<key>primary</key>
 			<true/>
