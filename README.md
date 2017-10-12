@@ -42,7 +42,9 @@
 * 如果需要查看详情请看[博文](http://www.jianshu.com/p/dab98fbe0736)或者下载代码运行查看效果。
 * ![效果图](https://raw.githubusercontent.com/FantasticLBP/iOSKonwledge-Kit/master/assets/2017-09-24%2015_35_52.gif "效果图")
 
+...
 
+### 接下来的更新都会在我的博文中列出来，欢迎关注  [博文地址](https://fantasticlbp.github.io)
 
 *各位同学觉得有帮助的欢迎给个star，我会继续优化代码。
 如果有不懂的地方可以加入QQ交流群讨论：<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=c9dc4ab0b2062e0004b3b2ed556da1ce898631742e15780297feb3465ad08eda">**515066271**</a>。这个QQ群讨论技术范围包括：iOS、H5混合开发、前端开发、PHP开发，欢迎大家讨论技术。
