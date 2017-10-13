@@ -15,10 +15,12 @@
 #define BoundWidth  [[UIScreen mainScreen]bounds].size.width
 #define BoundHeight [[UIScreen mainScreen]bounds].size.height
 
-@interface ViewController ()<WKNavigationDelegate,WKUIDelegate>
-//<UIWebViewDelegate>
+@interface ViewController ()<UIWebViewDelegate>
+//<WKNavigationDelegate,WKUIDelegate>
 
 @property (nonatomic, strong) WKWebView *wkWebView;
+
+@property (nonatomic, strong) UIButton *button;
 
 @property (nonatomic, strong) UIWebView *webView;
 
@@ -30,27 +32,37 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view addSubview:self.webView];
+    [self.view addSubview:self.button];
     
-  
-//    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://192.168.51.175:8020/mz-tools/html/childPreBuild/test.html"]];
-//    /*
-//     * UIWebView
-//    [self.view addSubview:self.webView];
-//    [self.webView loadRequest:request];
-//     */
-//    
+    NSString *htmlPath = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"];
+    
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL fileURLWithPath:htmlPath]];
+    [self.webView loadRequest:request];
+
+//
 //    /*
 //     * WKWebView
 //     */
 //    [self.view addSubview:self.wkWebView];
 //    [self.wkWebView loadRequest:request];
-//    
-//    
 //    [self.view addSubview:self.fpsTestLabel];
-    
-    
 }
 
+
+#pragma mark -- response method
+
+-(void)addContentToWebView{
+    NSString *jsString = @" var pNode = document.createElement(\"p\"); pNode.innerText = \"我是由原生代码调用js后将一段文件添加到html上，也就是注入\";document.body.appendChild(pNode);";
+    [self.webView stringByEvaluatingJavaScriptFromString:jsString];
+}
+
+
+#pragma mark -- private method
+
+-(NSInteger)plusparm:(NSInteger)par1 parm2:(NSInteger)par2{
+    return par1 + par2;
+}
 
 #pragma mark -- WKNavigationDelegate
 //在发送网络请求前，判断是否需要跳转
@@ -111,11 +123,24 @@
 
 #pragma mark -- UIWebViewDelegate
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType{
-    NSString *urlString = request.URL.absoluteString;
-    if ([urlString containsString:@"baidu.com"]) {
-        return YES;
+    NSURL *url = request.URL;
+    NSString *scheme = url.scheme;
+    NSString *method = url.host;
+    NSString *parms =  url.query;
+    NSArray *pars = [parms componentsSeparatedByString:@"&"];
+    NSInteger par1 = [[pars[0] substringFromIndex:5] integerValue];
+    NSInteger par2 = [[pars[1] substringFromIndex:5] integerValue];
+    if ([scheme isEqualToString:@"jsbridge"]) {
+        //发现scheme是JSBridge，那么就是自定义的URLscheme，不去加载网页内容而拦截去处理事件。
+        
+        if ([method isEqualToString:@"plus"]) {
+           NSInteger result = [self plusparm:par1 parm2:par2];
+            [self.webView stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"receiveValue(%@);",@(result)]];
+        }
+        
+        return NO;
     }
-    return NO;
+    return YES;
 }
 
 - (void)webViewDidStartLoad:(UIWebView *)webView{
@@ -142,12 +167,23 @@
 
 -(UIWebView *)webView{
     if (!_webView) {
-        _webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
+        _webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, BoundWidth, BoundHeight - 100)];
         _webView.delegate = self;
     }
     return _webView;
 }
 
+-(UIButton *)button{
+    if (!_button) {
+        _button = [UIButton buttonWithType:UIButtonTypeCustom];
+        _button.frame = CGRectMake(100, BoundHeight - 80, BoundWidth - 200, 60);
+        _button.backgroundColor = [UIColor brownColor];
+        [_button setTitle:@"点我，网页添加一行内容" forState:UIControlStateNormal];
+        [_button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [_button addTarget:self action:@selector(addContentToWebView) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _button;
+}
 -(YYFPSLabel *)fpsTestLabel{
     if (!_fpsTestLabel) {
         _fpsTestLabel = [[YYFPSLabel alloc] initWithFrame:CGRectMake(BoundWidth/2 - 100 /2, BoundHeight/2-30/2, 100, 30)];

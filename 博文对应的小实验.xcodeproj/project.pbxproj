@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
 		930E81531F890B2200EF9652 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930E81521F890B2200EF9652 /* ContactsViewController.m */; };
 		930E81551F890C1E00EF9652 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930E814B1F890B0900EF9652 /* ViewController.m */; };
 		930E81571F890CBF00EF9652 /* LoginAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 930E814F1F890B0900EF9652 /* LoginAnimationView.m */; };
@@ -41,7 +40,13 @@
 		9395676A1F6438FE00662FAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939567681F6438FE00662FAC /* LaunchScreen.storyboard */; };
 		93CDB6F01F8A3A03008DBAD8 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CDB6EF1F8A3A03008DBAD8 /* AddViewController.m */; };
 		93CDB6F31F8A3AB3008DBAD8 /* ContactsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CDB6F21F8A3AB3008DBAD8 /* ContactsModel.m */; };
-
+		93D3BE581F905EA70002C6F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3BE571F905EA70002C6F8 /* AppDelegate.m */; };
+		93D3BE5B1F905EA70002C6F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3BE5A1F905EA70002C6F8 /* ViewController.m */; };
+		93D3BE5E1F905EA70002C6F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D3BE5C1F905EA70002C6F8 /* Main.storyboard */; };
+		93D3BE601F905EA70002C6F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D3BE5F1F905EA70002C6F8 /* Assets.xcassets */; };
+		93D3BE631F905EA70002C6F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D3BE611F905EA70002C6F8 /* LaunchScreen.storyboard */; };
+		93D3BE661F905EA70002C6F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3BE651F905EA70002C6F8 /* main.m */; };
+		93D3BE6B1F9090B60002C6F8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 93D3BE6A1F908FA30002C6F8 /* index.html */; };
 		93DA8F921F4EC7480078163E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DA8F911F4EC7480078163E /* main.m */; };
 		93DA8F951F4EC7480078163E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DA8F941F4EC7480078163E /* AppDelegate.m */; };
 		93DA8F981F4EC7480078163E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DA8F971F4EC7480078163E /* ViewController.m */; };
@@ -87,7 +92,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-
 		930E814A1F890B0900EF9652 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		930E814B1F890B0900EF9652 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		930E814E1F890B0900EF9652 /* LoginAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginAnimationView.h; sourceTree = "<group>"; };
@@ -145,7 +149,17 @@
 		93CDB6EF1F8A3A03008DBAD8 /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 		93CDB6F11F8A3AB3008DBAD8 /* ContactsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsModel.h; sourceTree = "<group>"; };
 		93CDB6F21F8A3AB3008DBAD8 /* ContactsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsModel.m; sourceTree = "<group>"; };
-
+		93D3BE541F905EA70002C6F8 /* 常见系统手势.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "常见系统手势.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D3BE561F905EA70002C6F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93D3BE571F905EA70002C6F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93D3BE591F905EA70002C6F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		93D3BE5A1F905EA70002C6F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		93D3BE5D1F905EA70002C6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93D3BE5F1F905EA70002C6F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93D3BE621F905EA70002C6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93D3BE641F905EA70002C6F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D3BE651F905EA70002C6F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93D3BE6A1F908FA30002C6F8 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		93DA8F8E1F4EC7480078163E /* 模仿微信公众号网页效果，长按webview图片保存到相册.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "模仿微信公众号网页效果，长按webview图片保存到相册.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DA8F911F4EC7480078163E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93DA8F931F4EC7480078163E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -222,16 +236,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-
 		932942CF1F54F96100B45757 /* Frameworks */ = {
-
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-
 		9330099E1F5E321800833053 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,7 +258,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		939567551F6438FE00662FAC /* Frameworks */ = {
-
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D3BE511F905EA70002C6F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,13 +309,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-
 		930E81431F890B0900EF9652 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				930E81441F890B0900EF9652 /* Contacts(联系人) */,
 				930E81481F890B0900EF9652 /* Login(登录) */,
-
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -306,11 +321,9 @@
 		930E81441F890B0900EF9652 /* Contacts(联系人) */ = {
 			isa = PBXGroup;
 			children = (
-
 				930E81451F890B0900EF9652 /* Controller */,
 				930E81461F890B0900EF9652 /* Model */,
 				930E81471F890B0900EF9652 /* View */,
-
 			);
 			path = "Contacts(联系人)";
 			sourceTree = "<group>";
@@ -395,6 +408,7 @@
 				932942D81F54F96200B45757 /* AppDelegate.m */,
 				932942DA1F54F96200B45757 /* ViewController.h */,
 				932942DB1F54F96200B45757 /* ViewController.m */,
+				93D3BE6A1F908FA30002C6F8 /* index.html */,
 				932942D41F54F96200B45757 /* Supporting Files */,
 			);
 			path = "UIWebView迁移到WKWebView";
@@ -504,6 +518,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		93D3BE551F905EA70002C6F8 /* 常见系统手势 */ = {
+			isa = PBXGroup;
+			children = (
+				93D3BE561F905EA70002C6F8 /* AppDelegate.h */,
+				93D3BE571F905EA70002C6F8 /* AppDelegate.m */,
+				93D3BE591F905EA70002C6F8 /* ViewController.h */,
+				93D3BE5A1F905EA70002C6F8 /* ViewController.m */,
+				93D3BE5C1F905EA70002C6F8 /* Main.storyboard */,
+				93D3BE5F1F905EA70002C6F8 /* Assets.xcassets */,
+				93D3BE611F905EA70002C6F8 /* LaunchScreen.storyboard */,
+				93D3BE641F905EA70002C6F8 /* Info.plist */,
+				93D3BE651F905EA70002C6F8 /* main.m */,
+			);
+			path = "常见系统手势";
+			sourceTree = "<group>";
+		};
 		93DA8F671F4EC7330078163E = {
 			isa = PBXGroup;
 			children = (
@@ -516,6 +546,7 @@
 				93DBF1031F8EF3060079D962 /* 模仿系统找出事件的最佳响应者 */,
 				93DBF1501F8EFC8B0079D962 /* view跟随手势拖动效果 */,
 				93DBF16D1F8EFD980079D962 /* hitTest的神奇效果（一） */,
+				93D3BE551F905EA70002C6F8 /* 常见系统手势 */,
 				93DA8F711F4EC7330078163E /* Products */,
 				930E81681F89271D00EF9652 /* Frameworks */,
 			);
@@ -533,6 +564,7 @@
 				93DBF1021F8EF3060079D962 /* 模仿系统找出事件的最佳响应者.app */,
 				93DBF14F1F8EFC8B0079D962 /* view跟随手势拖动效果.app */,
 				93DBF16C1F8EFD980079D962 /* hitTest的神奇效果（一）.app */,
+				93D3BE541F905EA70002C6F8 /* 常见系统手势.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -675,7 +707,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-
 		932942D11F54F96100B45757 /* UIWebView迁移到WKWebView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 932942E81F54F96200B45757 /* Build configuration list for PBXNativeTarget "UIWebView迁移到WKWebView" */;
@@ -683,13 +714,11 @@
 				932942CE1F54F96100B45757 /* Sources */,
 				932942CF1F54F96100B45757 /* Frameworks */,
 				932942D01F54F96100B45757 /* Resources */,
-
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-
 			name = "UIWebView迁移到WKWebView";
 			productName = "UIWebView迁移到WKWebView";
 			productReference = 932942D21F54F96100B45757 /* UIWebView迁移到WKWebView.app */;
@@ -744,6 +773,23 @@
 			name = "登陆动画";
 			productName = "登陆动画";
 			productReference = 939567581F6438FE00662FAC /* 登陆动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93D3BE531F905EA70002C6F8 /* 常见系统手势 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D3BE691F905EA70002C6F8 /* Build configuration list for PBXNativeTarget "常见系统手势" */;
+			buildPhases = (
+				93D3BE501F905EA70002C6F8 /* Sources */,
+				93D3BE511F905EA70002C6F8 /* Frameworks */,
+				93D3BE521F905EA70002C6F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "常见系统手势";
+			productName = "常见系统手势";
+			productReference = 93D3BE541F905EA70002C6F8 /* 常见系统手势.app */;
 			productType = "com.apple.product-type.application";
 		};
 		93DA8F8D1F4EC7480078163E /* 模仿微信公众号网页效果，长按webview图片保存到相册 */ = {
@@ -840,7 +886,6 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "杭城小刘";
 				TargetAttributes = {
-
 					932942D11F54F96100B45757 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
@@ -855,6 +900,10 @@
 					};
 					939567571F6438FE00662FAC = {
 						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					93D3BE531F905EA70002C6F8 = {
+						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
 					93DA8F8D1F4EC7480078163E = {
@@ -892,7 +941,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-
 				93DA8F8D1F4EC7480078163E /* 模仿微信公众号网页效果，长按webview图片保存到相册 */,
 				932942D11F54F96100B45757 /* UIWebView迁移到WKWebView */,
 				933009A01F5E321800833053 /* Category中增加属性 */,
@@ -902,6 +950,7 @@
 				93DBF1011F8EF3060079D962 /* 模仿系统找出事件的最佳响应者 */,
 				93DBF14E1F8EFC8B0079D962 /* view跟随手势拖动效果 */,
 				93DBF16B1F8EFD980079D962 /* hitTest的神奇效果（一） */,
+				93D3BE531F905EA70002C6F8 /* 常见系统手势 */,
 			);
 		};
 /* End PBXProject section */
@@ -911,6 +960,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D3BE6B1F9090B60002C6F8 /* index.html in Resources */,
 				932942E41F54F96200B45757 /* LaunchScreen.storyboard in Resources */,
 				932942E11F54F96200B45757 /* Assets.xcassets in Resources */,
 				932942DF1F54F96200B45757 /* Main.storyboard in Resources */,
@@ -945,6 +995,16 @@
 				9395676A1F6438FE00662FAC /* LaunchScreen.storyboard in Resources */,
 				939567671F6438FE00662FAC /* Assets.xcassets in Resources */,
 				939567651F6438FE00662FAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D3BE521F905EA70002C6F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D3BE631F905EA70002C6F8 /* LaunchScreen.storyboard in Resources */,
+				93D3BE601F905EA70002C6F8 /* Assets.xcassets in Resources */,
+				93D3BE5E1F905EA70002C6F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1050,6 +1110,16 @@
 				930E81531F890B2200EF9652 /* ContactsViewController.m in Sources */,
 				9395675C1F6438FE00662FAC /* main.m in Sources */,
 				934122471F8B4096009ED30A /* ContactEditViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D3BE501F905EA70002C6F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D3BE5B1F905EA70002C6F8 /* ViewController.m in Sources */,
+				93D3BE661F905EA70002C6F8 /* main.m in Sources */,
+				93D3BE581F905EA70002C6F8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1178,6 +1248,22 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		93D3BE5C1F905EA70002C6F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93D3BE5D1F905EA70002C6F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93D3BE611F905EA70002C6F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93D3BE621F905EA70002C6F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		93DA8F991F4EC7480078163E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1194,12 +1280,10 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-
 		93DBF10A1F8EF3060079D962 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				93DBF10B1F8EF3060079D962 /* Base */,
-
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1212,12 +1296,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-
 		93DBF1571F8EFC8B0079D962 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				93DBF1581F8EFC8B0079D962 /* Base */,
-
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1230,9 +1312,7 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-
 		93DBF1741F8EFD980079D962 /* Main.storyboard */ = {
-
 			isa = PBXVariantGroup;
 			children = (
 				93DBF1751F8EFD980079D962 /* Base */,
@@ -1267,7 +1347,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-
 		932942E61F54F96200B45757 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1275,12 +1354,10 @@
 				INFOPLIST_FILE = "UIWebView迁移到WKWebView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.UIWebView---WKWebView";
-
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-
 		932942E71F54F96200B45757 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1354,8 +1431,43 @@
 				INFOPLIST_FILE = "登陆动画/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.----";
-
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93D3BE671F905EA70002C6F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "常见系统手势/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93D3BE681F905EA70002C6F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "常见系统手势/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1618,9 +1730,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-
 		932942E81F54F96200B45757 /* Build configuration list for PBXNativeTarget "UIWebView迁移到WKWebView" */ = {
-
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				932942E61F54F96200B45757 /* Debug */,
@@ -1656,6 +1766,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		93D3BE691F905EA70002C6F8 /* Build configuration list for PBXNativeTarget "常见系统手势" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D3BE671F905EA70002C6F8 /* Debug */,
+				93D3BE681F905EA70002C6F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		93DA8F6B1F4EC7330078163E /* Build configuration list for PBXProject "博文对应的小实验" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1673,7 +1792,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-
 		};
 		93DBF1171F8EF3060079D962 /* Build configuration list for PBXNativeTarget "模仿系统找出事件的最佳响应者" */ = {
 			isa = XCConfigurationList;
@@ -1710,7 +1828,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-
 		};
 /* End XCConfigurationList section */
 	};
