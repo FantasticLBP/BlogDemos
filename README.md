@@ -4,7 +4,7 @@
 
 [![platform](https://img.shields.io/badge/platform-iOS-red.svg)]()
 [![weibo](https://img.shields.io/badge/weibo-%40杭城小刘-green.svg)](http://weibo.com/3194053975/profile?rightmod=1&wvr=6&mod=personinfo&is_hot=1)
-[![Updated](https://img.shields.io/badge/Updated-2017--10--12-green.svg)]()
+[![Updated](https://img.shields.io/badge/updated-2017--10--25-green.svg)]()
 
 ### Demo1:模仿微信公众号文章效果，长按UIWebView上的图片，弹出对话框，用户点击确定则保存图片到本地相册。
 
