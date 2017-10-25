@@ -32,15 +32,31 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "UIWebView&#x8fc1;&#x79fb;&#x5230;WKWebView/ViewController.m"
-            timestampString = "529570194.311271"
+            filePath = "&#x753b;&#x997c;&#x56fe;/PieView.m"
+            timestampString = "529934578.904999"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "-drawPie:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x88c1;&#x526a;&#x5e26;&#x5706;&#x5f62;&#x8fb9;&#x6846;&#x7684;&#x56fe;&#x7247;/ViewController.m"
+            timestampString = "530500379.116853"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>

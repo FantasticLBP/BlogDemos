@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="99P-0d-k0v" customClass="ProgressView">
+                                <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hs-Vt-W6k">
+                                        <rect key="frame" x="0.0" y="139.5" width="300" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Zat-np-iix"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="9hs-Vt-W6k" firstAttribute="centerY" secondItem="99P-0d-k0v" secondAttribute="centerY" id="7Tt-uJ-14Z"/>
+                                    <constraint firstAttribute="height" constant="300" id="OdK-xh-eRo"/>
+                                    <constraint firstAttribute="width" constant="300" id="bS3-Pl-hsn"/>
+                                    <constraint firstItem="9hs-Vt-W6k" firstAttribute="leading" secondItem="99P-0d-k0v" secondAttribute="leading" id="g8E-jh-GfN"/>
+                                    <constraint firstAttribute="trailing" secondItem="9hs-Vt-W6k" secondAttribute="trailing" id="rzi-3t-dGp"/>
+                                </constraints>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="atd-3v-tu8">
+                                <rect key="frame" x="35.5" y="513.5" width="304" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="ZnK-fs-3f7"/>
+                                </constraints>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="99P-0d-k0v" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0wu-Ea-YgU"/>
+                            <constraint firstItem="atd-3v-tu8" firstAttribute="leading" secondItem="99P-0d-k0v" secondAttribute="leading" id="GZt-as-Fgj"/>
+                            <constraint firstItem="atd-3v-tu8" firstAttribute="top" secondItem="99P-0d-k0v" secondAttribute="bottom" constant="30" id="LWo-kO-GFv"/>
+                            <constraint firstItem="atd-3v-tu8" firstAttribute="trailing" secondItem="99P-0d-k0v" secondAttribute="trailing" id="MJM-ab-Aru"/>
+                            <constraint firstItem="99P-0d-k0v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S1t-5z-RL1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="9hs-Vt-W6k" id="sg5-z7-1Ur"/>
+                        <outlet property="progressView" destination="99P-0d-k0v" id="OOt-K4-PQy"/>
+                        <outlet property="slider" destination="atd-3v-tu8" id="04S-XH-2pT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
