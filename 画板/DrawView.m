@@ -122,9 +122,9 @@
     return _paths;
 }
 
--(UIBezierPath *)path{
+-(MyBezierPath *)path{
     if (!_path) {
-        _path = [UIBezierPath bezierPath];
+        _path = [MyBezierPath bezierPath];
     }
     return _path;
 }
