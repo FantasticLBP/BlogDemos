@@ -23,7 +23,6 @@
     //保存当前的图形上下文状态栈
     CGContextSaveGState(ctx);
     
-    
     [[UIColor redColor] set];
     CGContextSetLineWidth(ctx, 10);
     //3、将路径添加到图形上下文中
@@ -31,12 +30,10 @@
     //4、渲染上下文
     CGContextStrokePath(ctx);
     
-   
     //3、将路径天教导图形上下文中
     CGContextAddPath(ctx, path.CGPath);
     //4、渲染上下文
     CGContextStrokePath(ctx);
-    
     
     path = [UIBezierPath bezierPath];
     [path moveToPoint:CGPointMake(150, 10)];

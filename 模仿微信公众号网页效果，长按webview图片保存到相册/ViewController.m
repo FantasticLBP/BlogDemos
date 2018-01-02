@@ -30,6 +30,8 @@
     longPressed.delegate = self;
     [self.webView addGestureRecognizer:longPressed];
 }
+- (IBAction)clickRedColor:(id)sender {
+}
 
 
 #pragma mark -- UIGestureRecognizerDelegate

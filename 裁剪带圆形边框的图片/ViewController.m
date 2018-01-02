@@ -21,10 +21,11 @@
     
     //self.imageView.image = [self imageWithBorderWidth:10 borderColor:[UIColor redColor] image:[UIImage imageNamed:@"onepiece"]];
     
-    UIImage *image = [UIImage imageWithBorderWidth:10 borderColor:[UIColor redColor] image:[UIImage imageNamed:@"onepiece"]];
-    
+    UIImage *image = [UIImage imageWithBorderWidth:2 borderColor:[UIColor redColor] image:[UIImage imageNamed:@"onepiece"]];
     self.imageView = [[UIImageView alloc] initWithImage:image];
     [self.view addSubview:self.imageView];
+}
+- (IBAction)clickRedColor:(id)sender {
 }
 
 -(UIImage *)imageWithBorderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor image:(UIImage *)image{

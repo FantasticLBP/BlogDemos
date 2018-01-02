@@ -21,6 +21,7 @@
 
 -(UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event{
     NSLog(@"%s",__func__);
+    
     if (self.userInteractionEnabled == NO || self.hidden == YES || self.alpha <= 0.01) {
         return nil;
     }

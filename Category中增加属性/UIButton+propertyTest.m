@@ -14,9 +14,7 @@ static const  char Name;
 @implementation UIButton (propertyTest)
 
 -(void)setName:(NSString *)name{
-    
     objc_setAssociatedObject(self, &Name, name, OBJC_ASSOCIATION_COPY_NONATOMIC);
-    objc_copyClassList(<#unsigned int *outCount#>)
 }
 
 -(NSString *)name{

@@ -20,8 +20,10 @@
     UIPanGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureChange:)];
     self.imageView.userInteractionEnabled = YES;
     [self.imageView addGestureRecognizer:panGesture];
-}
 
+}
+- (IBAction)sss:(id)sender {
+}
 
 -(void)panGestureChange:(UIPanGestureRecognizer *)pan{
     
