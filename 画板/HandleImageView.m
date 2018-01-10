@@ -42,7 +42,6 @@
     UIRotationGestureRecognizer *rotationGesture = [[UIRotationGestureRecognizer alloc] initWithTarget:self action:@selector(rotate:)];
     [self.imageView addGestureRecognizer:rotationGesture];
     
-   
 
     UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPress:)];
     [self.imageView addGestureRecognizer:longPress];
