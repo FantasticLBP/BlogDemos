@@ -4,7 +4,7 @@
 
 [![platform](https://img.shields.io/badge/platform-iOS-red.svg)]()
 [![weibo](https://img.shields.io/badge/weibo-%40杭城小刘-green.svg)](http://weibo.com/3194053975/profile?rightmod=1&wvr=6&mod=personinfo&is_hot=1)
-[![Updated](https://img.shields.io/badge/updated-2018----01----02-green.svg)]()
+[![Updated](https://img.shields.io/badge/updated-2018--01--11-green.svg)]()
 
 ### Demo1:模仿微信公众号文章效果，长按UIWebView上的图片，弹出对话框，用户点击确定则保存图片到本地相册。
 
@@ -43,12 +43,19 @@
 * ![效果图](https://raw.githubusercontent.com/FantasticLBP/iOSKonwledge-Kit/master/assets/2017-09-24%2015_35_52.gif "效果图")
 
 <hr>
- 接下来来一个iOS图形绘制、旋转、长按、缩放、滑动等综合手势的一个 **画图** 项目
+ 一个iOS图形绘制、旋转、长按、缩放、滑动等综合手势的一个 **画图** 项目
 
 * ![画图App效果图](https://raw.githubusercontent.com/FantasticLBP/BlogDemos/master/image/屏幕快照%202018-01-02%20下午10.12.57.png "画图App效果图")
 
+<hr>
+  **心跳** 动画
 
+* ![心跳动画](https://github.com/FantasticLBP/BlogDemos/raw/master/image/2018-01-10%2022_56_34.gif "心跳动画")
 
+<hr>
+  **系统时钟** 动画
+
+* ![时钟动画](https://github.com/FantasticLBP/BlogDemos/raw/master/image/2018-01-10%2023_23_06.gif "时钟动画")
 
  ##接下来的更新都会在我的博文中列出来，欢迎关注  [博文地址](https://fantasticlbp.github.io)
 
