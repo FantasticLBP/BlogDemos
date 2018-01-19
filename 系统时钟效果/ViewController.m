@@ -74,7 +74,7 @@
     
     self.secondLayer.transform = CATransform3DMakeRotation(Angle2Rad(secondAngle), 0, 0, 1);
     
-    self.minuteLayer.transform =CATransform3DMakeRotation(Angle2Rad(minuteAngle), 0, 0, 1);
+    self.minuteLayer.transform = CATransform3DMakeRotation(Angle2Rad(minuteAngle), 0, 0, 1);
     
     self.hourLayer.transform = CATransform3DMakeRotation(Angle2Rad(hourAngle), 0, 0, 1);
 }

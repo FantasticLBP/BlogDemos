@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OTR-0r-6bD">
+                                <rect key="frame" x="107.5" y="213.5" width="160" height="240"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="aVk-7D-UdI">
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="240"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="aVk-7D-UdI" secondAttribute="bottom" id="14t-D9-IGp"/>
+                                    <constraint firstItem="aVk-7D-UdI" firstAttribute="top" secondItem="OTR-0r-6bD" secondAttribute="top" id="GTO-zT-rhW"/>
+                                    <constraint firstAttribute="width" constant="160" id="Zvo-OJ-ShC"/>
+                                    <constraint firstItem="aVk-7D-UdI" firstAttribute="leading" secondItem="OTR-0r-6bD" secondAttribute="leading" id="aUj-OK-7cJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="aVk-7D-UdI" secondAttribute="trailing" id="i9M-6D-CBn"/>
+                                    <constraint firstAttribute="height" constant="240" id="wK9-1e-oCZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OTR-0r-6bD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="USg-OS-OjP"/>
+                            <constraint firstItem="OTR-0r-6bD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YfR-G1-lGN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="aVk-7D-UdI" id="KiQ-47-YzH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="160" height="240"/>
+    </resources>
+</document>
