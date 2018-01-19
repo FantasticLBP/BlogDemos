@@ -287,15 +287,6 @@
 		931BF8A61F96DC3600512F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		931BF8AB1F96DC6300512F8C /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
 		931BF8AC1F96DC6300512F8C /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
-		931E5E64201026320098426B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		931E5E65201026320098426B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		931E5E67201026320098426B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		931E5E68201026320098426B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		931E5E6B201026320098426B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		931E5E6D201026320098426B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		931E5E70201026320098426B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		931E5E72201026320098426B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		931E5E73201026320098426B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		932430A91F950F5F00CE8CBC /* UIKit画图-画文字.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit画图-画文字.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		932430AB1F950F5F00CE8CBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		932430AC1F950F5F00CE8CBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1049,22 +1040,6 @@
 			path = "图形上下文状态栈";
 			sourceTree = "<group>";
 		};
-		931E5E63201026320098426B /* 获取使用权限较好体验的新操作 */ = {
-			isa = PBXGroup;
-			children = (
-				931E5E64201026320098426B /* AppDelegate.h */,
-				931E5E65201026320098426B /* AppDelegate.m */,
-				931E5E67201026320098426B /* ViewController.h */,
-				931E5E68201026320098426B /* ViewController.m */,
-				931E5E6A201026320098426B /* Main.storyboard */,
-				931E5E6D201026320098426B /* Assets.xcassets */,
-				931E5E6F201026320098426B /* LaunchScreen.storyboard */,
-				931E5E72201026320098426B /* Info.plist */,
-				931E5E73201026320098426B /* main.m */,
-			);
-			path = "获取使用权限较好体验的新操作";
-			sourceTree = "<group>";
-		};
 		932430AA1F950F5F00CE8CBC /* UIKit画图-画文字 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1581,7 +1556,6 @@
 				93FC6DFE20083EA80026E77A /* 转场动画 */,
 				932761EA2009C34300875BF3 /* 动画组 */,
 				93386A68200A0B2600522B97 /* 核心动画与UIView动画区别 */,
-				931E5E63201026320098426B /* 获取使用权限较好体验的新操作 */,
 				93C4234D20117B3E00DDA769 /* 抽奖转盘动画 */,
 				93DA8F711F4EC7330078163E /* Products */,
 				930E81681F89271D00EF9652 /* Frameworks */,
@@ -3336,22 +3310,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				931BF8A31F96DC3600512F8C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		931E5E6A201026320098426B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				931E5E6B201026320098426B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		931E5E6F201026320098426B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				931E5E70201026320098426B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
