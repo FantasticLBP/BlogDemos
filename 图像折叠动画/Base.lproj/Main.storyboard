@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KhM-Wj-mLm"/>
+                        <viewControllerLayoutGuide type="bottom" id="o4b-SF-TT9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pig" translatesAutoresizingMaskIntoConstraints="NO" id="hhi-kD-0Pt" userLabel="bottom">
+                                <rect key="frame" x="125" y="271" width="125" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="fAe-C9-Fcg"/>
+                                    <constraint firstAttribute="width" constant="125" id="jh8-LT-vYT"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pig" translatesAutoresizingMaskIntoConstraints="NO" id="F50-DR-9IX" userLabel="top">
+                                <rect key="frame" x="124.5" y="271" width="125" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="mXa-tY-nLY"/>
+                                    <constraint firstAttribute="width" constant="125" id="qN3-Jr-Pqu"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Npo-oy-uiM">
+                                <rect key="frame" x="63" y="208.5" width="250" height="250"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="9mW-vt-pN8"/>
+                                    <constraint firstAttribute="height" constant="250" id="QDH-kg-nEi"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="F50-DR-9IX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7jd-w7-UIO"/>
+                            <constraint firstItem="hhi-kD-0Pt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="EqB-GR-9dX"/>
+                            <constraint firstItem="hhi-kD-0Pt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fod-y0-gPy"/>
+                            <constraint firstItem="Npo-oy-uiM" firstAttribute="centerY" secondItem="hhi-kD-0Pt" secondAttribute="centerY" id="Pif-db-GS9"/>
+                            <constraint firstItem="Npo-oy-uiM" firstAttribute="centerX" secondItem="hhi-kD-0Pt" secondAttribute="centerX" id="dzY-B6-2OM"/>
+                            <constraint firstItem="F50-DR-9IX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="omc-XN-2RG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomImageView" destination="hhi-kD-0Pt" id="8a6-7a-2RX"/>
+                        <outlet property="drawView" destination="Npo-oy-uiM" id="tz8-Ng-fsN"/>
+                        <outlet property="topImageView" destination="F50-DR-9IX" id="3UV-ns-1Mj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pig" width="250" height="250"/>
+    </resources>
+</document>

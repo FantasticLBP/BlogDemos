@@ -12,7 +12,7 @@
 
 #define Angle2Rad(angle) ((angle*M_PI)/180)
 
-@interface WheelView()
+@interface WheelView()<CAAnimationDelegate>
 
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundImageView;
 
@@ -44,6 +44,17 @@
 -(void)awakeFromNib{
     [super awakeFromNib];
     [self setupUI];
+}
+
+#pragma mark -- CAAnimationDelegate
+
+-(void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag{
+    
+    //拿到当前选中按钮的旋转角度
+    CGAffineTransform transform = self.prevSelButton.transform;
+    CGFloat angle = atan2f(transform.b, transform.a);
+    //让contentV倒着旋转回去
+    self.backgroundImageView.transform = CGAffineTransformMakeRotation(-angle);
 }
 
 #pragma mark -- private method
@@ -108,6 +119,7 @@
     animation.keyPath = @"transform.rotation";
     animation.toValue = @(4*M_PI);
     animation.duration = 2;
+    animation.delegate = self;
     [self.backgroundImageView.layer addAnimation:animation forKey:nil];
     
 }

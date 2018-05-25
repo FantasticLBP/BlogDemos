@@ -65,7 +65,7 @@
     
     
     //方法二：path方法
-    
+     /*
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
     animation.keyPath = @"position";
 
@@ -79,10 +79,10 @@
     animation.autoreverses = YES;
     
     [self.imageView.layer addAnimation:animation forKey:nil];
+      */
     
     
-    
-    /*
+   
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
     animation.keyPath = @"position";
     
@@ -96,8 +96,7 @@
 
     
     [self.imageView.layer addAnimation:animation forKey:nil];
-    
-    */
+
     
     
     
