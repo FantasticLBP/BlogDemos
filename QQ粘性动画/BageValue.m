@@ -49,6 +49,11 @@
     self.smallCircle = smallCircle;
 }
 
+- (void)layoutSubviews{
+    [super layoutSubviews];
+    self.smallCircle.frame = self.frame;
+}
+
 - (void)setHighlighted:(BOOL)highlighted{
     //去掉按钮点击的高亮效果
 }
