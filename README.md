@@ -9,9 +9,20 @@ BlogDemos
 
 
 - 模仿微信公众号文章效果，长按UIWebView上的图片，弹出对话框，用户点击确定则保存图片到本地相册。
+    ![长按图片保存到本地](https://github.com/FantasticLBP/BlogDemos/raw/master/image/QQ20180610-235159@2x.png)
+
+- 仿**bilibili**输入密码用手遮眼睛动画
+    ![长按图片保存到本地](https://github.com/FantasticLBP/BlogDemos/blob/master/image/QQ20180610-235258-HD.gif?raw=true)
+
+- 图片加水印
+    ![长按图片保存到本地](https://raw.githubusercontent.com/FantasticLBP/BlogDemos/master/image/QQ20180610-235342%402x.png)
+
+
+-  UILabel 模糊匹配字符串并高亮
+    ![长按图片保存到本地](https://github.com/FantasticLBP/BlogDemos/blob/master/image/QQ20180610-235439@2x.png?raw=true)
 
 - 模仿外卖App实现双列表联动功能。
-  
+    ![外卖App实现双列表联动](https://github.com/FantasticLBP/BlogDemos/raw/master/image/QQ20180610-235402@2x.png)
 -  一个iOS图形绘制、旋转、长按、缩放、滑动等综合手势的一个画图项目
   ![画图App](https://raw.githubusercontent.com/FantasticLBP/BlogDemos/master/image/屏幕快照%202018-01-02%20下午10.12.57.png)
 
@@ -26,7 +37,7 @@ BlogDemos
 
 
 -  发微博动画
-     ![发微博动画](https://fantasticlbp.gitbooks.io/knowledge-kit/content/assets/QQ20180610-225937-HD.gif)
+     ![发微博动画]()
 
 -  音量柱动画
      ![音量柱动画](https://fantasticlbp.gitbooks.io/knowledge-kit/content/assets/QmW9ACfS9P5orau43H7gxuxsU4RVMDPD7mPnDKq4pgLmzr.gif)
@@ -36,7 +47,7 @@ BlogDemos
      ![倒影效果](https://fantasticlbp.gitbooks.io/knowledge-kit/content/assets/QmQrU8UxSytnKbWcDVpY5mdy6kmiSHpzyqwt8GykWKNEY2.png)
 
 -  粒子动画效果
-     ![粒子动画效果](http://p1.cdn.img9.top/ipfs/QmbEyMyRoUhTRAdoa2fUJLPcbFugeVNMdLty2L3qLynjE1?1.gif)
+     ![粒子动画效果](https://fantasticlbp.gitbooks.io/knowledge-kit/assets/QQ20180610-235637-HD.gif)
 
 
 -  QQ消息粘性动画
