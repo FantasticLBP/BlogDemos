@@ -37,7 +37,7 @@ BlogDemos
 
 
 -  发微博动画
-     ![发微博动画]()
+     ![发微博动画](https://fantasticlbp.gitbooks.io/knowledge-kit/content/assets/QQ20180610-225937-HD.gif)
 
 -  音量柱动画
      ![音量柱动画](https://fantasticlbp.gitbooks.io/knowledge-kit/content/assets/QmW9ACfS9P5orau43H7gxuxsU4RVMDPD7mPnDKq4pgLmzr.gif)
