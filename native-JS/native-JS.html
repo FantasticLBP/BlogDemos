@@ -1,0 +1,59 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>native-JS</title>
+  <style>
+    body {
+      padding: 20px;
+      font-size: 20px;
+      color: blueviolet;
+    }
+
+    p {
+      display: inline;
+    }
+
+    button {
+      margin-top: 50px;
+      height: 40px;
+      width: 80%;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      background-color: thistle;
+      color: white
+    }
+  </style>
+</head>
+
+<body>
+
+  嗨。大家好我是
+  <p id="name">***</p>
+
+  <button id="show">那你做个自我介绍吧</button>
+
+</body>
+<script>
+  var u = navigator.userAgent
+  var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1
+  var isiOS = u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/) //ios终端  
+
+  document.getElementById("show").onclick = function () {
+    if (isiOS) {
+      document.getElementById("name").innerHTML = lbp.name;
+      setTimeout(() => {
+        alert(lbp.sayHi());
+      }, 1000);
+    }
+  }
+                      function sum(a ,b){
+                        return parseInt(a) + parseInt(b);
+                      }
+                      
+                      
+                
+</script>
+
+</html>

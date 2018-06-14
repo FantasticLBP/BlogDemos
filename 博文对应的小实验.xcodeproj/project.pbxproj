@@ -20,6 +20,14 @@
 		6E06041620C6F16000EA9766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E06041420C6F16000EA9766 /* LaunchScreen.storyboard */; };
 		6E06041920C6F16000EA9766 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E06041820C6F16000EA9766 /* main.m */; };
 		6E06041F20C6F19400EA9766 /* ViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E06041E20C6F19400EA9766 /* ViewControllerView.m */; };
+		6E1B399C20D1FF9700DD4806 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1B399B20D1FF9700DD4806 /* AppDelegate.m */; };
+		6E1B399F20D1FF9700DD4806 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1B399E20D1FF9700DD4806 /* ViewController.m */; };
+		6E1B39A220D1FF9700DD4806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1B39A020D1FF9700DD4806 /* Main.storyboard */; };
+		6E1B39A420D1FF9800DD4806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E1B39A320D1FF9800DD4806 /* Assets.xcassets */; };
+		6E1B39A720D1FF9800DD4806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1B39A520D1FF9800DD4806 /* LaunchScreen.storyboard */; };
+		6E1B39AA20D1FF9800DD4806 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1B39A920D1FF9800DD4806 /* main.m */; };
+		6E1B39AF20D2192A00DD4806 /* native-JS.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E1B39AE20D2192A00DD4806 /* native-JS.html */; };
+		6E1B39B520D21C2400DD4806 /* PersonInject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1B39B420D21C2400DD4806 /* PersonInject.m */; };
 		6E9007D220CD6A2C002944F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9007D120CD6A2C002944F1 /* AppDelegate.m */; };
 		6E9007D520CD6A2D002944F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9007D420CD6A2D002944F1 /* ViewController.m */; };
 		6E9007D820CD6A2D002944F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9007D620CD6A2D002944F1 /* Main.storyboard */; };
@@ -341,6 +349,19 @@
 		6E06041820C6F16000EA9766 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E06041D20C6F19400EA9766 /* ViewControllerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerView.h; sourceTree = "<group>"; };
 		6E06041E20C6F19400EA9766 /* ViewControllerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerView.m; sourceTree = "<group>"; };
+		6E1B399820D1FF9700DD4806 /* native-JS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "native-JS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1B399A20D1FF9700DD4806 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E1B399B20D1FF9700DD4806 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E1B399D20D1FF9700DD4806 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E1B399E20D1FF9700DD4806 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E1B39A120D1FF9700DD4806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E1B39A320D1FF9800DD4806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E1B39A620D1FF9800DD4806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E1B39A820D1FF9800DD4806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E1B39A920D1FF9800DD4806 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E1B39AE20D2192A00DD4806 /* native-JS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "native-JS.html"; sourceTree = "<group>"; };
+		6E1B39B320D21C2400DD4806 /* PersonInject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonInject.h; sourceTree = "<group>"; };
+		6E1B39B420D21C2400DD4806 /* PersonInject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonInject.m; sourceTree = "<group>"; };
 		6E9007CE20CD6A2C002944F1 /* 微博发帖动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微博发帖动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9007D020CD6A2C002944F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E9007D120CD6A2C002944F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -868,6 +889,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6E1B399520D1FF9700DD4806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6E9007CB20CD6A2C002944F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1183,6 +1211,25 @@
 				6E06041820C6F16000EA9766 /* main.m */,
 			);
 			path = "复制层应用3-粒子闪烁效果";
+			sourceTree = "<group>";
+		};
+		6E1B399920D1FF9700DD4806 /* native-JS */ = {
+			isa = PBXGroup;
+			children = (
+				6E1B39AE20D2192A00DD4806 /* native-JS.html */,
+				6E1B399A20D1FF9700DD4806 /* AppDelegate.h */,
+				6E1B399B20D1FF9700DD4806 /* AppDelegate.m */,
+				6E1B399D20D1FF9700DD4806 /* ViewController.h */,
+				6E1B399E20D1FF9700DD4806 /* ViewController.m */,
+				6E1B39A020D1FF9700DD4806 /* Main.storyboard */,
+				6E1B39A320D1FF9800DD4806 /* Assets.xcassets */,
+				6E1B39A520D1FF9800DD4806 /* LaunchScreen.storyboard */,
+				6E1B39A820D1FF9800DD4806 /* Info.plist */,
+				6E1B39A920D1FF9800DD4806 /* main.m */,
+				6E1B39B320D21C2400DD4806 /* PersonInject.h */,
+				6E1B39B420D21C2400DD4806 /* PersonInject.m */,
+			);
+			path = "native-JS";
 			sourceTree = "<group>";
 		};
 		6E9007CF20CD6A2C002944F1 /* 微博发帖动画 */ = {
@@ -1982,6 +2029,7 @@
 				6E06040820C6F15F00EA9766 /* 复制层应用3-粒子闪烁效果 */,
 				6EE7F95420C78F6400168076 /* QQ粘性动画 */,
 				6E9007CF20CD6A2C002944F1 /* 微博发帖动画 */,
+				6E1B399920D1FF9700DD4806 /* native-JS */,
 				93DA8F711F4EC7330078163E /* Products */,
 				930E81681F89271D00EF9652 /* Frameworks */,
 			);
@@ -2032,6 +2080,7 @@
 				6E06040720C6F15F00EA9766 /* 复制层应用3-粒子闪烁效果.app */,
 				6EE7F95320C78F6300168076 /* QQ粘性动画.app */,
 				6E9007CE20CD6A2C002944F1 /* 微博发帖动画.app */,
+				6E1B399820D1FF9700DD4806 /* native-JS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2268,6 +2317,23 @@
 			name = "复制层应用3-粒子闪烁效果";
 			productName = "复制层应用3-粒子闪烁效果";
 			productReference = 6E06040720C6F15F00EA9766 /* 复制层应用3-粒子闪烁效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E1B399720D1FF9700DD4806 /* native-JS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E1B39AD20D1FF9800DD4806 /* Build configuration list for PBXNativeTarget "native-JS" */;
+			buildPhases = (
+				6E1B399420D1FF9700DD4806 /* Sources */,
+				6E1B399520D1FF9700DD4806 /* Frameworks */,
+				6E1B399620D1FF9700DD4806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "native-JS";
+			productName = "native-JS";
+			productReference = 6E1B399820D1FF9700DD4806 /* native-JS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6E9007CD20CD6A2C002944F1 /* 微博发帖动画 */ = {
@@ -2969,6 +3035,11 @@
 						DevelopmentTeam = YC6738DVDV;
 						ProvisioningStyle = Automatic;
 					};
+					6E1B399720D1FF9700DD4806 = {
+						CreatedOnToolsVersion = 9.4;
+						DevelopmentTeam = YC6738DVDV;
+						ProvisioningStyle = Automatic;
+					};
 					6E9007CD20CD6A2C002944F1 = {
 						CreatedOnToolsVersion = 9.4;
 						DevelopmentTeam = YC6738DVDV;
@@ -3204,6 +3275,7 @@
 				6E06040620C6F15F00EA9766 /* 复制层应用3-粒子闪烁效果 */,
 				6EE7F95220C78F6300168076 /* QQ粘性动画 */,
 				6E9007CD20CD6A2C002944F1 /* 微博发帖动画 */,
+				6E1B399720D1FF9700DD4806 /* native-JS */,
 			);
 		};
 /* End PBXProject section */
@@ -3226,6 +3298,17 @@
 				6E06041620C6F16000EA9766 /* LaunchScreen.storyboard in Resources */,
 				6E06041320C6F16000EA9766 /* Assets.xcassets in Resources */,
 				6E06041120C6F15F00EA9766 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1B399620D1FF9700DD4806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1B39A720D1FF9800DD4806 /* LaunchScreen.storyboard in Resources */,
+				6E1B39A420D1FF9800DD4806 /* Assets.xcassets in Resources */,
+				6E1B39AF20D2192A00DD4806 /* native-JS.html in Resources */,
+				6E1B39A220D1FF9700DD4806 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3657,6 +3740,17 @@
 				6E06041F20C6F19400EA9766 /* ViewControllerView.m in Sources */,
 				6E06041920C6F16000EA9766 /* main.m in Sources */,
 				6E06040B20C6F15F00EA9766 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1B399420D1FF9700DD4806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1B399F20D1FF9700DD4806 /* ViewController.m in Sources */,
+				6E1B39B520D21C2400DD4806 /* PersonInject.m in Sources */,
+				6E1B39AA20D1FF9800DD4806 /* main.m in Sources */,
+				6E1B399C20D1FF9700DD4806 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4140,6 +4234,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				6E06041520C6F16000EA9766 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6E1B39A020D1FF9700DD4806 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E1B39A120D1FF9700DD4806 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E1B39A520D1FF9800DD4806 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E1B39A620D1FF9800DD4806 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -4866,6 +4976,46 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.-----3-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E1B39AB20D1FF9800DD4806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YC6738DVDV;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "native-JS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.native-JS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E1B39AC20D1FF9800DD4806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YC6738DVDV;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "native-JS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.native-JS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -6426,6 +6576,15 @@
 			buildConfigurations = (
 				6E06041B20C6F16000EA9766 /* Debug */,
 				6E06041C20C6F16000EA9766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E1B39AD20D1FF9800DD4806 /* Build configuration list for PBXNativeTarget "native-JS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1B39AB20D1FF9800DD4806 /* Debug */,
+				6E1B39AC20D1FF9800DD4806 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
