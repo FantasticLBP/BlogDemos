@@ -9,15 +9,14 @@
 #import "ViewController.h"
 
 @interface ViewController ()<UIGestureRecognizerDelegate,NSURLSessionDelegate>
-
 @property (nonatomic, strong) UIWebView *webView;
-
 @end
 
 @implementation ViewController
 
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     [self.view addSubview:self.webView];
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"html"];
@@ -81,6 +80,7 @@
             UIImageWriteToSavedPhotosAlbum(image, self, @selector(imageSavedToPhotosAlbum:didFinishSavingWithError:contextInfo:), NULL);
         });
     }];
+    
     [task resume];
 }
 

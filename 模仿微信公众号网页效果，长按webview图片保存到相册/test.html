@@ -1,56 +1,64 @@
-
 <html>
+    
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>手势测试</title>
         <style>
-            img{
-                border:2px red solid;
+            img {
+                border: 2px red solid;
+                display: block;
+                margin: 20px;
             }
-            
-            </style>
+        
+        a {
+            display: block;
+            margin: 20px;
+        }
+        
+        div {
+            padding: 20px 0px;
+        }
+        </style>
     </head>
     
     <body>
-        <div style="width:100%; height:800px; background:yellow;">
-            <img src="product-7.png" id="mydiv" style="margin-left:20%;margin-top:100px;width:60%; height:600px;" >
-        </dic>
-        
+        <div style="width: 100%;height: 100%;">
+            老夫聊发少年狂，左牵黄，右擎苍，锦帽貂裘，千骑卷平冈。为报倾城随太守，亲射虎，看孙郎。酒酣胸胆尚开张，鬓微霜，又何妨。持节云中，何日遣冯唐？会挽雕弓如满月，西北望，射天狼。
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535021701018&di=00f1e0db377eab51749bcf072d2e9f35&imgtype=0&src=http%3A%2F%2Fs1.sinaimg.cn%2Fbmiddle%2F3f47f0834476fabebf750"
+                id="mydiv" style="margin-left:15%;width:70%;"> 超级赛亚人，出自漫画家鸟山明的代表作《龙珠》，是战斗民族赛亚人特有的变身形态。据说赛亚人中每一千年才会出现一个传说中的超级赛亚人，变身条件要情绪异常愤怒，从而爆发力量。变身成功产生S细胞，拥有S细胞的下一代变身难度降低。 由于《龙珠》漫画、动画的广泛影响，“超级赛亚人”也逐渐成为网络用语，有时候形容一个人的身体素质或某些行为超乎常人也会用该词（注：本文仅统计集英社《龙珠》系列漫画及东映《龙珠》系列动画中出现的超级赛亚人。）
+                <img src="IMG_8390.JPG" id="mydiv" style="margin-left:15%;width:70%;"> 以上纯属测试，哈哈哈哈哈哈哈
+                    <a href="https://github.com/FantasticLBP">@杭城小刘</a>
+                    </dic>
+                    
     </body>
     <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
     <script>
-        $.fn.longPress = function(fn) {
+        $.fn.longPress = function (fn) {
             var timeout = undefined;
             var $this = this;
-            for(var i = 0;i<$this.length;i++){
-                $this[i].addEventListener('touchstart', function(event) {
+            for (var i = 0; i < $this.length; i++) {
+                $this[i].addEventListener('touchstart', function (event) {
                                           timeout = setTimeout(fn, 800);  //长按时间超过800ms，则执行传入的方法
                                           }, false);
-                                          $this[i].addEventListener('touchend', function(event) {
+                                          $this[i].addEventListener('touchend', function (event) {
                                                                     clearTimeout(timeout);  //长按时间少于800ms，不会执行传入的方法
                                                                     }, false);
             }
         }
-    $('#mydiv').longPress(function(){
+    $('#mydiv').longPress(function () {
                           alert("大哥，你长按我这么久干嘛？？？");
                           });
                           
-                          window.lbp = function(){
-                              alert("我就是刘斌鹏");
+                          window.lbp = function () {
+                              alert("@杭城小刘");
                           }
     
     var LBPMethod = {
-        name:"js下的方法",
-        coding:function(){
+        name: "js下的方法",
+        coding: function () {
             alert("生命不息，coding");
         }
-        
     }
-    
-    
-    
-    
-        </script>
+    </script>
     
 </html>
-

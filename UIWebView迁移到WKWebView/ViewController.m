@@ -15,7 +15,7 @@
 #define BoundWidth  [[UIScreen mainScreen]bounds].size.width
 #define BoundHeight [[UIScreen mainScreen]bounds].size.height
 
-@interface ViewController ()<UIWebViewDelegate>
+@interface ViewController ()<UIWebViewDelegate,WKUIDelegate,WKNavigationDelegate>
 //<WKNavigationDelegate,WKUIDelegate>
 
 @property (nonatomic, strong) WKWebView *wkWebView;
@@ -32,13 +32,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.view addSubview:self.webView];
+    [self.view addSubview:self.wkWebView];
     [self.view addSubview:self.button];
     
     NSString *htmlPath = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL fileURLWithPath:htmlPath]];
-    [self.webView loadRequest:request];
+    [self.wkWebView loadRequest:request];
 
 //
 //    /*
@@ -161,14 +161,20 @@
         _wkWebView = [[WKWebView alloc] initWithFrame:self.view.bounds];
         _wkWebView.navigationDelegate = self;
         _wkWebView.UIDelegate = self;
+        
+        NSString *userAgentString = @"DatacubrHybrid_1.1.0";
+        [[NSUserDefaults standardUserDefaults] registerDefaults:@{@"UserAgent": userAgentString}];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        [_wkWebView setCustomUserAgent:userAgentString];
     }
     return _wkWebView;
 }
 
--(UIWebView *)webView{
+-(WKWebView *)webView{
     if (!_webView) {
-        _webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, BoundWidth, BoundHeight - 100)];
+        _webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, BoundWidth, BoundHeight - 100)];
         _webView.delegate = self;
+        
     }
     return _webView;
 }

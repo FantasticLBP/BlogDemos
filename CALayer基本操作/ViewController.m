@@ -37,7 +37,6 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     //动画底层被包装为一个事务
-    
     [CATransaction begin];
     [CATransaction setDisableActions:NO];
     [CATransaction setAnimationDuration:3];

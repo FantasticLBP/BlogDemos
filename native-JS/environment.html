@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>判断运行环境</title>
+        <meta charset="utf-8">
+            </head>
+    
+    
+    <body>
+        webview content
+    </body>
+    <script>
+        var getHybridInfo = function () {
+            var platform_version = {};
+            var na = navigator.userAgent;
+            alert(na);
+            na = na.toLowerCase();
+            var info = na.match(/hybrid_\d\.\d\.\d/);
+            if (info && info[0]) {
+                info = info[0].split('_');
+                if (info && info.length == 2) {
+                    platform_version.platform = info[0];
+                    platform_version.version = info[1];
+                }
+            }
+            return platform_version;
+        };
+    window.onload = function(){
+        alert("onload" + JSON.stringify(getHybridInfo()));
+    }
+        </script>
+</html>

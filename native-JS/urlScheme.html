@@ -1,0 +1,125 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+            <title>url-scheme</title>
+            <style>
+                input,
+                span {
+                    display: inline-block;
+                    font-size: 20px;
+                }
+            
+            button {
+                display: block;
+            }
+            </style>
+    </head>
+    
+    <body>
+        
+        <input id="par1" placeholder="请输入加数a"> +
+            <input id="par2" placeholder="请输入加数b" /> =
+            <span id="result"></span>
+            
+            <button>计算</button>
+    </body>
+    
+    <script>
+        
+        /*
+         如何设计一个好的 Hybrid？
+         Native 和 JS 通信就2种方案。 桥接对象 Bridge。自定义 url-scheme 拦截
+         和乐 Android 用的是桥接对象。iOS 用的是自定义 url-scheme 拦截
+         桥接对象有缺点。你挂载到 js 环境下的 window 对象上，当某一个业务场景触发 reload 后，挂载到 window 对象上的桥接对象就不存在了，对于 Native 注入桥接对象的时机有要求
+         
+         此时 自定义url-scheme 拦截这种方案比较好
+         然后 Hybrid 这一块的研究点非常多，包括 JS 和 Native 通过一个配置 JSON 就可以完成 调用 Native 的 UI；Native 的网络鉴权、安全性做得好，对于第三方拦截数据的人，没办法看到底层的逻辑。所以嵌入App 的 H5 的网络请求全部由 Native 完成，然后将数据 callback 到 H5.H5 刷新 UI
+         
+         
+         RN 和 Weex 是 Hybrid 的升级版，它们是平台化的 Hybrid 。而小公司自己的 Hybrid 是根据自己的业务逻辑封装处理的，所以自身使用很好，但是不能达到可移植性、平台化、组件化。RN 和 Weex 封装了大量由 JS 通过一个配置项 JSON 调用 Native UI 的特点。开发者写起来使用 JSX 的方式去写 UI，代码在宿主机器（iOS | Android）的时候都是调用 Native 的 UI，比如 Label、Button。但是点击后的事件 Native 本身不处理，而是将事件 回调给 JS 端。这样子就可以达成编写 UI 代码全都由 JS，处理逻辑也由 JS 完成。不需要 iOS、Android、window Phone 三端的开发者
+         
+         一个设计好的 Hybrid 包括 H5 的某个页面可以自由跳转到 Native 的任何一个界面、包括跳转方式（push、pop）、动画方式
+         UI、跳转、动画、鉴权、网络等
+         
+         权衡后打造自己的 Hybrid 是最好的选择，而不是去使用 RN，RN 使用成本很高、调试很不方便。兼顾 H5 的特点（热更新、部署方便、节省开发成本）又兼顾 Native 特点（基本服务很好、安全（Https 证书双向认证、数据加密、网络请求封装、埋点统计等等））打造自己公司的 Hybrid
+         */
+        
+        window.Hybrid = window.Hybrid || {};
+        
+        var loadURL = function (url) {
+            var iFrame;
+            iFrame = document.createElement("iframe");
+            iFrame.style.height = "1px";
+            iFrame.style.width = "1px";
+            iFrame.style.display = "none";
+            iFrame.src = url;
+            document.body.appendChild(iFrame);
+            setTimeout(function () {
+                       iFrame.remove();
+                       }, 100);
+        }
+    
+    
+    var _getHybridUrl = function (params) {
+        var k, paramStr = '', url = 'JSBridge://';
+        url += params.tagname + '?t=' + new Date().getTime(); //时间戳，防止url不起效
+        if (params.callback) {
+            url += '&callback=' + params.callback;
+            delete params.callback;
+        }
+        if (params.param) {
+            paramStr = typeof params.param == 'object' ? JSON.stringify(params.param) : params.param;
+            url += '&param=' + encodeURIComponent(paramStr);
+        }
+        return url;
+    };
+    
+    var requestHybrid = function (params) {
+        //生成唯一执行函数，执行后销毁
+        var tt = (new Date().getTime());
+        var t = 'hybrid_' + tt;
+        var tmpFn;
+        
+        //处理有回调的情况
+        if (params.callback) {
+            tmpFn = params.callback;
+            params.callback = t;
+            window.Hybrid[t] = function (data) {
+                tmpFn(data);
+                delete window.Hybrid[t];
+            }
+        }
+        loadURL(_getHybridUrl(params));
+    };
+    
+    
+    // function receiveValue(value) {
+    //   alert("从原生拿到加法结果为：" + value);
+    //   document.querySelector("#result").innerHTML = value;
+    // }
+    
+    document.querySelector("button").onclick = function () {
+        var par1 = document.getElementById("par1").value;
+        var par2 = document.getElementById("par2").value;
+        
+        requestHybrid({
+                      //创建一个新的webview对话框窗口
+                      tagname: 'plus',
+                      //请求参数，会被Native使用
+                      param: {
+                      par1: par1,
+                      par2: par2
+                      },
+                      //Native处理成功后回调前端的方法
+                      callback: function (data) {
+                        document.getElementById("result").innerHTML = data;
+                      }
+                      });
+                      
+    }
+    //有些人就会说我们 Android 里面接任何服务端返回的数据或者和 JS 通信都是事先定义好数据类型以及各个字段的数据类型。你这种设计返回的 param 里面的数据虽然是个对象，也就是 JSON，但是经过序列化之后还是 JSON 字符串，所以目前这种情况，也就是 H5 的网络请求为了安全、加密、鉴权、收口原则 Hybird 网络请求部分通过 Hybrid 调用 Native 去实现，Native 网络请求结束后将数据通过回调给 JS 端去处理。话说回来，怎么接？JSONObject
+    
+    </script>
+    
+</html>

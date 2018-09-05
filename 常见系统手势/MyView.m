@@ -17,14 +17,14 @@
 
 */
 - (void)drawRect:(CGRect)rect {
-//    [self drawLine];
+    [self drawLine];
 //    [self drawRect];
 //    [self drawCiclr1];
 //    [self drawCircle2];
 //    [self drawSector:rect];
 //    [self drawQuadCurve];
 //    [self drawUnFilledSector:rect];
-    [self drawFilledSector:rect];
+//    [self drawFilledSector:rect];
 }
 
 -(void)drawFilledSector:(CGRect)rect{
