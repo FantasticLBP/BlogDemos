@@ -57,9 +57,8 @@ BlogDemos
 (太多就不一一列举了)......
  
 
- ## [技术实现博文](https://fantasticlbp.gitbooks.io/knowledge-kit/chapter1/313001-fang-wei-bo-dan-huang-dong-hua.html)
  ## 持续更新中
 
-*各位同学觉得有帮助的欢迎给个star，我会继续优化代码。
+* 各位同学觉得有帮助的欢迎给个star，我会继续优化代码。
 
-如果有不懂的地方可以加入QQ交流群讨论：515066271。这个QQ群讨论技术范围包括：iOS、H5混合开发、前端开发、PHP开发，欢迎大家讨论技术。
+如果有不懂的地方可以加入QQ交流群讨论：515066271。这个QQ群讨论技术范围包括：iOS、H5，多端融合、组件化、动态更新、服务端（PHP、Node），欢迎大家讨论技术。
