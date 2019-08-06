@@ -28,8 +28,13 @@
     [super viewDidLoad];
     [self.view addSubview:self.webView];
 //    [self communicateByBridge];
-    [self communicateByUrlScheme];
+//    [self communicateByUrlScheme];
 //    [self communicateByJSContext];
+    NSString *localHtmlPath = [[NSBundle mainBundle] pathForResource:@"native-JS" ofType:@"html"];
+    NSURLRequest *fileRequest = [NSURLRequest requestWithURL:[NSURL fileURLWithPath:localHtmlPath]];
+    [self.webView loadRequest:fileRequest];
+    
+    [self.view addSubview:self.button];
     
 }
 
@@ -43,7 +48,8 @@
     [self.view addSubview:self.button];
     
     NSString *localHtmlPath = [[NSBundle mainBundle] pathForResource:@"native-JS" ofType:@"html"];
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:localHtmlPath]]];
+    NSURLRequest *fileRequest = [NSURLRequest requestWithURL:[NSURL fileURLWithPath:localHtmlPath]];
+    [self.webView loadRequest:fileRequest];
 }
 
 /*
@@ -52,7 +58,9 @@
  */
 - (void)communicateByUrlScheme{
     NSString *localHtmlPath = [[NSBundle mainBundle] pathForResource:@"urlScheme" ofType:@"html"];
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:localHtmlPath]]];
+    NSURLRequest *fileRequest = [NSURLRequest requestWithURL:[NSURL fileURLWithPath:localHtmlPath]];
+//    NSURLRequest *UrlRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://10.17.72.30:8080/test.html"]];
+    [self.webView loadRequest:fileRequest];
 }
 
 /*
@@ -108,8 +116,8 @@
 
 - (void)calcSum{
     
-    [self.jsContext evaluateScript:@"var name='杭城小刘'"];
-    NSLog(@"name:%@",[self.jsContext[@"name"] toString]);
+    [self.jsContext evaluateScript:@"window.hybrid = {}; window.hybrid.name='杭城小刘'"];
+//    NSLog(@"name:%@",[self.jsContext[@"widow.hybrid.name"] toString]);
     
     
     NSString *divieFunction = @"function divide(a,b){ return a/b;}";
@@ -130,9 +138,21 @@
         NSLog(@"异常信息：%@",exception);
     };
     
+   
+    
 }
 
 - (void)callJS{
+    [self.jsContext evaluateScript:@"window.hybrid = {}; window.hybrid.name='杭城小刘'"];
+    NSLog(@"name:%@",[self.jsContext[@"widow.hybrid.name"] toString]);
+    
+    self.jsContext[@"sum"] = ^(JSValue *a, JSValue *b) {
+        return  [a toInt32] + [b toInt32];
+    };
+    
+   
+    
+    /*
     [self test];
     
     return ;
@@ -143,6 +163,7 @@
     UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
     [alertVC addAction:okAction];
     [self presentViewController:alertVC animated:YES completion:nil];
+     */
 }
 
 -(NSInteger)plusparm:(NSInteger)par1 parm2:(NSInteger)par2{
@@ -178,11 +199,14 @@
     id decodeParams = [[[self URLDecodedString:pars.lastObject] substringFromIndex:6] stringByReplacingOccurrencesOfString:@"\\" withString:@""];
     NSInteger para1 = 0;
     NSInteger para2 = 0;
+    NSString *imageUrl;
     
     if ([decodeParams isKindOfClass:[NSString class]]) {
         NSDictionary *paramsDict = [NSJSONSerialization JSONObjectWithData:[decodeParams dataUsingEncoding:NSUTF8StringEncoding] options:NSJSONReadingMutableLeaves error:nil];
         para1 = [paramsDict[@"par1"] integerValue];
         para2 = [paramsDict[@"par2"] integerValue];
+        
+        imageUrl = [paramsDict objectForKey:@"shareImageUrl"];
     }
     
     if ([[scheme lowercaseString] isEqualToString:@"jsbridge"]) {
@@ -192,11 +216,59 @@
             NSInteger result = [self plusparm:para1 parm2:para2];
             [self.webView stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"window.Hybrid['%@']('%@');",callbackString,@(result)]];
         }
+        if ([method isEqualToString:@"shareToWewchat"]) {
+            [self saveImageToDiskWithUrl:imageUrl];
+        }
         
         return NO;
     }
     return YES;
 }
+
+
+
+- (void)saveImageToDiskWithUrl:(NSString *)imageUrl{
+    NSURL *url = [NSURL URLWithString:imageUrl];
+    
+    NSURLSessionConfiguration * configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+    
+    NSURLSession *session = [NSURLSession sessionWithConfiguration:configuration delegate:self delegateQueue:[NSOperationQueue new]];
+    
+    NSURLRequest *imgRequest = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReturnCacheDataElseLoad timeoutInterval:30.0];
+    
+    NSURLSessionDownloadTask  *task = [session downloadTaskWithRequest:imgRequest completionHandler:^(NSURL * _Nullable location, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        if (error) {
+            return ;
+        }
+        NSData * imageData = [NSData dataWithContentsOfURL:location];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            
+            UIImage * image = [UIImage imageWithData:imageData];
+            UIImageWriteToSavedPhotosAlbum(image, self, @selector(imageSavedToPhotosAlbum:didFinishSavingWithError:contextInfo:), NULL);
+        });
+    }];
+    
+    [task resume];
+}
+
+#pragma mark 保存图片后的回调
+- (void)imageSavedToPhotosAlbum:(UIImage*)image didFinishSavingWithError:  (NSError*)error contextInfo:(id)contextInfo{
+    NSString*message =@"嘿嘿";
+    if(!error) {
+        UIAlertController *alertControl = [UIAlertController alertControllerWithTitle:@"提示" message:@"成功保存到相册" preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction *action = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDestructive handler:nil];
+        [alertControl addAction:action];
+        [self presentViewController:alertControl animated:YES completion:nil];
+    }else{
+        message = [error description];
+        UIAlertController *alertControl = [UIAlertController alertControllerWithTitle:@"提示" message:message preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *action = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:nil];
+        [alertControl addAction:action];
+        [self presentViewController:alertControl animated:YES completion:nil];
+    }
+}
+
 
 
 

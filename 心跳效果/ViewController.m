@@ -16,6 +16,9 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (nonatomic, strong) UIWebView *webview;
 @property (nonatomic, strong) JSContext *context;
+@property (weak, nonatomic) IBOutlet UITextField *nameTextfield;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *nameHeight;
+@property (nonatomic, strong) DatacurbHybrid *hybrid;
 
 @end
 
@@ -34,44 +37,52 @@
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
+    if (self.nameHeight.constant == 30) {
+        self.nameHeight.constant = 0;
+        [self.nameTextfield resignFirstResponder];
+    } else {
+        self.nameHeight.constant = 30;
+        [self.nameTextfield becomeFirstResponder];
+    }
+    [self stopHeart];
 }
 
 - (void)heartJump{
-    
-    CABasicAnimation *animation = [CABasicAnimation animation];
-    animation.toValue = @0.2;
-    animation.keyPath = @"transform.scale";
-    animation.repeatCount = HUGE_VALF;
-    animation.duration = 0.5;
-    animation.autoreverses = YES;
-    [self.imageView.layer addAnimation:animation forKey:nil];
+    self.hybrid.message = self.nameTextfield.text;
+
+    dispatch_async(dispatch_get_main_queue(),  ^{
+        CABasicAnimation *animation = [CABasicAnimation animation];
+        animation.toValue = @0.2;
+        animation.keyPath = @"transform.scale";
+        animation.repeatCount = HUGE_VALF;
+        animation.duration = 0.5;
+        animation.autoreverses = YES;
+        [self.imageView.layer addAnimation:animation forKey:nil];
+    });
     
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        
         [self showHint:@"💗我的心脏砰砰跳、迷恋上你的味道💗"];
     });
 }
 
 
 - (void)stopHeart{
-    [self.imageView.layer removeAllAnimations];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.imageView.layer removeAllAnimations];
+    });
 }
 
-- (void)hybrid{
+- (void)initHybrid{
     self.context = [self.webview valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
-    DatacurbHybrid *hybrid = [[DatacurbHybrid alloc] init];
-    hybrid.message = @"hi";
-    hybrid.viewcontroller = self;
-    self.context[@"Hybrid"] = hybrid;
+    self.context[@"Hybrid"] =  self.hybrid;
 }
 
 
 #pragma mark -- UIWebViewDelegate
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView{
-    [self hybrid];
+    [self initHybrid];
 }
 
 #pragma mark -- lazy load
@@ -85,6 +96,15 @@
         _webview.scrollView.backgroundColor = [UIColor clearColor];
     }
     return _webview;
+}
+
+- (DatacurbHybrid *)hybrid
+{
+    if (!_hybrid) {
+        _hybrid =  [[DatacurbHybrid alloc] init];
+        _hybrid.viewcontroller = self;
+    }
+    return _hybrid;
 }
 
 @end

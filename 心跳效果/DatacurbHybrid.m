@@ -13,7 +13,7 @@
 
 - (NSString *)heartBreaker{
     [self.viewcontroller heartJump];
-    return @"美滋滋";
+    return self.message;
 }
 
 - (void)stopHeart{

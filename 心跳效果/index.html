@@ -14,7 +14,7 @@
     
     <body>
         <p id="start">心跳吧，baby</p><p id="stop">暂停</p>
-        
+        <audio id="musicid" src="music.mp3" preload="preload" autoplay="autoplay"  loop="loop">您的浏览器不支持 audio标签。</audio>
     </body>
     <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
     <script>
@@ -22,8 +22,7 @@
         document.querySelector("#start").onclick = function(){
             try {
                 var result =  Hybrid.heartBreaker();
-                alert("昨天和小何同学看电影的感受： " + result);
-
+                alert("💗" + Hybrid.message + "💗");
             } catch (error) {
                 console.log(error);
             }
@@ -39,6 +38,13 @@
         }
     }
     
+    document.addEventListener('DOMContentLoaded', function () {
+                              function audioAutoPlay() {
+                              var audio = document.getElementById('musicid');
+                              audio.play();
+                              }
+                              audioAutoPlay();
+                              });
         </script>
     
 </html>

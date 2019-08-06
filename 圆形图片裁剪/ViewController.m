@@ -26,7 +26,7 @@
     UIGraphicsBeginImageContextWithOptions(image.size, NO, 0);
     //3、在上下文添加一个圆形的裁剪区
     UIBezierPath *path  = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, image.size.width, image.size.height)];
-    
+    path = [UIBezierPath bezierPathWithRect:CGRectMake(0, 0, self.view.frame.size.width, 200)];
     //把路径设置成裁剪区域
     [path addClip];
     

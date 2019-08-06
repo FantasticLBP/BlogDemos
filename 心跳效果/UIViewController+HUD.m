@@ -34,6 +34,7 @@ static const void *HttpRequestHUDKey = &HttpRequestHUDKey;
     [self setHUD:HUD];
 }
 
+
 - (void)showHint:(NSString *)hint
 {
     //显示提示信息

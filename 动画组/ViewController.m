@@ -17,7 +17,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
-    /*
+    
     //方法1:
     CABasicAnimation *scaleAnimation = [CABasicAnimation animation];
     scaleAnimation.keyPath = @"transform.scale";
@@ -38,7 +38,7 @@
     positionAnimation.removedOnCompletion = NO;
     
     [self.animationView.layer addAnimation:positionAnimation forKey:nil];
-     */
+     
     
     
     //方法2
