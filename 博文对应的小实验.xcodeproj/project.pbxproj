@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17253E5B283F604900A9EA7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17253E5A283F604900A9EA7D /* AppDelegate.m */; };
+		17253E5E283F604900A9EA7D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17253E5D283F604900A9EA7D /* SceneDelegate.m */; };
+		17253E61283F604900A9EA7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17253E60283F604900A9EA7D /* ViewController.m */; };
+		17253E64283F604900A9EA7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17253E62283F604900A9EA7D /* Main.storyboard */; };
+		17253E66283F604B00A9EA7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17253E65283F604B00A9EA7D /* Assets.xcassets */; };
+		17253E69283F604B00A9EA7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17253E67283F604B00A9EA7D /* LaunchScreen.storyboard */; };
+		17253E6C283F604B00A9EA7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17253E6B283F604B00A9EA7D /* main.m */; };
+		17253E74283F608D00A9EA7D /* ZombieSniffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17253E71283F608D00A9EA7D /* ZombieSniffer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		17253E75283F608D00A9EA7D /* ZombieProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17253E72283F608D00A9EA7D /* ZombieProxy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6E01E5CB20AC7E76004384EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E01E5CA20AC7E76004384EA /* AppDelegate.m */; };
 		6E01E5CE20AC7E76004384EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E01E5CD20AC7E76004384EA /* ViewController.m */; };
 		6E01E5D120AC7E76004384EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E01E5CF20AC7E76004384EA /* Main.storyboard */; };
@@ -359,6 +368,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17253E57283F604900A9EA7D /* 僵尸对象探针.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "僵尸对象探针.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17253E59283F604900A9EA7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17253E5A283F604900A9EA7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17253E5C283F604900A9EA7D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		17253E5D283F604900A9EA7D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		17253E5F283F604900A9EA7D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17253E60283F604900A9EA7D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17253E63283F604900A9EA7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17253E65283F604B00A9EA7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17253E68283F604B00A9EA7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17253E6A283F604B00A9EA7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17253E6B283F604B00A9EA7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17253E70283F608D00A9EA7D /* ZombieProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZombieProxy.h; sourceTree = "<group>"; };
+		17253E71283F608D00A9EA7D /* ZombieSniffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZombieSniffer.m; sourceTree = "<group>"; };
+		17253E72283F608D00A9EA7D /* ZombieProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZombieProxy.m; sourceTree = "<group>"; };
+		17253E73283F608D00A9EA7D /* ZombieSniffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZombieSniffer.h; sourceTree = "<group>"; };
 		6E01E5C720AC7E76004384EA /* Block底层研究.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Block底层研究.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E01E5C920AC7E76004384EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E01E5CA20AC7E76004384EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -957,6 +982,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		17253E54283F604900A9EA7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6E01E5C420AC7E76004384EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1282,6 +1314,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17253E58283F604900A9EA7D /* 僵尸对象探针 */ = {
+			isa = PBXGroup;
+			children = (
+				17253E70283F608D00A9EA7D /* ZombieProxy.h */,
+				17253E72283F608D00A9EA7D /* ZombieProxy.m */,
+				17253E73283F608D00A9EA7D /* ZombieSniffer.h */,
+				17253E71283F608D00A9EA7D /* ZombieSniffer.m */,
+				17253E59283F604900A9EA7D /* AppDelegate.h */,
+				17253E5A283F604900A9EA7D /* AppDelegate.m */,
+				17253E5C283F604900A9EA7D /* SceneDelegate.h */,
+				17253E5D283F604900A9EA7D /* SceneDelegate.m */,
+				17253E5F283F604900A9EA7D /* ViewController.h */,
+				17253E60283F604900A9EA7D /* ViewController.m */,
+				17253E62283F604900A9EA7D /* Main.storyboard */,
+				17253E65283F604B00A9EA7D /* Assets.xcassets */,
+				17253E67283F604B00A9EA7D /* LaunchScreen.storyboard */,
+				17253E6A283F604B00A9EA7D /* Info.plist */,
+				17253E6B283F604B00A9EA7D /* main.m */,
+			);
+			path = "僵尸对象探针";
+			sourceTree = "<group>";
+		};
 		6E01E5C820AC7E76004384EA /* Block底层研究 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2225,6 +2279,7 @@
 				6E75A1FD20E3D56C0093DFD9 /* 约束布局 */,
 				6EAD30DC213F7D18002DCC43 /* 金额的格式化显示 */,
 				6E66CAE522F91D4A002949E5 /* HotFix */,
+				17253E58283F604900A9EA7D /* 僵尸对象探针 */,
 				93DA8F711F4EC7330078163E /* Products */,
 				930E81681F89271D00EF9652 /* Frameworks */,
 			);
@@ -2279,6 +2334,7 @@
 				6E75A1FC20E3D56C0093DFD9 /* 约束布局.app */,
 				6EAD30DB213F7D18002DCC43 /* 金额的格式化显示.app */,
 				6E66CAE422F91D4A002949E5 /* HotFix.app */,
+				17253E57283F604900A9EA7D /* 僵尸对象探针.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2486,6 +2542,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		17253E56283F604900A9EA7D /* 僵尸对象探针 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17253E6F283F604B00A9EA7D /* Build configuration list for PBXNativeTarget "僵尸对象探针" */;
+			buildPhases = (
+				17253E53283F604900A9EA7D /* Sources */,
+				17253E54283F604900A9EA7D /* Frameworks */,
+				17253E55283F604900A9EA7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "僵尸对象探针";
+			productName = "僵尸对象探针";
+			productReference = 17253E57283F604900A9EA7D /* 僵尸对象探针.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6E01E5C620AC7E76004384EA /* Block底层研究 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E01E5DA20AC7E78004384EA /* Build configuration list for PBXNativeTarget "Block底层研究" */;
@@ -3277,6 +3350,10 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "杭城小刘";
 				TargetAttributes = {
+					17253E56283F604900A9EA7D = {
+						CreatedOnToolsVersion = 13.3.1;
+						ProvisioningStyle = Automatic;
+					};
 					6E01E5C620AC7E76004384EA = {
 						CreatedOnToolsVersion = 9.3;
 						DevelopmentTeam = YC6738DVDV;
@@ -3548,11 +3625,22 @@
 				6E75A1FB20E3D56C0093DFD9 /* 约束布局 */,
 				6EAD30DA213F7D18002DCC43 /* 金额的格式化显示 */,
 				6E66CAE322F91D4A002949E5 /* HotFix */,
+				17253E56283F604900A9EA7D /* 僵尸对象探针 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		17253E55283F604900A9EA7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17253E69283F604B00A9EA7D /* LaunchScreen.storyboard in Resources */,
+				17253E66283F604B00A9EA7D /* Assets.xcassets in Resources */,
+				17253E64283F604900A9EA7D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6E01E5C520AC7E76004384EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4032,6 +4120,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		17253E53283F604900A9EA7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17253E61283F604900A9EA7D /* ViewController.m in Sources */,
+				17253E5B283F604900A9EA7D /* AppDelegate.m in Sources */,
+				17253E75283F608D00A9EA7D /* ZombieProxy.m in Sources */,
+				17253E74283F608D00A9EA7D /* ZombieSniffer.m in Sources */,
+				17253E6C283F604B00A9EA7D /* main.m in Sources */,
+				17253E5E283F604900A9EA7D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6E01E5C320AC7E76004384EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4552,6 +4653,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		17253E62283F604900A9EA7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17253E63283F604900A9EA7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17253E67283F604B00A9EA7D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17253E68283F604B00A9EA7D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		6E01E5CF20AC7E76004384EA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -5291,6 +5408,67 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		17253E6D283F604B00A9EA7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "僵尸对象探针/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "ss.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17253E6E283F604B00A9EA7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "僵尸对象探针/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "ss.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6E01E5DB20AC7E78004384EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -7081,6 +7259,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		17253E6F283F604B00A9EA7D /* Build configuration list for PBXNativeTarget "僵尸对象探针" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17253E6D283F604B00A9EA7D /* Debug */,
+				17253E6E283F604B00A9EA7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6E01E5DA20AC7E78004384EA /* Build configuration list for PBXNativeTarget "Block底层研究" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
