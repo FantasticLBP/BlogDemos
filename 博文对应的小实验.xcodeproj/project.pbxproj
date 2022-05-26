@@ -16,6 +16,9 @@
 		17253E6C283F604B00A9EA7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17253E6B283F604B00A9EA7D /* main.m */; };
 		17253E74283F608D00A9EA7D /* ZombieSniffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17253E71283F608D00A9EA7D /* ZombieSniffer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		17253E75283F608D00A9EA7D /* ZombieProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17253E72283F608D00A9EA7D /* ZombieProxy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		17607FD0283F637400591380 /* ZombieObjectDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 17607FCE283F637400591380 /* ZombieObjectDetector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		17607FD5283F63C000591380 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 17607FD2283F63BF00591380 /* fishhook.c */; };
+		17607FD6283F63C000591380 /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 17607FD3283F63C000591380 /* queue.c */; };
 		6E01E5CB20AC7E76004384EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E01E5CA20AC7E76004384EA /* AppDelegate.m */; };
 		6E01E5CE20AC7E76004384EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E01E5CD20AC7E76004384EA /* ViewController.m */; };
 		6E01E5D120AC7E76004384EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E01E5CF20AC7E76004384EA /* Main.storyboard */; };
@@ -384,6 +387,12 @@
 		17253E71283F608D00A9EA7D /* ZombieSniffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZombieSniffer.m; sourceTree = "<group>"; };
 		17253E72283F608D00A9EA7D /* ZombieProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZombieProxy.m; sourceTree = "<group>"; };
 		17253E73283F608D00A9EA7D /* ZombieSniffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZombieSniffer.h; sourceTree = "<group>"; };
+		17607FCE283F637400591380 /* ZombieObjectDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZombieObjectDetector.m; sourceTree = "<group>"; };
+		17607FCF283F637400591380 /* ZombieObjectDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZombieObjectDetector.h; sourceTree = "<group>"; };
+		17607FD1283F63BF00591380 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		17607FD2283F63BF00591380 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		17607FD3283F63C000591380 /* queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
+		17607FD4283F63C000591380 /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 		6E01E5C720AC7E76004384EA /* Block底层研究.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Block底层研究.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E01E5C920AC7E76004384EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E01E5CA20AC7E76004384EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1317,6 +1326,12 @@
 		17253E58283F604900A9EA7D /* 僵尸对象探针 */ = {
 			isa = PBXGroup;
 			children = (
+				17607FD2283F63BF00591380 /* fishhook.c */,
+				17607FD1283F63BF00591380 /* fishhook.h */,
+				17607FD3283F63C000591380 /* queue.c */,
+				17607FD4283F63C000591380 /* queue.h */,
+				17607FCF283F637400591380 /* ZombieObjectDetector.h */,
+				17607FCE283F637400591380 /* ZombieObjectDetector.m */,
 				17253E70283F608D00A9EA7D /* ZombieProxy.h */,
 				17253E72283F608D00A9EA7D /* ZombieProxy.m */,
 				17253E73283F608D00A9EA7D /* ZombieSniffer.h */,
@@ -4129,6 +4144,9 @@
 				17253E75283F608D00A9EA7D /* ZombieProxy.m in Sources */,
 				17253E74283F608D00A9EA7D /* ZombieSniffer.m in Sources */,
 				17253E6C283F604B00A9EA7D /* main.m in Sources */,
+				17607FD0283F637400591380 /* ZombieObjectDetector.m in Sources */,
+				17607FD6283F63C000591380 /* queue.c in Sources */,
+				17607FD5283F63C000591380 /* fishhook.c in Sources */,
 				17253E5E283F604900A9EA7D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

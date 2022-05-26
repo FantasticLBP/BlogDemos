@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ZombieSniffer.h"
+#import "ZombieObjectDetector.h"
 
 @interface ViewController ()
 
@@ -29,7 +30,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [ZombieSniffer installSniffer];
+//   方法1: [ZombieSniffer installSniffer]; 
     [self test];
 }
 
