@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Iqn-iZ-6aA">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="zhK-no-E5G">
+            <objects>
+                <navigationController id="Iqn-iZ-6aA" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iO0-rJ-GWM">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="UYE-NE-AMk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="spf-M2-5KZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-951" y="76"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户名：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0c-IM-NlS">
+                                <rect key="frame" x="50" y="148" width="70" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="H8M-fY-3TU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入用户名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iaP-tf-LFB">
+                                <rect key="frame" x="140" y="148" width="224" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="密码：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SBs-LK-dLs">
+                                <rect key="frame" x="50" y="208" width="52" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="hPE-ob-aHf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4m5-G1-ZNq">
+                                <rect key="frame" x="122" y="208" width="242" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iaP-tf-LFB" secondAttribute="trailing" constant="50" id="I4l-0q-6DC"/>
+                            <constraint firstItem="iaP-tf-LFB" firstAttribute="top" secondItem="R0c-IM-NlS" secondAttribute="top" id="MYl-Vw-6Hb"/>
+                            <constraint firstItem="SBs-LK-dLs" firstAttribute="top" secondItem="R0c-IM-NlS" secondAttribute="bottom" constant="30" id="ROL-Zb-SUJ"/>
+                            <constraint firstItem="R0c-IM-NlS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="ZNw-O6-Noy"/>
+                            <constraint firstItem="SBs-LK-dLs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Ztp-Bd-dEE"/>
+                            <constraint firstItem="4m5-G1-ZNq" firstAttribute="leading" secondItem="SBs-LK-dLs" secondAttribute="trailing" constant="20" id="api-oe-Qpq"/>
+                            <constraint firstItem="iaP-tf-LFB" firstAttribute="leading" secondItem="R0c-IM-NlS" secondAttribute="trailing" constant="20" id="eBD-uS-REP"/>
+                            <constraint firstItem="4m5-G1-ZNq" firstAttribute="bottom" secondItem="SBs-LK-dLs" secondAttribute="bottom" id="i8p-or-KdV"/>
+                            <constraint firstItem="R0c-IM-NlS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="iUo-a9-5yA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4m5-G1-ZNq" secondAttribute="trailing" constant="50" id="mSd-LK-3I7"/>
+                            <constraint firstItem="4m5-G1-ZNq" firstAttribute="top" secondItem="SBs-LK-dLs" secondAttribute="top" id="u92-J4-YnF"/>
+                            <constraint firstItem="iaP-tf-LFB" firstAttribute="bottom" secondItem="R0c-IM-NlS" secondAttribute="bottom" id="x6z-XT-DNv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="IkJ-9v-iCH"/>
+                    <connections>
+                        <outlet property="passwordTextField" destination="4m5-G1-ZNq" id="AKO-aV-py9"/>
+                        <outlet property="usernameTextField" destination="iaP-tf-LFB" id="Y0r-Hq-WoL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="40"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -30,7 +30,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//   方法1: [ZombieSniffer installSniffer]; 
+   [ZombieSniffer installSniffer]; 
     [self test];
 }
 

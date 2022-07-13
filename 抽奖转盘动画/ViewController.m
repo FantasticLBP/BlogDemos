@@ -20,6 +20,8 @@
 
 @end
 
+- (IBAction)clickLoginButton:(id)sender {
+}
 @implementation ViewController
 
 -(void)viewDidLoad{

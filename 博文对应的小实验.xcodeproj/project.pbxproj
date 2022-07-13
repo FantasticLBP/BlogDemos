@@ -368,6 +368,14 @@
 		93FE312C1F91A5A8005DE0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FE312A1F91A5A8005DE0BF /* LaunchScreen.storyboard */; };
 		93FE312F1F91A5A8005DE0BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FE312E1F91A5A8005DE0BF /* main.m */; };
 		93FE31351F91A5E5005DE0BF /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FE31341F91A5E5005DE0BF /* MyView.m */; };
+		D73E0891287E738F00718F00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E0890287E738F00718F00 /* AppDelegate.m */; };
+		D73E0894287E738F00718F00 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E0893287E738F00718F00 /* SceneDelegate.m */; };
+		D73E0897287E738F00718F00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E0896287E738F00718F00 /* ViewController.m */; };
+		D73E089A287E738F00718F00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73E0898287E738F00718F00 /* Main.storyboard */; };
+		D73E089C287E739000718F00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73E089B287E739000718F00 /* Assets.xcassets */; };
+		D73E089F287E739000718F00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73E089D287E739000718F00 /* LaunchScreen.storyboard */; };
+		D73E08A2287E739000718F00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E08A1287E739000718F00 /* main.m */; };
+		D73E08A8287E8CDA00718F00 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E08A7287E8CDA00718F00 /* TestViewController.m */; };
 		D7D63C8F28743A9300690D98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D63C8E28743A9300690D98 /* AppDelegate.m */; };
 		D7D63C9228743A9300690D98 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D63C9128743A9300690D98 /* SceneDelegate.m */; };
 		D7D63C9528743A9300690D98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D63C9428743A9300690D98 /* ViewController.m */; };
@@ -1017,6 +1025,20 @@
 		93FE312E1F91A5A8005DE0BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93FE31331F91A5E5005DE0BF /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyView.h; path = "常见系统手势/MyView.h"; sourceTree = SOURCE_ROOT; };
 		93FE31341F91A5E5005DE0BF /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MyView.m; path = "常见系统手势/MyView.m"; sourceTree = SOURCE_ROOT; };
+		D73E088D287E738E00718F00 /* 完美自定义键盘顶部 View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "完美自定义键盘顶部 View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73E088F287E738F00718F00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D73E0890287E738F00718F00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D73E0892287E738F00718F00 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D73E0893287E738F00718F00 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D73E0895287E738F00718F00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D73E0896287E738F00718F00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D73E0899287E738F00718F00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D73E089B287E739000718F00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D73E089E287E739000718F00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D73E08A0287E739000718F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D73E08A1287E739000718F00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D73E08A6287E8CDA00718F00 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D73E08A7287E8CDA00718F00 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		D7D63C8B28743A9200690D98 /* 无用类检测.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "无用类检测.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D63C8D28743A9300690D98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7D63C8E28743A9300690D98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1364,6 +1386,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		93FE311A1F91A5A8005DE0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73E088A287E738E00718F00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2369,6 +2398,7 @@
 				D7D63C8C28743A9200690D98 /* 无用类检测 */,
 				D7D63CA828743A9400690D98 /* 无用类检测Tests */,
 				D7D63CB228743A9400690D98 /* 无用类检测UITests */,
+				D73E088E287E738F00718F00 /* 完美自定义键盘顶部 View */,
 				93DA8F711F4EC7330078163E /* Products */,
 				930E81681F89271D00EF9652 /* Frameworks */,
 			);
@@ -2427,6 +2457,7 @@
 				D7D63C8B28743A9200690D98 /* 无用类检测.app */,
 				D7D63CA528743A9400690D98 /* 无用类检测Tests.xctest */,
 				D7D63CAF28743A9400690D98 /* 无用类检测UITests.xctest */,
+				D73E088D287E738E00718F00 /* 完美自定义键盘顶部 View.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2629,6 +2660,26 @@
 				93FE31341F91A5E5005DE0BF /* MyView.m */,
 			);
 			path = "基本图形绘制";
+			sourceTree = "<group>";
+		};
+		D73E088E287E738F00718F00 /* 完美自定义键盘顶部 View */ = {
+			isa = PBXGroup;
+			children = (
+				D73E088F287E738F00718F00 /* AppDelegate.h */,
+				D73E0890287E738F00718F00 /* AppDelegate.m */,
+				D73E0892287E738F00718F00 /* SceneDelegate.h */,
+				D73E0893287E738F00718F00 /* SceneDelegate.m */,
+				D73E0895287E738F00718F00 /* ViewController.h */,
+				D73E0896287E738F00718F00 /* ViewController.m */,
+				D73E08A6287E8CDA00718F00 /* TestViewController.h */,
+				D73E08A7287E8CDA00718F00 /* TestViewController.m */,
+				D73E0898287E738F00718F00 /* Main.storyboard */,
+				D73E089B287E739000718F00 /* Assets.xcassets */,
+				D73E089D287E739000718F00 /* LaunchScreen.storyboard */,
+				D73E08A0287E739000718F00 /* Info.plist */,
+				D73E08A1287E739000718F00 /* main.m */,
+			);
+			path = "完美自定义键盘顶部 View";
 			sourceTree = "<group>";
 		};
 		D7D63C8C28743A9200690D98 /* 无用类检测 */ = {
@@ -3472,6 +3523,23 @@
 			productReference = 93FE311D1F91A5A8005DE0BF /* 基本图形绘制.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D73E088C287E738E00718F00 /* 完美自定义键盘顶部 View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D73E08A5287E739000718F00 /* Build configuration list for PBXNativeTarget "完美自定义键盘顶部 View" */;
+			buildPhases = (
+				D73E0889287E738E00718F00 /* Sources */,
+				D73E088A287E738E00718F00 /* Frameworks */,
+				D73E088B287E738E00718F00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "完美自定义键盘顶部 View";
+			productName = "完美自定义键盘顶部 View";
+			productReference = D73E088D287E738E00718F00 /* 完美自定义键盘顶部 View.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D7D63C8A28743A9200690D98 /* 无用类检测 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7D63CBD28743A9400690D98 /* Build configuration list for PBXNativeTarget "无用类检测" */;
@@ -3747,6 +3815,11 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					D73E088C287E738E00718F00 = {
+						CreatedOnToolsVersion = 13.3;
+						DevelopmentTeam = 5XLBVZ6W4S;
+						ProvisioningStyle = Automatic;
+					};
 					D7D63C8A28743A9200690D98 = {
 						CreatedOnToolsVersion = 13.3;
 						ProvisioningStyle = Automatic;
@@ -3827,6 +3900,7 @@
 				D7D63C8A28743A9200690D98 /* 无用类检测 */,
 				D7D63CA428743A9400690D98 /* 无用类检测Tests */,
 				D7D63CAE28743A9400690D98 /* 无用类检测UITests */,
+				D73E088C287E738E00718F00 /* 完美自定义键盘顶部 View */,
 			);
 		};
 /* End PBXProject section */
@@ -4315,6 +4389,16 @@
 				93FE312C1F91A5A8005DE0BF /* LaunchScreen.storyboard in Resources */,
 				93FE31291F91A5A8005DE0BF /* Assets.xcassets in Resources */,
 				93FE31271F91A5A8005DE0BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73E088B287E738E00718F00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73E089F287E739000718F00 /* LaunchScreen.storyboard in Resources */,
+				D73E089C287E739000718F00 /* Assets.xcassets in Resources */,
+				D73E089A287E738F00718F00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4875,6 +4959,18 @@
 				93FE31241F91A5A8005DE0BF /* ViewController.m in Sources */,
 				93FE312F1F91A5A8005DE0BF /* main.m in Sources */,
 				93FE31211F91A5A8005DE0BF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73E0889287E738E00718F00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73E0897287E738F00718F00 /* ViewController.m in Sources */,
+				D73E0891287E738F00718F00 /* AppDelegate.m in Sources */,
+				D73E08A2287E739000718F00 /* main.m in Sources */,
+				D73E0894287E738F00718F00 /* SceneDelegate.m in Sources */,
+				D73E08A8287E8CDA00718F00 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5672,6 +5768,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				93FE312B1F91A5A8005DE0BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D73E0898287E738F00718F00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D73E0899287E738F00718F00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D73E089D287E739000718F00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D73E089E287E739000718F00 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -7543,6 +7655,69 @@
 			};
 			name = Release;
 		};
+		D73E08A3287E739000718F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "完美自定义键盘顶部 View/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lbp.----------View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D73E08A4287E739000718F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "完美自定义键盘顶部 View/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lbp.----------View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D7D63CB728743A9400690D98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -8127,6 +8302,15 @@
 			buildConfigurations = (
 				93FE31301F91A5A8005DE0BF /* Debug */,
 				93FE31311F91A5A8005DE0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D73E08A5287E739000718F00 /* Build configuration list for PBXNativeTarget "完美自定义键盘顶部 View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73E08A3287E739000718F00 /* Debug */,
+				D73E08A4287E739000718F00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

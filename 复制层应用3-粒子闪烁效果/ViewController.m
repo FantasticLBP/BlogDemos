@@ -22,6 +22,8 @@
     [super viewDidLoad];
     
 }
+- (IBAction)clickLoginButton:(id)sender {
+}
 
 
 
