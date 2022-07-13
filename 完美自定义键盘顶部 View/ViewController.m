@@ -52,6 +52,7 @@
 - (void)jumpDetaiViewControllerWithTitle:(NSString *)title
 {
     AudioServicesPlaySystemSound(1104);
+    AudioServicesPlayAlertSound(kSystemSoundID_Vibrate);
     TestViewController *vc = [[TestViewController alloc] init];
     vc.msg = title;
     [self.navigationController pushViewController:vc animated:YES];
