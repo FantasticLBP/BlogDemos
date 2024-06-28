@@ -368,6 +368,7 @@
 		93FE312C1F91A5A8005DE0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FE312A1F91A5A8005DE0BF /* LaunchScreen.storyboard */; };
 		93FE312F1F91A5A8005DE0BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FE312E1F91A5A8005DE0BF /* main.m */; };
 		93FE31351F91A5E5005DE0BF /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FE31341F91A5E5005DE0BF /* MyView.m */; };
+		D39B4D502C2E7A2D00D59151 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D39B4D4F2C2E7A2D00D59151 /* main.mm */; };
 		D73E0891287E738F00718F00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E0890287E738F00718F00 /* AppDelegate.m */; };
 		D73E0894287E738F00718F00 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E0893287E738F00718F00 /* SceneDelegate.m */; };
 		D73E0897287E738F00718F00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E0896287E738F00718F00 /* ViewController.m */; };
@@ -406,6 +407,18 @@
 			remoteInfo = "无用类检测";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D39B4D4B2C2E7A2C00D59151 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		17253E57283F604900A9EA7D /* 僵尸对象探针.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "僵尸对象探针.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1025,6 +1038,9 @@
 		93FE312E1F91A5A8005DE0BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93FE31331F91A5E5005DE0BF /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyView.h; path = "常见系统手势/MyView.h"; sourceTree = SOURCE_ROOT; };
 		93FE31341F91A5E5005DE0BF /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MyView.m; path = "常见系统手势/MyView.m"; sourceTree = SOURCE_ROOT; };
+		D39B4D4D2C2E7A2C00D59151 /* HMapDump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HMapDump; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39B4D4F2C2E7A2D00D59151 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		D39B4D542C2E7BF300D59151 /* HeaderMapTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderMapTypes.h; sourceTree = "<group>"; };
 		D73E088D287E738E00718F00 /* 完美自定义键盘顶部 View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "完美自定义键盘顶部 View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73E088F287E738F00718F00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D73E0890287E738F00718F00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1386,6 +1402,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		93FE311A1F91A5A8005DE0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39B4D4A2C2E7A2C00D59151 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2399,6 +2422,7 @@
 				D7D63CA828743A9400690D98 /* 无用类检测Tests */,
 				D7D63CB228743A9400690D98 /* 无用类检测UITests */,
 				D73E088E287E738F00718F00 /* 完美自定义键盘顶部 View */,
+				D39B4D4E2C2E7A2D00D59151 /* HMapDump */,
 				93DA8F711F4EC7330078163E /* Products */,
 				930E81681F89271D00EF9652 /* Frameworks */,
 			);
@@ -2458,6 +2482,7 @@
 				D7D63CA528743A9400690D98 /* 无用类检测Tests.xctest */,
 				D7D63CAF28743A9400690D98 /* 无用类检测UITests.xctest */,
 				D73E088D287E738E00718F00 /* 完美自定义键盘顶部 View.app */,
+				D39B4D4D2C2E7A2C00D59151 /* HMapDump */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2660,6 +2685,15 @@
 				93FE31341F91A5E5005DE0BF /* MyView.m */,
 			);
 			path = "基本图形绘制";
+			sourceTree = "<group>";
+		};
+		D39B4D4E2C2E7A2D00D59151 /* HMapDump */ = {
+			isa = PBXGroup;
+			children = (
+				D39B4D4F2C2E7A2D00D59151 /* main.mm */,
+				D39B4D542C2E7BF300D59151 /* HeaderMapTypes.h */,
+			);
+			path = HMapDump;
 			sourceTree = "<group>";
 		};
 		D73E088E287E738F00718F00 /* 完美自定义键盘顶部 View */ = {
@@ -3523,6 +3557,23 @@
 			productReference = 93FE311D1F91A5A8005DE0BF /* 基本图形绘制.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D39B4D4C2C2E7A2C00D59151 /* HMapDump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39B4D532C2E7A2D00D59151 /* Build configuration list for PBXNativeTarget "HMapDump" */;
+			buildPhases = (
+				D39B4D492C2E7A2C00D59151 /* Sources */,
+				D39B4D4A2C2E7A2C00D59151 /* Frameworks */,
+				D39B4D4B2C2E7A2C00D59151 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMapDump;
+			productName = HMapDump;
+			productReference = D39B4D4D2C2E7A2C00D59151 /* HMapDump */;
+			productType = "com.apple.product-type.tool";
+		};
 		D73E088C287E738E00718F00 /* 完美自定义键盘顶部 View */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D73E08A5287E739000718F00 /* Build configuration list for PBXNativeTarget "完美自定义键盘顶部 View" */;
@@ -3815,6 +3866,10 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					D39B4D4C2C2E7A2C00D59151 = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
 					D73E088C287E738E00718F00 = {
 						CreatedOnToolsVersion = 13.3;
 						DevelopmentTeam = 5XLBVZ6W4S;
@@ -3901,6 +3956,7 @@
 				D7D63CA428743A9400690D98 /* 无用类检测Tests */,
 				D7D63CAE28743A9400690D98 /* 无用类检测UITests */,
 				D73E088C287E738E00718F00 /* 完美自定义键盘顶部 View */,
+				D39B4D4C2C2E7A2C00D59151 /* HMapDump */,
 			);
 		};
 /* End PBXProject section */
@@ -4959,6 +5015,14 @@
 				93FE31241F91A5A8005DE0BF /* ViewController.m in Sources */,
 				93FE312F1F91A5A8005DE0BF /* main.m in Sources */,
 				93FE31211F91A5A8005DE0BF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39B4D492C2E7A2C00D59151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39B4D502C2E7A2D00D59151 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7655,6 +7719,39 @@
 			};
 			name = Release;
 		};
+		D39B4D512C2E7A2D00D59151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D39B4D522C2E7A2D00D59151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		D73E08A3287E739000718F00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -8302,6 +8399,15 @@
 			buildConfigurations = (
 				93FE31301F91A5A8005DE0BF /* Debug */,
 				93FE31311F91A5A8005DE0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D39B4D532C2E7A2D00D59151 /* Build configuration list for PBXNativeTarget "HMapDump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39B4D512C2E7A2D00D59151 /* Debug */,
+				D39B4D522C2E7A2D00D59151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
