@@ -368,7 +368,22 @@
 		93FE312C1F91A5A8005DE0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FE312A1F91A5A8005DE0BF /* LaunchScreen.storyboard */; };
 		93FE312F1F91A5A8005DE0BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FE312E1F91A5A8005DE0BF /* main.m */; };
 		93FE31351F91A5E5005DE0BF /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FE31341F91A5E5005DE0BF /* MyView.m */; };
+		D307F8052C2FD7EE0010EF23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D307F8042C2FD7EE0010EF23 /* AppDelegate.m */; };
+		D307F8082C2FD7EE0010EF23 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D307F8072C2FD7EE0010EF23 /* SceneDelegate.m */; };
+		D307F80B2C2FD7EE0010EF23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D307F80A2C2FD7EE0010EF23 /* ViewController.m */; };
+		D307F80E2C2FD7EE0010EF23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D307F80C2C2FD7EE0010EF23 /* Main.storyboard */; };
+		D307F8102C2FD7F00010EF23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D307F80F2C2FD7F00010EF23 /* Assets.xcassets */; };
+		D307F8132C2FD7F00010EF23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D307F8112C2FD7F00010EF23 /* LaunchScreen.storyboard */; };
+		D307F8162C2FD7F00010EF23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D307F8152C2FD7F00010EF23 /* main.m */; };
+		D307F8222C2FD8070010EF23 /* HMapStaticLib.h in Headers */ = {isa = PBXBuildFile; fileRef = D307F8212C2FD8070010EF23 /* HMapStaticLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D307F8252C2FD8070010EF23 /* HMapStaticLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D307F81F2C2FD8070010EF23 /* HMapStaticLib.framework */; };
+		D307F8262C2FD8070010EF23 /* HMapStaticLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D307F81F2C2FD8070010EF23 /* HMapStaticLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D307F8372C2FD9160010EF23 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = D307F8332C2FD9150010EF23 /* Student.m */; };
+		D307F8382C2FD9160010EF23 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D307F8342C2FD9150010EF23 /* Person.m */; };
+		D307F8392C2FD9160010EF23 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = D307F8352C2FD9150010EF23 /* Person.h */; };
+		D307F83A2C2FD9160010EF23 /* Student.h in Headers */ = {isa = PBXBuildFile; fileRef = D307F8362C2FD9150010EF23 /* Student.h */; };
 		D39B4D502C2E7A2D00D59151 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D39B4D4F2C2E7A2D00D59151 /* main.mm */; };
+		D39B4D5C2C2E996500D59151 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D39B4D5B2C2E996500D59151 /* main.mm */; };
 		D73E0891287E738F00718F00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E0890287E738F00718F00 /* AppDelegate.m */; };
 		D73E0894287E738F00718F00 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E0893287E738F00718F00 /* SceneDelegate.m */; };
 		D73E0897287E738F00718F00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E0896287E738F00718F00 /* ViewController.m */; };
@@ -392,6 +407,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D307F8232C2FD8070010EF23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93DA8F681F4EC7330078163E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D307F81E2C2FD8060010EF23;
+			remoteInfo = HMapStaticLib;
+		};
 		D7D63CA628743A9400690D98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 93DA8F681F4EC7330078163E /* Project object */;
@@ -409,7 +431,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D307F82A2C2FD8080010EF23 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D307F8262C2FD8070010EF23 /* HMapStaticLib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D39B4D4B2C2E7A2C00D59151 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D39B4D572C2E996400D59151 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1038,9 +1080,30 @@
 		93FE312E1F91A5A8005DE0BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93FE31331F91A5E5005DE0BF /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyView.h; path = "常见系统手势/MyView.h"; sourceTree = SOURCE_ROOT; };
 		93FE31341F91A5E5005DE0BF /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MyView.m; path = "常见系统手势/MyView.m"; sourceTree = SOURCE_ROOT; };
+		D307F8012C2FD7ED0010EF23 /* HMapStaticLibApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMapStaticLibApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D307F8032C2FD7EE0010EF23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D307F8042C2FD7EE0010EF23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D307F8062C2FD7EE0010EF23 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D307F8072C2FD7EE0010EF23 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D307F8092C2FD7EE0010EF23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D307F80A2C2FD7EE0010EF23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D307F80D2C2FD7EE0010EF23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D307F80F2C2FD7F00010EF23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D307F8122C2FD7F00010EF23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D307F8142C2FD7F00010EF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D307F8152C2FD7F00010EF23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D307F81F2C2FD8070010EF23 /* HMapStaticLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMapStaticLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D307F8212C2FD8070010EF23 /* HMapStaticLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMapStaticLib.h; sourceTree = "<group>"; };
+		D307F8332C2FD9150010EF23 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		D307F8342C2FD9150010EF23 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D307F8352C2FD9150010EF23 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D307F8362C2FD9150010EF23 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		D39B4D4D2C2E7A2C00D59151 /* HMapDump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HMapDump; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39B4D4F2C2E7A2D00D59151 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		D39B4D542C2E7BF300D59151 /* HeaderMapTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderMapTypes.h; sourceTree = "<group>"; };
+		D39B4D592C2E996400D59151 /* HMapWritor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HMapWritor; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39B4D5B2C2E996500D59151 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		D39B4D602C2E9E6300D59151 /* HeaderMapTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderMapTypes.h; path = HMapDump/HeaderMapTypes.h; sourceTree = SOURCE_ROOT; };
 		D73E088D287E738E00718F00 /* 完美自定义键盘顶部 View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "完美自定义键盘顶部 View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73E088F287E738F00718F00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D73E0890287E738F00718F00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1408,7 +1471,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D307F7FE2C2FD7ED0010EF23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D307F8252C2FD8070010EF23 /* HMapStaticLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D307F81C2C2FD8060010EF23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D39B4D4A2C2E7A2C00D59151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39B4D562C2E996400D59151 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2423,6 +2508,9 @@
 				D7D63CB228743A9400690D98 /* 无用类检测UITests */,
 				D73E088E287E738F00718F00 /* 完美自定义键盘顶部 View */,
 				D39B4D4E2C2E7A2D00D59151 /* HMapDump */,
+				D39B4D5A2C2E996500D59151 /* HMapWritor */,
+				D307F8022C2FD7EE0010EF23 /* HMapStaticLibApp */,
+				D307F8202C2FD8070010EF23 /* HMapStaticLib */,
 				93DA8F711F4EC7330078163E /* Products */,
 				930E81681F89271D00EF9652 /* Frameworks */,
 			);
@@ -2483,6 +2571,9 @@
 				D7D63CAF28743A9400690D98 /* 无用类检测UITests.xctest */,
 				D73E088D287E738E00718F00 /* 完美自定义键盘顶部 View.app */,
 				D39B4D4D2C2E7A2C00D59151 /* HMapDump */,
+				D39B4D592C2E996400D59151 /* HMapWritor */,
+				D307F8012C2FD7ED0010EF23 /* HMapStaticLibApp.app */,
+				D307F81F2C2FD8070010EF23 /* HMapStaticLib.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2687,6 +2778,36 @@
 			path = "基本图形绘制";
 			sourceTree = "<group>";
 		};
+		D307F8022C2FD7EE0010EF23 /* HMapStaticLibApp */ = {
+			isa = PBXGroup;
+			children = (
+				D307F8032C2FD7EE0010EF23 /* AppDelegate.h */,
+				D307F8042C2FD7EE0010EF23 /* AppDelegate.m */,
+				D307F8062C2FD7EE0010EF23 /* SceneDelegate.h */,
+				D307F8072C2FD7EE0010EF23 /* SceneDelegate.m */,
+				D307F8092C2FD7EE0010EF23 /* ViewController.h */,
+				D307F80A2C2FD7EE0010EF23 /* ViewController.m */,
+				D307F80C2C2FD7EE0010EF23 /* Main.storyboard */,
+				D307F80F2C2FD7F00010EF23 /* Assets.xcassets */,
+				D307F8112C2FD7F00010EF23 /* LaunchScreen.storyboard */,
+				D307F8142C2FD7F00010EF23 /* Info.plist */,
+				D307F8152C2FD7F00010EF23 /* main.m */,
+			);
+			path = HMapStaticLibApp;
+			sourceTree = "<group>";
+		};
+		D307F8202C2FD8070010EF23 /* HMapStaticLib */ = {
+			isa = PBXGroup;
+			children = (
+				D307F8352C2FD9150010EF23 /* Person.h */,
+				D307F8342C2FD9150010EF23 /* Person.m */,
+				D307F8362C2FD9150010EF23 /* Student.h */,
+				D307F8332C2FD9150010EF23 /* Student.m */,
+				D307F8212C2FD8070010EF23 /* HMapStaticLib.h */,
+			);
+			path = HMapStaticLib;
+			sourceTree = "<group>";
+		};
 		D39B4D4E2C2E7A2D00D59151 /* HMapDump */ = {
 			isa = PBXGroup;
 			children = (
@@ -2694,6 +2815,15 @@
 				D39B4D542C2E7BF300D59151 /* HeaderMapTypes.h */,
 			);
 			path = HMapDump;
+			sourceTree = "<group>";
+		};
+		D39B4D5A2C2E996500D59151 /* HMapWritor */ = {
+			isa = PBXGroup;
+			children = (
+				D39B4D602C2E9E6300D59151 /* HeaderMapTypes.h */,
+				D39B4D5B2C2E996500D59151 /* main.mm */,
+			);
+			path = HMapWritor;
 			sourceTree = "<group>";
 		};
 		D73E088E287E738F00718F00 /* 完美自定义键盘顶部 View */ = {
@@ -2756,6 +2886,19 @@
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D307F81A2C2FD8060010EF23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D307F8222C2FD8070010EF23 /* HMapStaticLib.h in Headers */,
+				D307F8392C2FD9160010EF23 /* Person.h in Headers */,
+				D307F83A2C2FD9160010EF23 /* Student.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		17253E56283F604900A9EA7D /* 僵尸对象探针 */ = {
@@ -3557,6 +3700,43 @@
 			productReference = 93FE311D1F91A5A8005DE0BF /* 基本图形绘制.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D307F8002C2FD7ED0010EF23 /* HMapStaticLibApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D307F8192C2FD7F00010EF23 /* Build configuration list for PBXNativeTarget "HMapStaticLibApp" */;
+			buildPhases = (
+				D307F7FD2C2FD7ED0010EF23 /* Sources */,
+				D307F7FE2C2FD7ED0010EF23 /* Frameworks */,
+				D307F7FF2C2FD7ED0010EF23 /* Resources */,
+				D307F82A2C2FD8080010EF23 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D307F8242C2FD8070010EF23 /* PBXTargetDependency */,
+			);
+			name = HMapStaticLibApp;
+			productName = HMapStaticLibApp;
+			productReference = D307F8012C2FD7ED0010EF23 /* HMapStaticLibApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D307F81E2C2FD8060010EF23 /* HMapStaticLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D307F8272C2FD8080010EF23 /* Build configuration list for PBXNativeTarget "HMapStaticLib" */;
+			buildPhases = (
+				D307F81A2C2FD8060010EF23 /* Headers */,
+				D307F81B2C2FD8060010EF23 /* Sources */,
+				D307F81C2C2FD8060010EF23 /* Frameworks */,
+				D307F81D2C2FD8060010EF23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMapStaticLib;
+			productName = HMapStaticLib;
+			productReference = D307F81F2C2FD8070010EF23 /* HMapStaticLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D39B4D4C2C2E7A2C00D59151 /* HMapDump */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D39B4D532C2E7A2D00D59151 /* Build configuration list for PBXNativeTarget "HMapDump" */;
@@ -3572,6 +3752,23 @@
 			name = HMapDump;
 			productName = HMapDump;
 			productReference = D39B4D4D2C2E7A2C00D59151 /* HMapDump */;
+			productType = "com.apple.product-type.tool";
+		};
+		D39B4D582C2E996400D59151 /* HMapWritor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39B4D5D2C2E996500D59151 /* Build configuration list for PBXNativeTarget "HMapWritor" */;
+			buildPhases = (
+				D39B4D552C2E996400D59151 /* Sources */,
+				D39B4D562C2E996400D59151 /* Frameworks */,
+				D39B4D572C2E996400D59151 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMapWritor;
+			productName = HMapWritor;
+			productReference = D39B4D592C2E996400D59151 /* HMapWritor */;
 			productType = "com.apple.product-type.tool";
 		};
 		D73E088C287E738E00718F00 /* 完美自定义键盘顶部 View */ = {
@@ -3866,7 +4063,19 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					D307F8002C2FD7ED0010EF23 = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
+					D307F81E2C2FD8060010EF23 = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
 					D39B4D4C2C2E7A2C00D59151 = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
+					D39B4D582C2E996400D59151 = {
 						CreatedOnToolsVersion = 14.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -3957,6 +4166,9 @@
 				D7D63CAE28743A9400690D98 /* 无用类检测UITests */,
 				D73E088C287E738E00718F00 /* 完美自定义键盘顶部 View */,
 				D39B4D4C2C2E7A2C00D59151 /* HMapDump */,
+				D39B4D582C2E996400D59151 /* HMapWritor */,
+				D307F8002C2FD7ED0010EF23 /* HMapStaticLibApp */,
+				D307F81E2C2FD8060010EF23 /* HMapStaticLib */,
 			);
 		};
 /* End PBXProject section */
@@ -4445,6 +4657,23 @@
 				93FE312C1F91A5A8005DE0BF /* LaunchScreen.storyboard in Resources */,
 				93FE31291F91A5A8005DE0BF /* Assets.xcassets in Resources */,
 				93FE31271F91A5A8005DE0BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D307F7FF2C2FD7ED0010EF23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D307F8132C2FD7F00010EF23 /* LaunchScreen.storyboard in Resources */,
+				D307F8102C2FD7F00010EF23 /* Assets.xcassets in Resources */,
+				D307F80E2C2FD7EE0010EF23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D307F81D2C2FD8060010EF23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5018,11 +5247,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D307F7FD2C2FD7ED0010EF23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D307F80B2C2FD7EE0010EF23 /* ViewController.m in Sources */,
+				D307F8052C2FD7EE0010EF23 /* AppDelegate.m in Sources */,
+				D307F8162C2FD7F00010EF23 /* main.m in Sources */,
+				D307F8082C2FD7EE0010EF23 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D307F81B2C2FD8060010EF23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D307F8382C2FD9160010EF23 /* Person.m in Sources */,
+				D307F8372C2FD9160010EF23 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D39B4D492C2E7A2C00D59151 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D39B4D502C2E7A2D00D59151 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39B4D552C2E996400D59151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39B4D5C2C2E996500D59151 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5071,6 +5328,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D307F8242C2FD8070010EF23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D307F81E2C2FD8060010EF23 /* HMapStaticLib */;
+			targetProxy = D307F8232C2FD8070010EF23 /* PBXContainerItemProxy */;
+		};
 		D7D63CA728743A9400690D98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D7D63C8A28743A9200690D98 /* 无用类检测 */;
@@ -5832,6 +6094,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				93FE312B1F91A5A8005DE0BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D307F80C2C2FD7EE0010EF23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D307F80D2C2FD7EE0010EF23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D307F8112C2FD7F00010EF23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D307F8122C2FD7F00010EF23 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -7719,6 +7997,136 @@
 			};
 			name = Release;
 		};
+		D307F8172C2FD7F00010EF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HMapStaticLibApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.HMapStaticLibApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D307F8182C2FD7F00010EF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HMapStaticLibApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.HMapStaticLibApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D307F8282C2FD8080010EF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/HMapStaticLib/StaticLibUsage.hmap";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 杭城小刘. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.HMapStaticLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D307F8292C2FD8080010EF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/HMapStaticLib/StaticLibUsage.hmap";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 杭城小刘. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.HMapStaticLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D39B4D512C2E7A2D00D59151 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -7737,6 +8145,39 @@
 			name = Debug;
 		};
 		D39B4D522C2E7A2D00D59151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D39B4D5E2C2E996500D59151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D39B4D5F2C2E996500D59151 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -8403,11 +8844,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		D307F8192C2FD7F00010EF23 /* Build configuration list for PBXNativeTarget "HMapStaticLibApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D307F8172C2FD7F00010EF23 /* Debug */,
+				D307F8182C2FD7F00010EF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D307F8272C2FD8080010EF23 /* Build configuration list for PBXNativeTarget "HMapStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D307F8282C2FD8080010EF23 /* Debug */,
+				D307F8292C2FD8080010EF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D39B4D532C2E7A2D00D59151 /* Build configuration list for PBXNativeTarget "HMapDump" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D39B4D512C2E7A2D00D59151 /* Debug */,
 				D39B4D522C2E7A2D00D59151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D39B4D5D2C2E996500D59151 /* Build configuration list for PBXNativeTarget "HMapWritor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39B4D5E2C2E996500D59151 /* Debug */,
+				D39B4D5F2C2E996500D59151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
