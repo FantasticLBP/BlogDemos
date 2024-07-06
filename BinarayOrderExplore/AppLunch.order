@@ -1,0 +1,7 @@
+_main
+-[AppDelegate application:didFinishLaunchingWithOptions:]
+-[AppDelegate application:configurationForConnectingSceneSession:options:]
+-[AppDelegate application:didDiscardSceneSessions:]
+-[Student eat]
+-[Student study]
+-[Cat bark]
