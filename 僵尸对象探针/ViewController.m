@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "ZombieSniffer.h"
+//#import "ZombieSniffer.h"
 #import "ZombieObjectDetector.h"
 
 @interface ViewController ()
@@ -20,7 +20,7 @@
 {
     @autoreleasepool {
         NSString *errorMessage = [[NSString alloc] initWithFormat:@"the user is not zoom user"];
-        if (userID == 100) {
+        if (userID == 50) {
             *error = [NSError errorWithDomain:@"com.test" code:userID userInfo:@{NSLocalizedDescriptionKey: errorMessage}];
             return NO;
         }
@@ -30,7 +30,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   [ZombieSniffer installSniffer]; 
+//    [ZombieSniffer installSniffer];
+    
     [self test];
 }
 

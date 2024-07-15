@@ -10,95 +10,84 @@
 
 @implementation ZombieProxy
 
-- (BOOL)respondsToSelector: (SEL)aSelector
-{
+#pragma mark - method forwarding
+- (BOOL)respondsToSelector: (SEL)aSelector {
     return [self.originClass instancesRespondToSelector:aSelector];
 }
 
-- (NSMethodSignature *)methodSignatureForSelector: (SEL)sel
-{
+- (NSMethodSignature *)methodSignatureForSelector: (SEL)sel {
     return [self.originClass instanceMethodSignatureForSelector:sel];
 }
 
-- (void)forwardInvocation: (NSInvocation *)invocation
-{
+- (void)forwardInvocation: (NSInvocation *)invocation {
     [self mockSystemBehaviorOfZombieObjects:invocation.selector];
 }
 
-
-- (Class)class
-{
+#pragma mark - NSObject basic method
+- (Class)class {
     MockZombieObjectsDetector;
     return nil;
 }
 
-- (BOOL)isEqual:(id)object
-{
+- (BOOL)isEqual:(id)object {
     MockZombieObjectsDetector;
     return NO;
 }
 
-- (NSUInteger)hash
-{
+- (NSUInteger)hash {
     MockZombieObjectsDetector;
     return 0;
 }
 
-- (id)self
-{
+- (id)self {
     MockZombieObjectsDetector;
     return nil;
 }
 
-- (BOOL)isKindOfClass:(Class)aClass
-{
+- (BOOL)isKindOfClass:(Class)aClass {
     MockZombieObjectsDetector;
     return NO;
 }
 
-- (BOOL)isMemberOfClass:(Class)aClass
-{
+- (BOOL)isMemberOfClass:(Class)aClass {
     MockZombieObjectsDetector;
     return NO;
 }
 
-- (BOOL)conformsToProtocol:(Protocol *)aProtocol
-{
+- (BOOL)conformsToProtocol:(Protocol *)aProtocol {
     MockZombieObjectsDetector;
     return NO;
 }
 
-- (BOOL)isProxy
-{
+- (BOOL)isProxy {
     MockZombieObjectsDetector;
     return NO;
 }
 
-- (void)dealloc
-{
+- (void)dealloc {
     MockZombieObjectsDetector;
     [super dealloc];
 }
 
-- (NSZone *)zone
-{
+- (NSZone *)zone {
     MockZombieObjectsDetector;
     return nil;
 }
 
-- (NSString *)description
-{
+- (NSString *)description {
     MockZombieObjectsDetector;
     return nil;
 }
 
 
 #pragma mark - Private
-- (void)mockSystemBehaviorOfZombieObjects:(SEL)selector
-{
-    NSString *msg = [NSString stringWithFormat:@"(-[%@ %@]) was sent to a zombie object at address: %p", NSStringFromClass(self.originClass), NSStringFromSelector(selector), self];
+- (void)mockSystemBehaviorOfZombieObjects:(SEL)selector {
+    NSString *msg = [NSString stringWithFormat:@"(-[%@ %@]) was sent to a zombie object at address: %p",
+                     NSStringFromClass(self.originClass),
+                     NSStringFromSelector(selector),
+                     self];
     NSLog(@"%@", msg);
-    NSLog(@"堆栈：\n%@",[NSThread callStackSymbols]);
+    NSLog(@"堆栈：\n%@", [NSThread callStackSymbols]);
     abort();
 }
 

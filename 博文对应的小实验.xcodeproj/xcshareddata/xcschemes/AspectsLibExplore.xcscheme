@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6E06040620C6F15F00EA9766"
-               BuildableName = "&#x590d;&#x5236;&#x5c42;&#x5e94;&#x7528;3-&#x7c92;&#x5b50;&#x95ea;&#x70c1;&#x6548;&#x679c;.app"
-               BlueprintName = "&#x590d;&#x5236;&#x5c42;&#x5e94;&#x7528;3-&#x7c92;&#x5b50;&#x95ea;&#x70c1;&#x6548;&#x679c;"
+               BlueprintIdentifier = "D35E95AE2C3B87CF00C5700B"
+               BuildableName = "AspectsLibExplore.app"
+               BlueprintName = "AspectsLibExplore"
                ReferencedContainer = "container:&#x535a;&#x6587;&#x5bf9;&#x5e94;&#x7684;&#x5c0f;&#x5b9e;&#x9a8c;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,15 +27,6 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6E06040620C6F15F00EA9766"
-            BuildableName = "&#x590d;&#x5236;&#x5c42;&#x5e94;&#x7528;3-&#x7c92;&#x5b50;&#x95ea;&#x70c1;&#x6548;&#x679c;.app"
-            BlueprintName = "&#x590d;&#x5236;&#x5c42;&#x5e94;&#x7528;3-&#x7c92;&#x5b50;&#x95ea;&#x70c1;&#x6548;&#x679c;"
-            ReferencedContainer = "container:&#x535a;&#x6587;&#x5bf9;&#x5e94;&#x7684;&#x5c0f;&#x5b9e;&#x9a8c;.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
       </Testables>
    </TestAction>
@@ -53,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6E06040620C6F15F00EA9766"
-            BuildableName = "&#x590d;&#x5236;&#x5c42;&#x5e94;&#x7528;3-&#x7c92;&#x5b50;&#x95ea;&#x70c1;&#x6548;&#x679c;.app"
-            BlueprintName = "&#x590d;&#x5236;&#x5c42;&#x5e94;&#x7528;3-&#x7c92;&#x5b50;&#x95ea;&#x70c1;&#x6548;&#x679c;"
+            BlueprintIdentifier = "D35E95AE2C3B87CF00C5700B"
+            BuildableName = "AspectsLibExplore.app"
+            BlueprintName = "AspectsLibExplore"
             ReferencedContainer = "container:&#x535a;&#x6587;&#x5bf9;&#x5e94;&#x7684;&#x5c0f;&#x5b9e;&#x9a8c;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -70,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6E06040620C6F15F00EA9766"
-            BuildableName = "&#x590d;&#x5236;&#x5c42;&#x5e94;&#x7528;3-&#x7c92;&#x5b50;&#x95ea;&#x70c1;&#x6548;&#x679c;.app"
-            BlueprintName = "&#x590d;&#x5236;&#x5c42;&#x5e94;&#x7528;3-&#x7c92;&#x5b50;&#x95ea;&#x70c1;&#x6548;&#x679c;"
+            BlueprintIdentifier = "D35E95AE2C3B87CF00C5700B"
+            BuildableName = "AspectsLibExplore.app"
+            BlueprintName = "AspectsLibExplore"
             ReferencedContainer = "container:&#x535a;&#x6587;&#x5bf9;&#x5e94;&#x7684;&#x5c0f;&#x5b9e;&#x9a8c;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -7,65 +7,361 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "FA2CBE45-6211-426E-AC16-27E9D15F94AF"
+            uuid = "7F6FE8A6-50E1-4B0B-A700-077287097D06"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HMapWritor/main.mm"
+            filePath = "AppHookProtector/main.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "getHash(Str)"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B200C75A-3B01-42C7-9F5C-28AF81530E47"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppHook/HookProtector.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "anti_debug()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B93A3927-6C00-4E9C-97DC-AA03CC0E695A"
+            uuid = "36FF9EC1-CE37-43F1-81CD-945CDD423566"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "APM/ViewController.m"
+            filePath = "AppHook/HookProtector.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
-            landmarkName = "-mockRetainCycle"
-            landmarkType = "7">
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "anti_debug()"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "594A7FBA-129A-4982-AC13-8A5A87CCCF42"
+            uuid = "A91657E5-6855-4D3E-862B-238633FC6A88"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "APM/ViewController.m"
+            filePath = "AppHook/HookProtector.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
-            landmarkName = "-mockRetainCycle"
-            landmarkType = "7">
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "quit_process()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "A91657E5-6855-4D3E-862B-238633FC6A88 - 6218e6765af14abd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__disable_gdb_via_sysctl_block_invoke"
+                  moduleName = "AppHookProtector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unix_kernel/Desktop/BlogDemos/AppHook/HookProtector.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "A91657E5-6855-4D3E-862B-238633FC6A88 - 1a440f82072e038f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__disable_gdb_via_hidden_sysctl_block_invoke"
+                  moduleName = "AppHookProtector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unix_kernel/Desktop/BlogDemos/AppHook/HookProtector.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "A91657E5-6855-4D3E-862B-238633FC6A88 - aa01122d080b1200"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__disable_gdb_via_sysctl_block_invoke"
+                  moduleName = "AppHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unix_kernel/Desktop/BlogDemos/AppHook/HookProtector.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "A91657E5-6855-4D3E-862B-238633FC6A88 - d25dfbd955d45b32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__disable_gdb_via_hidden_sysctl_block_invoke"
+                  moduleName = "AppHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unix_kernel/Desktop/BlogDemos/AppHook/HookProtector.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A9C761A9-A01A-49D3-80E6-1AC0B78DC6B5"
+            uuid = "A5382F67-773E-4009-8592-7B8EA27CE07F"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BinarayOrderExplore/AppDelegate.m"
+            filePath = "AppHook/HookProtector.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "-application:didFinishLaunchingWithOptions:"
-            landmarkType = "7">
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "quit_process()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "A5382F67-773E-4009-8592-7B8EA27CE07F - 6218e6765af14abd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__disable_gdb_via_sysctl_block_invoke"
+                  moduleName = "AppHookProtector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unix_kernel/Desktop/BlogDemos/AppHook/HookProtector.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "A5382F67-773E-4009-8592-7B8EA27CE07F - 1a440f82072e038f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__disable_gdb_via_hidden_sysctl_block_invoke"
+                  moduleName = "AppHookProtector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unix_kernel/Desktop/BlogDemos/AppHook/HookProtector.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "A5382F67-773E-4009-8592-7B8EA27CE07F - aa01122d080b1200"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__disable_gdb_via_sysctl_block_invoke"
+                  moduleName = "AppHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unix_kernel/Desktop/BlogDemos/AppHook/HookProtector.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "A5382F67-773E-4009-8592-7B8EA27CE07F - d25dfbd955d45b32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__disable_gdb_via_hidden_sysctl_block_invoke"
+                  moduleName = "AppHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unix_kernel/Desktop/BlogDemos/AppHook/HookProtector.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70F3F9F1-819C-4EDD-B757-A67E62EF3AE9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppHook/HookProtector.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "quit_process()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "70F3F9F1-819C-4EDD-B757-A67E62EF3AE9 - 6218e6765af14abd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__disable_gdb_via_sysctl_block_invoke"
+                  moduleName = "AppHookProtector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unix_kernel/Desktop/BlogDemos/AppHook/HookProtector.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "70F3F9F1-819C-4EDD-B757-A67E62EF3AE9 - 1a440f82072e038f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__disable_gdb_via_hidden_sysctl_block_invoke"
+                  moduleName = "AppHookProtector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unix_kernel/Desktop/BlogDemos/AppHook/HookProtector.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "70F3F9F1-819C-4EDD-B757-A67E62EF3AE9 - aa01122d080b1200"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__disable_gdb_via_sysctl_block_invoke"
+                  moduleName = "AppHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unix_kernel/Desktop/BlogDemos/AppHook/HookProtector.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "70F3F9F1-819C-4EDD-B757-A67E62EF3AE9 - d25dfbd955d45b32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__disable_gdb_via_hidden_sysctl_block_invoke"
+                  moduleName = "AppHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unix_kernel/Desktop/BlogDemos/AppHook/HookProtector.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5FFB5530-9457-4020-8471-2A6C9EDDB87D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppHook/HookProtector.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "quit_process()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "5FFB5530-9457-4020-8471-2A6C9EDDB87D - 6218e6765af14abd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__disable_gdb_via_sysctl_block_invoke"
+                  moduleName = "AppHookProtector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unix_kernel/Desktop/BlogDemos/AppHook/HookProtector.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "5FFB5530-9457-4020-8471-2A6C9EDDB87D - 1a440f82072e038f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__disable_gdb_via_hidden_sysctl_block_invoke"
+                  moduleName = "AppHookProtector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unix_kernel/Desktop/BlogDemos/AppHook/HookProtector.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "5FFB5530-9457-4020-8471-2A6C9EDDB87D - aa01122d080b1200"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__disable_gdb_via_sysctl_block_invoke"
+                  moduleName = "AppHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unix_kernel/Desktop/BlogDemos/AppHook/HookProtector.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "5FFB5530-9457-4020-8471-2A6C9EDDB87D - d25dfbd955d45b32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__disable_gdb_via_hidden_sysctl_block_invoke"
+                  moduleName = "AppHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unix_kernel/Desktop/BlogDemos/AppHook/HookProtector.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

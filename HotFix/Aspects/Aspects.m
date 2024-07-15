@@ -818,8 +818,11 @@ static void aspect_deregisterTrackedSelector(id self, SEL selector) {
     AspectIdentifier *identifier = nil;
     if (blockSignature) {
         identifier = [AspectIdentifier new];
+        // 方法编号
         identifier.selector = selector;
+        // block 对象
         identifier.block = block;
+        // block 签名信息
         identifier.blockSignature = blockSignature;
         identifier.options = options;
         identifier.object = object; // weak

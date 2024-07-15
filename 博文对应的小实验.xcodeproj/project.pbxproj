@@ -382,6 +382,30 @@
 		D307F8382C2FD9160010EF23 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D307F8342C2FD9150010EF23 /* Person.m */; };
 		D307F8392C2FD9160010EF23 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = D307F8352C2FD9150010EF23 /* Person.h */; };
 		D307F83A2C2FD9160010EF23 /* Student.h in Headers */ = {isa = PBXBuildFile; fileRef = D307F8362C2FD9150010EF23 /* Student.h */; };
+		D3355E062C43EA3700A5EE25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3355E052C43EA3700A5EE25 /* AppDelegate.m */; };
+		D3355E092C43EA3700A5EE25 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3355E082C43EA3700A5EE25 /* SceneDelegate.m */; };
+		D3355E0C2C43EA3700A5EE25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3355E0B2C43EA3700A5EE25 /* ViewController.m */; };
+		D3355E0F2C43EA3700A5EE25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3355E0D2C43EA3700A5EE25 /* Main.storyboard */; };
+		D3355E112C43EA3900A5EE25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3355E102C43EA3900A5EE25 /* Assets.xcassets */; };
+		D3355E142C43EA3900A5EE25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3355E122C43EA3900A5EE25 /* LaunchScreen.storyboard */; };
+		D3355E172C43EA3900A5EE25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3355E162C43EA3900A5EE25 /* main.m */; };
+		D3356CA02C43F0C700A5EE25 /* AppHook.h in Headers */ = {isa = PBXBuildFile; fileRef = D3356C9F2C43F0C700A5EE25 /* AppHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3356CA32C43F0C700A5EE25 /* AppHook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3356C9D2C43F0C600A5EE25 /* AppHook.framework */; };
+		D3356CA52C43F0C700A5EE25 /* AppHook.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D3356C9D2C43F0C600A5EE25 /* AppHook.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D3356CAB2C43F0EE00A5EE25 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = D3356CA92C43F0EE00A5EE25 /* fishhook.c */; };
+		D3356CAC2C43F0EE00A5EE25 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = D3356CAA2C43F0EE00A5EE25 /* fishhook.h */; };
+		D3356CAF2C43F13100A5EE25 /* InjectCode.h in Headers */ = {isa = PBXBuildFile; fileRef = D3356CAD2C43F13100A5EE25 /* InjectCode.h */; };
+		D3356CB02C43F13100A5EE25 /* InjectCode.m in Sources */ = {isa = PBXBuildFile; fileRef = D3356CAE2C43F13100A5EE25 /* InjectCode.m */; };
+		D3356CB22C43F47F00A5EE25 /* HookProtector.h in Headers */ = {isa = PBXBuildFile; fileRef = D3356C972C43EF5800A5EE25 /* HookProtector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D35E95B32C3B87D200C5700B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E95B22C3B87D200C5700B /* AppDelegate.m */; };
+		D35E95B62C3B87D200C5700B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E95B52C3B87D200C5700B /* SceneDelegate.m */; };
+		D35E95B92C3B87D200C5700B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E95B82C3B87D200C5700B /* ViewController.m */; };
+		D35E95BC2C3B87D200C5700B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35E95BA2C3B87D200C5700B /* Main.storyboard */; };
+		D35E95BE2C3B87D400C5700B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35E95BD2C3B87D400C5700B /* Assets.xcassets */; };
+		D35E95C12C3B87D400C5700B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35E95BF2C3B87D400C5700B /* LaunchScreen.storyboard */; };
+		D35E95C42C3B87D400C5700B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E95C32C3B87D400C5700B /* main.m */; };
+		D35E95CC2C3B94D000C5700B /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E95CA2C3B94D000C5700B /* Aspects.m */; };
+		D35E95CF2C3B951100C5700B /* UIViewController+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E95CE2C3B951100C5700B /* UIViewController+Hook.m */; };
 		D375EBD52C394C8F00D3FC87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D375EBD42C394C8F00D3FC87 /* AppDelegate.m */; };
 		D375EBD82C394C8F00D3FC87 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D375EBD72C394C8F00D3FC87 /* SceneDelegate.m */; };
 		D375EBDB2C394C8F00D3FC87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D375EBDA2C394C8F00D3FC87 /* ViewController.m */; };
@@ -395,6 +419,13 @@
 		D375EBF52C394D2D00D3FC87 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = D375EBF42C394D2D00D3FC87 /* Cat.m */; };
 		D375EBFD2C397FA000D3FC87 /* RagDoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = D375EBFC2C397FA000D3FC87 /* RagDoll.swift */; };
 		D375EC002C39B14200D3FC87 /* GenerateOrderFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D375EBFF2C39B14200D3FC87 /* GenerateOrderFileUtils.m */; };
+		D37C56652C40D56600A5F982 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D37C56642C40D56600A5F982 /* AppDelegate.m */; };
+		D37C56682C40D56600A5F982 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D37C56672C40D56600A5F982 /* SceneDelegate.m */; };
+		D37C566B2C40D56600A5F982 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37C566A2C40D56600A5F982 /* ViewController.m */; };
+		D37C566E2C40D56600A5F982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37C566C2C40D56600A5F982 /* Main.storyboard */; };
+		D37C56702C40D56800A5F982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37C566F2C40D56800A5F982 /* Assets.xcassets */; };
+		D37C56732C40D56800A5F982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37C56712C40D56800A5F982 /* LaunchScreen.storyboard */; };
+		D37C56762C40D56800A5F982 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D37C56752C40D56800A5F982 /* main.m */; };
 		D3806D382C3113D700C875DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3806D372C3113D700C875DA /* AppDelegate.m */; };
 		D3806D3B2C3113D700C875DA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3806D3A2C3113D700C875DA /* SceneDelegate.m */; };
 		D3806D3E2C3113D700C875DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3806D3D2C3113D700C875DA /* ViewController.m */; };
@@ -403,6 +434,7 @@
 		D3806D462C3113D900C875DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3806D442C3113D900C875DA /* LaunchScreen.storyboard */; };
 		D3806D492C3113D900C875DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3806D482C3113D900C875DA /* main.m */; };
 		D3806D4F2C31B6F300C875DA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D3806D4E2C31B6F300C875DA /* Person.m */; };
+		D388127C2C3CF3C70025753B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D388127B2C3CF3C70025753B /* main.m */; };
 		D39B4D502C2E7A2D00D59151 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D39B4D4F2C2E7A2D00D59151 /* main.mm */; };
 		D39B4D5C2C2E996500D59151 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D39B4D5B2C2E996500D59151 /* main.mm */; };
 		D3EBF6EC2C329DD500AF07D1 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EBF6EB2C329DD500AF07D1 /* Cat.m */; };
@@ -436,6 +468,13 @@
 			remoteGlobalIDString = D307F81E2C2FD8060010EF23;
 			remoteInfo = HMapStaticLib;
 		};
+		D3356CA12C43F0C700A5EE25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93DA8F681F4EC7330078163E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3356C9C2C43F0C600A5EE25;
+			remoteInfo = AppHook;
+		};
 		D7D63CA628743A9400690D98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 93DA8F681F4EC7330078163E /* Project object */;
@@ -463,6 +502,26 @@
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3356CA42C43F0C700A5EE25 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D3356CA52C43F0C700A5EE25 /* AppHook.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38812772C3CF3C60025753B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 		D39B4D4B2C2E7A2C00D59151 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -1120,6 +1179,42 @@
 		D307F8342C2FD9150010EF23 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		D307F8352C2FD9150010EF23 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		D307F8362C2FD9150010EF23 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		D3355E022C43EA3600A5EE25 /* AppHookProtector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppHookProtector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3355E042C43EA3700A5EE25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3355E052C43EA3700A5EE25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3355E072C43EA3700A5EE25 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D3355E082C43EA3700A5EE25 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D3355E0A2C43EA3700A5EE25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3355E0B2C43EA3700A5EE25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3355E0E2C43EA3700A5EE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3355E102C43EA3900A5EE25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3355E132C43EA3900A5EE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3355E152C43EA3900A5EE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3355E162C43EA3900A5EE25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3356C972C43EF5800A5EE25 /* HookProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookProtector.h; sourceTree = "<group>"; };
+		D3356C9D2C43F0C600A5EE25 /* AppHook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3356C9F2C43F0C700A5EE25 /* AppHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppHook.h; sourceTree = "<group>"; };
+		D3356CA92C43F0EE00A5EE25 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = "僵尸对象探针/fishhook.c"; sourceTree = SOURCE_ROOT; };
+		D3356CAA2C43F0EE00A5EE25 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = "僵尸对象探针/fishhook.h"; sourceTree = SOURCE_ROOT; };
+		D3356CAD2C43F13100A5EE25 /* InjectCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InjectCode.h; sourceTree = "<group>"; };
+		D3356CAE2C43F13100A5EE25 /* InjectCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InjectCode.m; sourceTree = "<group>"; };
+		D35E95AF2C3B87D000C5700B /* AspectsLibExplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AspectsLibExplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35E95B12C3B87D200C5700B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D35E95B22C3B87D200C5700B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D35E95B42C3B87D200C5700B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D35E95B52C3B87D200C5700B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D35E95B72C3B87D200C5700B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D35E95B82C3B87D200C5700B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D35E95BB2C3B87D200C5700B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D35E95BD2C3B87D400C5700B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D35E95C02C3B87D400C5700B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D35E95C22C3B87D400C5700B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35E95C32C3B87D400C5700B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D35E95C82C3B89EE00C5700B /* ViewController-arm64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "ViewController-arm64.cpp"; sourceTree = "<group>"; };
+		D35E95CA2C3B94D000C5700B /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Aspects.m; path = ../../Aspects/Aspects.m; sourceTree = "<group>"; };
+		D35E95CB2C3B94D000C5700B /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Aspects.h; path = ../../Aspects/Aspects.h; sourceTree = "<group>"; };
+		D35E95CD2C3B951100C5700B /* UIViewController+Hook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Hook.h"; sourceTree = "<group>"; };
+		D35E95CE2C3B951100C5700B /* UIViewController+Hook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Hook.m"; sourceTree = "<group>"; };
 		D375EBD12C394C8F00D3FC87 /* BinarayOrderExplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinarayOrderExplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D375EBD32C394C8F00D3FC87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D375EBD42C394C8F00D3FC87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1144,6 +1239,18 @@
 		D375EBFC2C397FA000D3FC87 /* RagDoll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagDoll.swift; sourceTree = "<group>"; };
 		D375EBFE2C39B14200D3FC87 /* GenerateOrderFileUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenerateOrderFileUtils.h; sourceTree = "<group>"; };
 		D375EBFF2C39B14200D3FC87 /* GenerateOrderFileUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateOrderFileUtils.m; sourceTree = "<group>"; };
+		D37C56612C40D56400A5F982 /* GCDExplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDExplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37C56632C40D56600A5F982 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D37C56642C40D56600A5F982 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D37C56662C40D56600A5F982 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D37C56672C40D56600A5F982 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D37C56692C40D56600A5F982 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D37C566A2C40D56600A5F982 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D37C566D2C40D56600A5F982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D37C566F2C40D56800A5F982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D37C56722C40D56800A5F982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D37C56742C40D56800A5F982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37C56752C40D56800A5F982 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3806D342C3113D700C875DA /* APM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3806D362C3113D700C875DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3806D372C3113D700C875DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1158,6 +1265,8 @@
 		D3806D482C3113D900C875DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3806D4D2C31B6F300C875DA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		D3806D4E2C31B6F300C875DA /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D38812792C3CF3C60025753B /* HashAndNSDictionaryNSMapTable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HashAndNSDictionaryNSMapTable; sourceTree = BUILT_PRODUCTS_DIR; };
+		D388127B2C3CF3C70025753B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D39B4D4D2C2E7A2C00D59151 /* HMapDump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HMapDump; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39B4D4F2C2E7A2D00D59151 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		D39B4D542C2E7BF300D59151 /* HeaderMapTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderMapTypes.h; sourceTree = "<group>"; };
@@ -1548,6 +1657,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3355DFF2C43EA3600A5EE25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3356CA32C43F0C700A5EE25 /* AppHook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3356C9A2C43F0C600A5EE25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35E95AC2C3B87CF00C5700B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D375EBCE2C394C8F00D3FC87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1555,7 +1686,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D37C565E2C40D56300A5F982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3806D312C3113D700C875DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38812762C3CF3C60025753B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2589,6 +2734,11 @@
 				D307F8202C2FD8070010EF23 /* HMapStaticLib */,
 				D3806D352C3113D700C875DA /* APM */,
 				D375EBD22C394C8F00D3FC87 /* BinarayOrderExplore */,
+				D35E95B02C3B87D200C5700B /* AspectsLibExplore */,
+				D388127A2C3CF3C70025753B /* HashAndNSDictionaryNSMapTable */,
+				D37C56622C40D56600A5F982 /* GCDExplore */,
+				D3355E032C43EA3700A5EE25 /* AppHookProtector */,
+				D3356C9E2C43F0C700A5EE25 /* AppHook */,
 				93DA8F711F4EC7330078163E /* Products */,
 				930E81681F89271D00EF9652 /* Frameworks */,
 			);
@@ -2654,6 +2804,11 @@
 				D307F81F2C2FD8070010EF23 /* HMapStaticLib.framework */,
 				D3806D342C3113D700C875DA /* APM.app */,
 				D375EBD12C394C8F00D3FC87 /* BinarayOrderExplore.app */,
+				D35E95AF2C3B87D000C5700B /* AspectsLibExplore.app */,
+				D38812792C3CF3C60025753B /* HashAndNSDictionaryNSMapTable */,
+				D37C56612C40D56400A5F982 /* GCDExplore.app */,
+				D3355E022C43EA3600A5EE25 /* AppHookProtector.app */,
+				D3356C9D2C43F0C600A5EE25 /* AppHook.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2888,6 +3043,60 @@
 			path = HMapStaticLib;
 			sourceTree = "<group>";
 		};
+		D3355E032C43EA3700A5EE25 /* AppHookProtector */ = {
+			isa = PBXGroup;
+			children = (
+				D3355E042C43EA3700A5EE25 /* AppDelegate.h */,
+				D3355E052C43EA3700A5EE25 /* AppDelegate.m */,
+				D3355E072C43EA3700A5EE25 /* SceneDelegate.h */,
+				D3355E082C43EA3700A5EE25 /* SceneDelegate.m */,
+				D3355E0A2C43EA3700A5EE25 /* ViewController.h */,
+				D3355E0B2C43EA3700A5EE25 /* ViewController.m */,
+				D3355E0D2C43EA3700A5EE25 /* Main.storyboard */,
+				D3355E102C43EA3900A5EE25 /* Assets.xcassets */,
+				D3355E122C43EA3900A5EE25 /* LaunchScreen.storyboard */,
+				D3355E152C43EA3900A5EE25 /* Info.plist */,
+				D3355E162C43EA3900A5EE25 /* main.m */,
+			);
+			path = AppHookProtector;
+			sourceTree = "<group>";
+		};
+		D3356C9E2C43F0C700A5EE25 /* AppHook */ = {
+			isa = PBXGroup;
+			children = (
+				D3356C972C43EF5800A5EE25 /* HookProtector.h */,
+				D3356C9F2C43F0C700A5EE25 /* AppHook.h */,
+				D3356CA92C43F0EE00A5EE25 /* fishhook.c */,
+				D3356CAA2C43F0EE00A5EE25 /* fishhook.h */,
+				D3356CAD2C43F13100A5EE25 /* InjectCode.h */,
+				D3356CAE2C43F13100A5EE25 /* InjectCode.m */,
+			);
+			path = AppHook;
+			sourceTree = "<group>";
+		};
+		D35E95B02C3B87D200C5700B /* AspectsLibExplore */ = {
+			isa = PBXGroup;
+			children = (
+				D35E95CB2C3B94D000C5700B /* Aspects.h */,
+				D35E95CA2C3B94D000C5700B /* Aspects.m */,
+				D35E95B12C3B87D200C5700B /* AppDelegate.h */,
+				D35E95B22C3B87D200C5700B /* AppDelegate.m */,
+				D35E95B42C3B87D200C5700B /* SceneDelegate.h */,
+				D35E95B52C3B87D200C5700B /* SceneDelegate.m */,
+				D35E95B72C3B87D200C5700B /* ViewController.h */,
+				D35E95B82C3B87D200C5700B /* ViewController.m */,
+				D35E95CD2C3B951100C5700B /* UIViewController+Hook.h */,
+				D35E95CE2C3B951100C5700B /* UIViewController+Hook.m */,
+				D35E95C82C3B89EE00C5700B /* ViewController-arm64.cpp */,
+				D35E95BA2C3B87D200C5700B /* Main.storyboard */,
+				D35E95BD2C3B87D400C5700B /* Assets.xcassets */,
+				D35E95BF2C3B87D400C5700B /* LaunchScreen.storyboard */,
+				D35E95C22C3B87D400C5700B /* Info.plist */,
+				D35E95C32C3B87D400C5700B /* main.m */,
+			);
+			path = AspectsLibExplore;
+			sourceTree = "<group>";
+		};
 		D375EBD22C394C8F00D3FC87 /* BinarayOrderExplore */ = {
 			isa = PBXGroup;
 			children = (
@@ -2918,6 +3127,24 @@
 			path = BinarayOrderExplore;
 			sourceTree = "<group>";
 		};
+		D37C56622C40D56600A5F982 /* GCDExplore */ = {
+			isa = PBXGroup;
+			children = (
+				D37C56632C40D56600A5F982 /* AppDelegate.h */,
+				D37C56642C40D56600A5F982 /* AppDelegate.m */,
+				D37C56662C40D56600A5F982 /* SceneDelegate.h */,
+				D37C56672C40D56600A5F982 /* SceneDelegate.m */,
+				D37C56692C40D56600A5F982 /* ViewController.h */,
+				D37C566A2C40D56600A5F982 /* ViewController.m */,
+				D37C566C2C40D56600A5F982 /* Main.storyboard */,
+				D37C566F2C40D56800A5F982 /* Assets.xcassets */,
+				D37C56712C40D56800A5F982 /* LaunchScreen.storyboard */,
+				D37C56742C40D56800A5F982 /* Info.plist */,
+				D37C56752C40D56800A5F982 /* main.m */,
+			);
+			path = GCDExplore;
+			sourceTree = "<group>";
+		};
 		D3806D352C3113D700C875DA /* APM */ = {
 			isa = PBXGroup;
 			children = (
@@ -2938,6 +3165,14 @@
 				D3806D482C3113D900C875DA /* main.m */,
 			);
 			path = APM;
+			sourceTree = "<group>";
+		};
+		D388127A2C3CF3C70025753B /* HashAndNSDictionaryNSMapTable */ = {
+			isa = PBXGroup;
+			children = (
+				D388127B2C3CF3C70025753B /* main.m */,
+			);
+			path = HashAndNSDictionaryNSMapTable;
 			sourceTree = "<group>";
 		};
 		D39B4D4E2C2E7A2D00D59151 /* HMapDump */ = {
@@ -3027,6 +3262,17 @@
 				D307F8222C2FD8070010EF23 /* HMapStaticLib.h in Headers */,
 				D307F8392C2FD9160010EF23 /* Person.h in Headers */,
 				D307F83A2C2FD9160010EF23 /* Student.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3356C982C43F0C600A5EE25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3356CB22C43F47F00A5EE25 /* HookProtector.h in Headers */,
+				D3356CA02C43F0C700A5EE25 /* AppHook.h in Headers */,
+				D3356CAF2C43F13100A5EE25 /* InjectCode.h in Headers */,
+				D3356CAC2C43F0EE00A5EE25 /* fishhook.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3869,6 +4115,60 @@
 			productReference = D307F81F2C2FD8070010EF23 /* HMapStaticLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		D3355E012C43EA3600A5EE25 /* AppHookProtector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3355E182C43EA3900A5EE25 /* Build configuration list for PBXNativeTarget "AppHookProtector" */;
+			buildPhases = (
+				D3355DFE2C43EA3600A5EE25 /* Sources */,
+				D3355DFF2C43EA3600A5EE25 /* Frameworks */,
+				D3355E002C43EA3600A5EE25 /* Resources */,
+				D3356CA42C43F0C700A5EE25 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3356CA22C43F0C700A5EE25 /* PBXTargetDependency */,
+			);
+			name = AppHookProtector;
+			productName = AppHookProtector;
+			productReference = D3355E022C43EA3600A5EE25 /* AppHookProtector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3356C9C2C43F0C600A5EE25 /* AppHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3356CA62C43F0C800A5EE25 /* Build configuration list for PBXNativeTarget "AppHook" */;
+			buildPhases = (
+				D3356C982C43F0C600A5EE25 /* Headers */,
+				D3356C992C43F0C600A5EE25 /* Sources */,
+				D3356C9A2C43F0C600A5EE25 /* Frameworks */,
+				D3356C9B2C43F0C600A5EE25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppHook;
+			productName = AppHook;
+			productReference = D3356C9D2C43F0C600A5EE25 /* AppHook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D35E95AE2C3B87CF00C5700B /* AspectsLibExplore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35E95C72C3B87D400C5700B /* Build configuration list for PBXNativeTarget "AspectsLibExplore" */;
+			buildPhases = (
+				D35E95AB2C3B87CF00C5700B /* Sources */,
+				D35E95AC2C3B87CF00C5700B /* Frameworks */,
+				D35E95AD2C3B87CF00C5700B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AspectsLibExplore;
+			productName = AspectsLibExplore;
+			productReference = D35E95AF2C3B87D000C5700B /* AspectsLibExplore.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D375EBD02C394C8F00D3FC87 /* BinarayOrderExplore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D375EBE92C394C9100D3FC87 /* Build configuration list for PBXNativeTarget "BinarayOrderExplore" */;
@@ -3884,6 +4184,23 @@
 			name = BinarayOrderExplore;
 			productName = BinarayOrderExplore;
 			productReference = D375EBD12C394C8F00D3FC87 /* BinarayOrderExplore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D37C56602C40D56300A5F982 /* GCDExplore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37C56792C40D56800A5F982 /* Build configuration list for PBXNativeTarget "GCDExplore" */;
+			buildPhases = (
+				D37C565D2C40D56300A5F982 /* Sources */,
+				D37C565E2C40D56300A5F982 /* Frameworks */,
+				D37C565F2C40D56300A5F982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCDExplore;
+			productName = GCDExplore;
+			productReference = D37C56612C40D56400A5F982 /* GCDExplore.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D3806D332C3113D700C875DA /* APM */ = {
@@ -3902,6 +4219,23 @@
 			productName = APM;
 			productReference = D3806D342C3113D700C875DA /* APM.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D38812782C3CF3C60025753B /* HashAndNSDictionaryNSMapTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D388127F2C3CF3C70025753B /* Build configuration list for PBXNativeTarget "HashAndNSDictionaryNSMapTable" */;
+			buildPhases = (
+				D38812752C3CF3C60025753B /* Sources */,
+				D38812762C3CF3C60025753B /* Frameworks */,
+				D38812772C3CF3C60025753B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HashAndNSDictionaryNSMapTable;
+			productName = HashAndNSDictionaryNSMapTable;
+			productReference = D38812792C3CF3C60025753B /* HashAndNSDictionaryNSMapTable */;
+			productType = "com.apple.product-type.tool";
 		};
 		D39B4D4C2C2E7A2C00D59151 /* HMapDump */ = {
 			isa = PBXNativeTarget;
@@ -4013,7 +4347,7 @@
 		93DA8F681F4EC7330078163E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1420;
 				ORGANIZATIONNAME = "杭城小刘";
 				TargetAttributes = {
 					17253E56283F604900A9EA7D = {
@@ -4237,12 +4571,32 @@
 						CreatedOnToolsVersion = 14.2;
 						ProvisioningStyle = Automatic;
 					};
+					D3355E012C43EA3600A5EE25 = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
+					D3356C9C2C43F0C600A5EE25 = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
+					D35E95AE2C3B87CF00C5700B = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
 					D375EBD02C394C8F00D3FC87 = {
 						CreatedOnToolsVersion = 14.2;
 						LastSwiftMigration = 1420;
 						ProvisioningStyle = Automatic;
 					};
+					D37C56602C40D56300A5F982 = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
 					D3806D332C3113D700C875DA = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
+					D38812782C3CF3C60025753B = {
 						CreatedOnToolsVersion = 14.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -4277,10 +4631,9 @@
 			};
 			buildConfigurationList = 93DA8F6B1F4EC7330078163E /* Build configuration list for PBXProject "博文对应的小实验" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -4346,6 +4699,11 @@
 				D307F81E2C2FD8060010EF23 /* HMapStaticLib */,
 				D3806D332C3113D700C875DA /* APM */,
 				D375EBD02C394C8F00D3FC87 /* BinarayOrderExplore */,
+				D35E95AE2C3B87CF00C5700B /* AspectsLibExplore */,
+				D38812782C3CF3C60025753B /* HashAndNSDictionaryNSMapTable */,
+				D37C56602C40D56300A5F982 /* GCDExplore */,
+				D3355E012C43EA3600A5EE25 /* AppHookProtector */,
+				D3356C9C2C43F0C600A5EE25 /* AppHook */,
 			);
 		};
 /* End PBXProject section */
@@ -4854,6 +5212,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3355E002C43EA3600A5EE25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3355E142C43EA3900A5EE25 /* LaunchScreen.storyboard in Resources */,
+				D3355E112C43EA3900A5EE25 /* Assets.xcassets in Resources */,
+				D3355E0F2C43EA3700A5EE25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3356C9B2C43F0C600A5EE25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35E95AD2C3B87CF00C5700B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35E95C12C3B87D400C5700B /* LaunchScreen.storyboard in Resources */,
+				D35E95BE2C3B87D400C5700B /* Assets.xcassets in Resources */,
+				D35E95BC2C3B87D200C5700B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D375EBCF2C394C8F00D3FC87 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4861,6 +5246,16 @@
 				D375EBE32C394C9100D3FC87 /* LaunchScreen.storyboard in Resources */,
 				D375EBE02C394C9100D3FC87 /* Assets.xcassets in Resources */,
 				D375EBDE2C394C8F00D3FC87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37C565F2C40D56300A5F982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37C56732C40D56800A5F982 /* LaunchScreen.storyboard in Resources */,
+				D37C56702C40D56800A5F982 /* Assets.xcassets in Resources */,
+				D37C566E2C40D56600A5F982 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5464,6 +5859,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3355DFE2C43EA3600A5EE25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3355E0C2C43EA3700A5EE25 /* ViewController.m in Sources */,
+				D3355E062C43EA3700A5EE25 /* AppDelegate.m in Sources */,
+				D3355E172C43EA3900A5EE25 /* main.m in Sources */,
+				D3355E092C43EA3700A5EE25 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3356C992C43F0C600A5EE25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3356CAB2C43F0EE00A5EE25 /* fishhook.c in Sources */,
+				D3356CB02C43F13100A5EE25 /* InjectCode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35E95AB2C3B87CF00C5700B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35E95CC2C3B94D000C5700B /* Aspects.m in Sources */,
+				D35E95B92C3B87D200C5700B /* ViewController.m in Sources */,
+				D35E95B32C3B87D200C5700B /* AppDelegate.m in Sources */,
+				D35E95CF2C3B951100C5700B /* UIViewController+Hook.m in Sources */,
+				D35E95C42C3B87D400C5700B /* main.m in Sources */,
+				D35E95B62C3B87D200C5700B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D375EBCD2C394C8F00D3FC87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5481,6 +5909,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D37C565D2C40D56300A5F982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37C566B2C40D56600A5F982 /* ViewController.m in Sources */,
+				D37C56652C40D56600A5F982 /* AppDelegate.m in Sources */,
+				D37C56762C40D56800A5F982 /* main.m in Sources */,
+				D37C56682C40D56600A5F982 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3806D302C3113D700C875DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5491,6 +5930,14 @@
 				D3806D4F2C31B6F300C875DA /* Person.m in Sources */,
 				D3806D492C3113D900C875DA /* main.m in Sources */,
 				D3806D3B2C3113D700C875DA /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38812752C3CF3C60025753B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D388127C2C3CF3C70025753B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5559,6 +6006,11 @@
 			isa = PBXTargetDependency;
 			target = D307F81E2C2FD8060010EF23 /* HMapStaticLib */;
 			targetProxy = D307F8232C2FD8070010EF23 /* PBXContainerItemProxy */;
+		};
+		D3356CA22C43F0C700A5EE25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3356C9C2C43F0C600A5EE25 /* AppHook */;
+			targetProxy = D3356CA12C43F0C700A5EE25 /* PBXContainerItemProxy */;
 		};
 		D7D63CA728743A9400690D98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -6341,6 +6793,38 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		D3355E0D2C43EA3700A5EE25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3355E0E2C43EA3700A5EE25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3355E122C43EA3900A5EE25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3355E132C43EA3900A5EE25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D35E95BA2C3B87D200C5700B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35E95BB2C3B87D200C5700B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D35E95BF2C3B87D400C5700B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35E95C02C3B87D400C5700B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		D375EBDC2C394C8F00D3FC87 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -6353,6 +6837,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				D375EBE22C394C9100D3FC87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D37C566C2C40D56600A5F982 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D37C566D2C40D56600A5F982 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D37C56712C40D56800A5F982 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D37C56722C40D56800A5F982 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -6483,7 +6983,7 @@
 				DEVELOPMENT_TEAM = YC6738DVDV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Block底层研究/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.Block----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6505,7 +7005,7 @@
 				DEVELOPMENT_TEAM = YC6738DVDV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Block底层研究/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.Block----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6525,7 +7025,7 @@
 				DEVELOPMENT_TEAM = YC6738DVDV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "复制层应用3-粒子闪烁效果/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.-----3-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6545,7 +7045,7 @@
 				DEVELOPMENT_TEAM = YC6738DVDV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "复制层应用3-粒子闪烁效果/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.-----3-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6565,7 +7065,7 @@
 				DEVELOPMENT_TEAM = 4BRDZ48JM5;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "native-JS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.datacubr.credit.hybrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6585,7 +7085,7 @@
 				DEVELOPMENT_TEAM = 4BRDZ48JM5;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "native-JS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.datacubr.credit.hybrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6646,7 +7146,7 @@
 				DEVELOPMENT_TEAM = 4BRDZ48JM5;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "约束布局/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.datacubr.credit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6666,7 +7166,7 @@
 				DEVELOPMENT_TEAM = 4BRDZ48JM5;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "约束布局/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.datacubr.credit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6686,7 +7186,7 @@
 				DEVELOPMENT_TEAM = YC6738DVDV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "微博发帖动画/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6706,7 +7206,7 @@
 				DEVELOPMENT_TEAM = YC6738DVDV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "微博发帖动画/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6726,7 +7226,7 @@
 				DEVELOPMENT_TEAM = YC6738DVDV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "金额的格式化显示/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6746,7 +7246,7 @@
 				DEVELOPMENT_TEAM = YC6738DVDV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "金额的格式化显示/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6766,7 +7266,7 @@
 				DEVELOPMENT_TEAM = YC6738DVDV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = LBPAttributedStringTools/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.datacubr.credit.LBPAttributedStringTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6786,7 +7286,7 @@
 				DEVELOPMENT_TEAM = YC6738DVDV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = LBPAttributedStringTools/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.datacubr.credit.LBPAttributedStringTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6806,7 +7306,7 @@
 				DEVELOPMENT_TEAM = YC6738DVDV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "$(SRCROOT)/复制层应用1-音量柱动画/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.UI--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6826,7 +7326,7 @@
 				DEVELOPMENT_TEAM = YC6738DVDV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "$(SRCROOT)/复制层应用1-音量柱动画/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.UI--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6846,7 +7346,7 @@
 				DEVELOPMENT_TEAM = YC6738DVDV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "$(SRCROOT)/复制层应用2-倒影效果/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.-----2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6866,7 +7366,7 @@
 				DEVELOPMENT_TEAM = YC6738DVDV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "$(SRCROOT)/复制层应用2-倒影效果/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.-----2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6886,7 +7386,7 @@
 				DEVELOPMENT_TEAM = YC6738DVDV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "QQ粘性动画/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.QQ----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6906,7 +7406,7 @@
 				DEVELOPMENT_TEAM = YC6738DVDV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "QQ粘性动画/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.datacubr.credit.QQ----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6925,7 +7425,7 @@
 				DEVELOPMENT_TEAM = B6CHRYJ3KP;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "心跳效果/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6944,7 +7444,7 @@
 				DEVELOPMENT_TEAM = B6CHRYJ3KP;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "心跳效果/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6962,7 +7462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图形上下文状态栈/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6980,7 +7480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图形上下文状态栈/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6998,7 +7498,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "UIKit画图-画文字/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.UIKit------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7016,7 +7516,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "UIKit画图-画文字/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.UIKit------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7035,7 +7535,7 @@
 				DEVELOPMENT_TEAM = 4BAERDNHRR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "动画组/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7054,7 +7554,7 @@
 				DEVELOPMENT_TEAM = 4BAERDNHRR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "动画组/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7073,7 +7573,7 @@
 				DEVELOPMENT_TEAM = 4BAERDNHRR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "系统时钟效果/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7092,7 +7592,7 @@
 				DEVELOPMENT_TEAM = 4BAERDNHRR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "系统时钟效果/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7133,7 +7633,7 @@
 				DEVELOPMENT_TEAM = 4BRDZ48JM5;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "画板/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7152,7 +7652,7 @@
 				DEVELOPMENT_TEAM = 4BRDZ48JM5;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "画板/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7192,7 +7692,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "裁剪带圆形边框的图片/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7210,7 +7710,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "裁剪带圆形边框的图片/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7229,7 +7729,7 @@
 				DEVELOPMENT_TEAM = 4BAERDNHRR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "核心动画与UIView动画区别/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.-----UIView----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7248,7 +7748,7 @@
 				DEVELOPMENT_TEAM = 4BAERDNHRR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "核心动画与UIView动画区别/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.-----UIView----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7266,7 +7766,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "下载进度条/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7284,7 +7784,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "下载进度条/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7302,7 +7802,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "画饼图/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7320,7 +7820,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "画饼图/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7338,7 +7838,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "模仿系统截屏/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7356,7 +7856,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "模仿系统截屏/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7375,7 +7875,7 @@
 				DEVELOPMENT_TEAM = B6CHRYJ3KP;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图片部分区域截图/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7394,7 +7894,7 @@
 				DEVELOPMENT_TEAM = B6CHRYJ3KP;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图片部分区域截图/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7450,7 +7950,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图形上下文的矩阵操作/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7468,7 +7968,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图形上下文的矩阵操作/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7486,7 +7986,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "给图片添加水印/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7504,7 +8004,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "给图片添加水印/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7523,7 +8023,7 @@
 				DEVELOPMENT_TEAM = B6CHRYJ3KP;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "圆形图片裁剪/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7542,7 +8042,7 @@
 				DEVELOPMENT_TEAM = B6CHRYJ3KP;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "圆形图片裁剪/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7561,7 +8061,7 @@
 				DEVELOPMENT_TEAM = 4BAERDNHRR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "KVO 底层原理剖析/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.KVO-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7580,7 +8080,7 @@
 				DEVELOPMENT_TEAM = 4BAERDNHRR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "KVO 底层原理剖析/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.KVO-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7599,7 +8099,7 @@
 				DEVELOPMENT_TEAM = 3393ZFX46Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "手势解锁/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek-Hotels";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7618,7 +8118,7 @@
 				DEVELOPMENT_TEAM = 3393ZFX46Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "手势解锁/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek-Hotels";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7659,7 +8159,7 @@
 				DEVELOPMENT_TEAM = 4BAERDNHRR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "CALayer基本操作/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.CALayer----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7678,7 +8178,7 @@
 				DEVELOPMENT_TEAM = 4BAERDNHRR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "CALayer基本操作/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.CALayer----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7697,7 +8197,7 @@
 				DEVELOPMENT_TEAM = 4BAERDNHRR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "抽奖转盘动画/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7716,7 +8216,7 @@
 				DEVELOPMENT_TEAM = 4BAERDNHRR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "抽奖转盘动画/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7734,7 +8234,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "常见系统手势/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7752,7 +8252,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "常见系统手势/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7770,7 +8270,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "外卖App双列表联动/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.--App-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7788,7 +8288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "外卖App双列表联动/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.--App-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7807,7 +8307,7 @@
 				DEVELOPMENT_TEAM = 3393ZFX46Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图片擦除效果/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7826,7 +8326,7 @@
 				DEVELOPMENT_TEAM = 3393ZFX46Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图片擦除效果/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7838,6 +8338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -7859,6 +8360,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -7883,7 +8385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -7895,6 +8397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -7916,6 +8419,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -7934,9 +8438,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -7974,7 +8479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "模仿系统找出事件的最佳响应者/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.--------------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7992,7 +8497,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "模仿系统找出事件的最佳响应者/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.--------------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8010,7 +8515,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "view跟随手势拖动效果/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.view--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8028,7 +8533,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "view跟随手势拖动效果/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.view--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8046,7 +8551,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "hitTest的神奇效果（一）/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.hitTest--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8064,7 +8569,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "hitTest的神奇效果（一）/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.hitTest--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8082,7 +8587,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "UIKit画图-画图片、图形/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.UIKit---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8100,7 +8605,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "UIKit画图-画图片、图形/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.UIKit---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8118,7 +8623,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "定时器雪花飘落效果/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8136,7 +8641,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "定时器雪花飘落效果/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8155,7 +8660,7 @@
 				DEVELOPMENT_TEAM = 4BAERDNHRR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图标抖动动画（关键帧动画）/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.-------------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8174,7 +8679,7 @@
 				DEVELOPMENT_TEAM = 4BAERDNHRR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图标抖动动画（关键帧动画）/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.-------------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8193,7 +8698,7 @@
 				DEVELOPMENT_TEAM = 4BAERDNHRR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "转场动画/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8212,7 +8717,7 @@
 				DEVELOPMENT_TEAM = 4BAERDNHRR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "转场动画/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Hotels.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8230,7 +8735,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "基本图形绘制/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8248,7 +8753,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "基本图形绘制/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8386,6 +8891,192 @@
 			};
 			name = Release;
 		};
+		D3355E192C43EA3900A5EE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppHookProtector/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.AppHookProtector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3355E1A2C43EA3900A5EE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppHookProtector/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.AppHookProtector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3356CA72C43F0C800A5EE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 杭城小刘. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.AppHook;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3356CA82C43F0C800A5EE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 杭城小刘. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.AppHook;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D35E95C52C3B87D400C5700B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AspectsLibExplore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.AspectsLibExplore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D35E95C62C3B87D400C5700B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AspectsLibExplore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.AspectsLibExplore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D375EBE72C394C9100D3FC87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -8464,6 +9155,67 @@
 			};
 			name = Release;
 		};
+		D37C56772C40D56800A5F982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GCDExplore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.GCDExplore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D37C56782C40D56800A5F982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GCDExplore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.GCDExplore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D3806D4A2C3113D900C875DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -8533,6 +9285,43 @@
 			};
 			name = Release;
 		};
+		D388127D2C3CF3C70025753B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D388127E2C3CF3C70025753B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		D39B4D512C2E7A2D00D59151 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -8540,7 +9329,9 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				MACOSX_DEPLOYMENT_TARGET = 12.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -8557,7 +9348,9 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				MACOSX_DEPLOYMENT_TARGET = 12.7;
 				MTL_FAST_MATH = YES;
@@ -8573,7 +9366,9 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				MACOSX_DEPLOYMENT_TARGET = 12.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -8590,7 +9385,9 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				MACOSX_DEPLOYMENT_TARGET = 12.7;
 				MTL_FAST_MATH = YES;
@@ -9268,6 +10065,33 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		D3355E182C43EA3900A5EE25 /* Build configuration list for PBXNativeTarget "AppHookProtector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3355E192C43EA3900A5EE25 /* Debug */,
+				D3355E1A2C43EA3900A5EE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3356CA62C43F0C800A5EE25 /* Build configuration list for PBXNativeTarget "AppHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3356CA72C43F0C800A5EE25 /* Debug */,
+				D3356CA82C43F0C800A5EE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35E95C72C3B87D400C5700B /* Build configuration list for PBXNativeTarget "AspectsLibExplore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35E95C52C3B87D400C5700B /* Debug */,
+				D35E95C62C3B87D400C5700B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D375EBE92C394C9100D3FC87 /* Build configuration list for PBXNativeTarget "BinarayOrderExplore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -9277,11 +10101,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		D37C56792C40D56800A5F982 /* Build configuration list for PBXNativeTarget "GCDExplore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37C56772C40D56800A5F982 /* Debug */,
+				D37C56782C40D56800A5F982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D3806D4C2C3113D900C875DA /* Build configuration list for PBXNativeTarget "APM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3806D4A2C3113D900C875DA /* Debug */,
 				D3806D4B2C3113D900C875DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D388127F2C3CF3C70025753B /* Build configuration list for PBXNativeTarget "HashAndNSDictionaryNSMapTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D388127D2C3CF3C70025753B /* Debug */,
+				D388127E2C3CF3C70025753B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

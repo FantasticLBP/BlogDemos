@@ -13,9 +13,9 @@
 #import "fishhook.h"
 #import "ZombieProxy.h"
 
-#define MAX_STEAL_MEM_SIZE 1024*1024*100 // 监控对象的临界值，防止系统因为大内存造成 OOM
-#define MAX_STEAL_MEM_NUM 1024*1024*10 // 最多保留这么多个指针，再多就释放一部分
-#define BATCH_FREE_NUM 100// 每次释放的时候释放指针数量
+#define MAX_STEAL_MEM_SIZE 1024*1024*100    // 监控对象的临界值，防止系统因为大内存造成 OOM
+#define MAX_STEAL_MEM_NUM 1024*1024*10      // 最多保留这么多个指针，再多就释放一部分
+#define BATCH_FREE_NUM 100                  // 每次释放的时候释放指针数量
 
 static Class mockIsa;
 static size_t DetectObjectSize;
@@ -29,8 +29,7 @@ int unfreeSize = 0;//用来记录我们偷偷保存的内存的大小
 @implementation ZombieObjectDetector
 
 #pragma mark - life cycle
-+ (void)load
-{
++ (void)load {
 #ifdef DEBUG
     loadCatchProxyClass();
     init_safe_free();
@@ -39,9 +38,8 @@ int unfreeSize = 0;//用来记录我们偷偷保存的内存的大小
 
 
 #pragma mark -------------------------- Public  Methods
-//系统内存警告的时候调用这个函数释放一些内存
-void freeMemoryWhenMemoryWarning(size_t freeNum)
-{
+// 系统内存警告的时候调用这个函数释放一些内存
+void freeMemoryWhenMemoryWarning(size_t freeNum) {
 #ifdef DEBUG
     size_t count = ds_queue_length(_unfreeQueue);
     freeNum= freeNum > count ? count:freeNum;
@@ -56,14 +54,13 @@ void freeMemoryWhenMemoryWarning(size_t freeNum)
 
 
 #pragma mark - private method
-void safeFree(void* p)
-{
+void safeFree(void* p) {
     int unFreeCount = ds_queue_length(_unfreeQueue);
     if (unFreeCount > MAX_STEAL_MEM_NUM*0.9 || unfreeSize>MAX_STEAL_MEM_SIZE) {
         freeMemoryWhenMemoryWarning(BATCH_FREE_NUM);
     } else {
         size_t memSiziee = malloc_size(p);
-        if (memSiziee > DetectObjectSize) {//有足够的空间才覆盖
+        if (memSiziee > DetectObjectSize) { // 有足够的空间才覆盖
             id obj=(id)p;
             Class origClass= object_getClass(obj);
             // 判断是不是objc对象
@@ -71,39 +68,44 @@ void safeFree(void* p)
             if (strcmp("@", type) == 0 &&
                  CFSetContainsValue(registeredClasses, origClass)) {
                 memset(obj, 0x55, memSiziee);
-                memcpy(obj, &mockIsa, sizeof(void*)); //更改 isa
+                memcpy(obj, &mockIsa, sizeof(void*)); // 更改 isa
                 object_setClass(obj, [ZombieProxy class]);
                 ((ZombieProxy *)obj).originClass = origClass;
-                __sync_fetch_and_add(&unfreeSize, (int)memSiziee);// 多线程下int的原子加操作,多线程对全局变量进行自加，不用理线程锁了
+                __sync_fetch_and_add(&unfreeSize, (int)memSiziee); // 多线程下 int 的原子加操作,多线程对全局变量进行自加，不用理线程锁了
                 ds_queue_put(_unfreeQueue, p);
-            }else{
+            } else {
                orig_free(p);
             }
-        }else{
+        } else {
            orig_free(p);
         }
     }
 }
 
-void loadCatchProxyClass(void)
-{
+// 加载野指针自定义类
+void loadCatchProxyClass(void) {
+    // 把所有 oc 类，添加到 registeredClasses 中
     registeredClasses = CFSetCreateMutable(NULL, 0, NULL);
     unsigned int count = 0;
     Class *classes = objc_copyClassList(&count);
     for (unsigned int i = 0; i < count; i++) {
         CFSetAddValue(registeredClasses, (__bridge const void *)(classes[i]));
     }
+    // c 对象需要手动 free
     free(classes);
     classes = NULL;
+    // 创建野指针探测类的类对象
     mockIsa = objc_getClass("ZombieProxy");
+    // 记录探测类的内存大小
     DetectObjectSize = class_getInstanceSize(mockIsa);
 }
 
-
-bool init_safe_free(void)
-{
+bool init_safe_free(void) {
+    // 初始化用于保存内存的队列
     _unfreeQueue = ds_queue_create(MAX_STEAL_MEM_NUM);
+    // dlsym 在打开的库中查找符号的值，即动态调用 free 函数
     orig_free = (void(*)(void*))dlsym(RTLD_DEFAULT, "free");
+    // fishhook free 函数，和 safeFree 替换
     rebind_symbols((struct rebinding[]){{"free", (void*)safeFree}}, 1);
     return true;
 }
