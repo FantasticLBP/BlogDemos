@@ -79,6 +79,11 @@
 			<key>orderHint</key>
 			<integer>54</integer>
 		</dict>
+		<key>ImageDecode.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>60</integer>
+		</dict>
 		<key>KVO 底层原理剖析.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -307,6 +312,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>D3355E012C43EA3600A5EE25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D35E95AE2C3B87CF00C5700B</key>
 		<dict>
 			<key>primary</key>

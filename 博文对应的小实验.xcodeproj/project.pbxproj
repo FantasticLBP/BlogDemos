@@ -437,6 +437,13 @@
 		D388127C2C3CF3C70025753B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D388127B2C3CF3C70025753B /* main.m */; };
 		D39B4D502C2E7A2D00D59151 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D39B4D4F2C2E7A2D00D59151 /* main.mm */; };
 		D39B4D5C2C2E996500D59151 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D39B4D5B2C2E996500D59151 /* main.mm */; };
+		D3B122D42C47C5AF002968AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B122D32C47C5AF002968AA /* AppDelegate.m */; };
+		D3B122D72C47C5AF002968AA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B122D62C47C5AF002968AA /* SceneDelegate.m */; };
+		D3B122DA2C47C5AF002968AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B122D92C47C5AF002968AA /* ViewController.m */; };
+		D3B122DD2C47C5AF002968AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B122DB2C47C5AF002968AA /* Main.storyboard */; };
+		D3B122DF2C47C5B1002968AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B122DE2C47C5B1002968AA /* Assets.xcassets */; };
+		D3B122E22C47C5B1002968AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B122E02C47C5B1002968AA /* LaunchScreen.storyboard */; };
+		D3B122E52C47C5B1002968AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B122E42C47C5B1002968AA /* main.m */; };
 		D3EBF6EC2C329DD500AF07D1 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EBF6EB2C329DD500AF07D1 /* Cat.m */; };
 		D73E0891287E738F00718F00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E0890287E738F00718F00 /* AppDelegate.m */; };
 		D73E0894287E738F00718F00 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E0893287E738F00718F00 /* SceneDelegate.m */; };
@@ -1273,6 +1280,18 @@
 		D39B4D592C2E996400D59151 /* HMapWritor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HMapWritor; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39B4D5B2C2E996500D59151 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		D39B4D602C2E9E6300D59151 /* HeaderMapTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderMapTypes.h; path = HMapDump/HeaderMapTypes.h; sourceTree = SOURCE_ROOT; };
+		D3B122D02C47C5AF002968AA /* ImageDecode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDecode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B122D22C47C5AF002968AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3B122D32C47C5AF002968AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3B122D52C47C5AF002968AA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D3B122D62C47C5AF002968AA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D3B122D82C47C5AF002968AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3B122D92C47C5AF002968AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3B122DC2C47C5AF002968AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3B122DE2C47C5B1002968AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3B122E12C47C5B1002968AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3B122E32C47C5B1002968AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B122E42C47C5B1002968AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3EBF6EA2C329DD500AF07D1 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
 		D3EBF6EB2C329DD500AF07D1 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		D73E088D287E738E00718F00 /* 完美自定义键盘顶部 View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "完美自定义键盘顶部 View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1715,6 +1734,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D39B4D562C2E996400D59151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B122CD2C47C5AF002968AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2739,6 +2765,7 @@
 				D37C56622C40D56600A5F982 /* GCDExplore */,
 				D3355E032C43EA3700A5EE25 /* AppHookProtector */,
 				D3356C9E2C43F0C700A5EE25 /* AppHook */,
+				D3B122D12C47C5AF002968AA /* ImageDecode */,
 				93DA8F711F4EC7330078163E /* Products */,
 				930E81681F89271D00EF9652 /* Frameworks */,
 			);
@@ -2809,6 +2836,7 @@
 				D37C56612C40D56400A5F982 /* GCDExplore.app */,
 				D3355E022C43EA3600A5EE25 /* AppHookProtector.app */,
 				D3356C9D2C43F0C600A5EE25 /* AppHook.framework */,
+				D3B122D02C47C5AF002968AA /* ImageDecode.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3191,6 +3219,24 @@
 				D39B4D5B2C2E996500D59151 /* main.mm */,
 			);
 			path = HMapWritor;
+			sourceTree = "<group>";
+		};
+		D3B122D12C47C5AF002968AA /* ImageDecode */ = {
+			isa = PBXGroup;
+			children = (
+				D3B122D22C47C5AF002968AA /* AppDelegate.h */,
+				D3B122D32C47C5AF002968AA /* AppDelegate.m */,
+				D3B122D52C47C5AF002968AA /* SceneDelegate.h */,
+				D3B122D62C47C5AF002968AA /* SceneDelegate.m */,
+				D3B122D82C47C5AF002968AA /* ViewController.h */,
+				D3B122D92C47C5AF002968AA /* ViewController.m */,
+				D3B122DB2C47C5AF002968AA /* Main.storyboard */,
+				D3B122DE2C47C5B1002968AA /* Assets.xcassets */,
+				D3B122E02C47C5B1002968AA /* LaunchScreen.storyboard */,
+				D3B122E32C47C5B1002968AA /* Info.plist */,
+				D3B122E42C47C5B1002968AA /* main.m */,
+			);
+			path = ImageDecode;
 			sourceTree = "<group>";
 		};
 		D73E088E287E738F00718F00 /* 完美自定义键盘顶部 View */ = {
@@ -4271,6 +4317,23 @@
 			productReference = D39B4D592C2E996400D59151 /* HMapWritor */;
 			productType = "com.apple.product-type.tool";
 		};
+		D3B122CF2C47C5AF002968AA /* ImageDecode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B122E62C47C5B1002968AA /* Build configuration list for PBXNativeTarget "ImageDecode" */;
+			buildPhases = (
+				D3B122CC2C47C5AF002968AA /* Sources */,
+				D3B122CD2C47C5AF002968AA /* Frameworks */,
+				D3B122CE2C47C5AF002968AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageDecode;
+			productName = ImageDecode;
+			productReference = D3B122D02C47C5AF002968AA /* ImageDecode.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D73E088C287E738E00718F00 /* 完美自定义键盘顶部 View */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D73E08A5287E739000718F00 /* Build configuration list for PBXNativeTarget "完美自定义键盘顶部 View" */;
@@ -4608,6 +4671,10 @@
 						CreatedOnToolsVersion = 14.2;
 						ProvisioningStyle = Automatic;
 					};
+					D3B122CF2C47C5AF002968AA = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
 					D73E088C287E738E00718F00 = {
 						CreatedOnToolsVersion = 13.3;
 						DevelopmentTeam = 5XLBVZ6W4S;
@@ -4704,6 +4771,7 @@
 				D37C56602C40D56300A5F982 /* GCDExplore */,
 				D3355E012C43EA3600A5EE25 /* AppHookProtector */,
 				D3356C9C2C43F0C600A5EE25 /* AppHook */,
+				D3B122CF2C47C5AF002968AA /* ImageDecode */,
 			);
 		};
 /* End PBXProject section */
@@ -5266,6 +5334,16 @@
 				D3806D462C3113D900C875DA /* LaunchScreen.storyboard in Resources */,
 				D3806D432C3113D900C875DA /* Assets.xcassets in Resources */,
 				D3806D412C3113D700C875DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B122CE2C47C5AF002968AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B122E22C47C5B1002968AA /* LaunchScreen.storyboard in Resources */,
+				D3B122DF2C47C5B1002968AA /* Assets.xcassets in Resources */,
+				D3B122DD2C47C5AF002968AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5954,6 +6032,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D39B4D5C2C2E996500D59151 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B122CC2C47C5AF002968AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B122DA2C47C5AF002968AA /* ViewController.m in Sources */,
+				D3B122D42C47C5AF002968AA /* AppDelegate.m in Sources */,
+				D3B122E52C47C5B1002968AA /* main.m in Sources */,
+				D3B122D72C47C5AF002968AA /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6869,6 +6958,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				D3806D452C3113D900C875DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D3B122DB2C47C5AF002968AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B122DC2C47C5AF002968AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3B122E02C47C5B1002968AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B122E12C47C5B1002968AA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -9396,6 +9501,65 @@
 			};
 			name = Release;
 		};
+		D3B122E72C47C5B1002968AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImageDecode/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.ImageDecode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3B122E82C47C5B1002968AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImageDecode/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.ImageDecode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D73E08A3287E739000718F00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -10142,6 +10306,15 @@
 			buildConfigurations = (
 				D39B4D5E2C2E996500D59151 /* Debug */,
 				D39B4D5F2C2E996500D59151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B122E62C47C5B1002968AA /* Build configuration list for PBXNativeTarget "ImageDecode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B122E72C47C5B1002968AA /* Debug */,
+				D3B122E82C47C5B1002968AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
