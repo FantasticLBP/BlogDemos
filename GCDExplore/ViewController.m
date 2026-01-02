@@ -20,7 +20,43 @@
 //    [self testBloakAndQueue];
     // dead lock
     // dispatch_sync(dispatch_get_main_queue(), nil);
-    [self testDispatchGroup];
+//    [self testDispatchGroup];
+//    [self testBarrierWithGlobalQueue];
+    [self testBarrierWithCustomQueue];
+}
+
+- (void)testBarrierWithGlobalQueue {
+    NSLog(@"%s", __func__);
+    dispatch_queue_t queue = dispatch_get_global_queue(0, 0);
+    for (int i = 0; i < 100; i++) {
+        dispatch_async(queue, ^() {
+            NSLog(@"%d", i);
+        });
+    }
+    dispatch_barrier_async(queue, ^() {
+        NSLog(@"100");
+    });
+    dispatch_async(queue, ^() {
+        NSLog(@"101");
+    });
+    NSLog(@"%s", __func__);
+}
+
+- (void)testBarrierWithCustomQueue {
+    NSLog(@"%s", __func__);
+    dispatch_queue_t queue = dispatch_queue_create(0, 0);
+    for (int i = 0; i < 100; i++) {
+        dispatch_async(queue, ^() {
+            NSLog(@"%d", i);
+        });
+    }
+    dispatch_barrier_async(queue, ^() {
+        NSLog(@"100");
+    });
+    dispatch_async(queue, ^() {
+        NSLog(@"101");
+    });
+    NSLog(@"%s", __func__);
 }
 
 - (void)testDispatchGroup {

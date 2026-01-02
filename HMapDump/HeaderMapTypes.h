@@ -1,6 +1,6 @@
 //
 //  HeaderMapTypes.h
-//  HMapDump
+//  HMapMaker
 //
 //  Created by Unix_Kernel on 6/28/24.
 //  Copyright © 2024 杭城小刘. All rights reserved.
@@ -50,7 +50,7 @@ inline uint32_t ByteSwap_32(uint32_t value) {
   return (Byte0 << 24) | (Byte1 << 8) | (Byte2 >> 8) | (Byte3 >> 24);
 #endif
 }
-inline uint16_t ByteSwap_16(uint16_t value) {
+_LIBCPP_ALWAYS_INLINE uint16_t ByteSwap_16(uint16_t value) {
 #if defined(_MSC_VER) && !defined(_DEBUG)
   // The DLL version of the runtime lacks these functions (bug!?), but in a
   // release build they're replaced with BSWAP instructions anyway.

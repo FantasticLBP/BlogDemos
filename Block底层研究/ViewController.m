@@ -25,6 +25,10 @@
     // NSParameterAssert
     [self testAssert:nil];
 }
+- (IBAction)clickButton:(id)sender {
+}
+- (IBAction)didClickButton:(id)sender {
+}
 
 - (void)testAssert:(NSString *)message{
     NSParameterAssert( message.length > 0);

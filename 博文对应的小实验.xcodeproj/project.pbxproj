@@ -368,20 +368,6 @@
 		93FE312C1F91A5A8005DE0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FE312A1F91A5A8005DE0BF /* LaunchScreen.storyboard */; };
 		93FE312F1F91A5A8005DE0BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FE312E1F91A5A8005DE0BF /* main.m */; };
 		93FE31351F91A5E5005DE0BF /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FE31341F91A5E5005DE0BF /* MyView.m */; };
-		D307F8052C2FD7EE0010EF23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D307F8042C2FD7EE0010EF23 /* AppDelegate.m */; };
-		D307F8082C2FD7EE0010EF23 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D307F8072C2FD7EE0010EF23 /* SceneDelegate.m */; };
-		D307F80B2C2FD7EE0010EF23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D307F80A2C2FD7EE0010EF23 /* ViewController.m */; };
-		D307F80E2C2FD7EE0010EF23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D307F80C2C2FD7EE0010EF23 /* Main.storyboard */; };
-		D307F8102C2FD7F00010EF23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D307F80F2C2FD7F00010EF23 /* Assets.xcassets */; };
-		D307F8132C2FD7F00010EF23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D307F8112C2FD7F00010EF23 /* LaunchScreen.storyboard */; };
-		D307F8162C2FD7F00010EF23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D307F8152C2FD7F00010EF23 /* main.m */; };
-		D307F8222C2FD8070010EF23 /* HMapStaticLib.h in Headers */ = {isa = PBXBuildFile; fileRef = D307F8212C2FD8070010EF23 /* HMapStaticLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D307F8252C2FD8070010EF23 /* HMapStaticLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D307F81F2C2FD8070010EF23 /* HMapStaticLib.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		D307F8262C2FD8070010EF23 /* HMapStaticLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D307F81F2C2FD8070010EF23 /* HMapStaticLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D307F8372C2FD9160010EF23 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = D307F8332C2FD9150010EF23 /* Student.m */; };
-		D307F8382C2FD9160010EF23 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D307F8342C2FD9150010EF23 /* Person.m */; };
-		D307F8392C2FD9160010EF23 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = D307F8352C2FD9150010EF23 /* Person.h */; };
-		D307F83A2C2FD9160010EF23 /* Student.h in Headers */ = {isa = PBXBuildFile; fileRef = D307F8362C2FD9150010EF23 /* Student.h */; };
 		D3355E062C43EA3700A5EE25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3355E052C43EA3700A5EE25 /* AppDelegate.m */; };
 		D3355E092C43EA3700A5EE25 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3355E082C43EA3700A5EE25 /* SceneDelegate.m */; };
 		D3355E0C2C43EA3700A5EE25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3355E0B2C43EA3700A5EE25 /* ViewController.m */; };
@@ -406,6 +392,29 @@
 		D35E95C42C3B87D400C5700B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E95C32C3B87D400C5700B /* main.m */; };
 		D35E95CC2C3B94D000C5700B /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E95CA2C3B94D000C5700B /* Aspects.m */; };
 		D35E95CF2C3B951100C5700B /* UIViewController+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E95CE2C3B951100C5700B /* UIViewController+Hook.m */; };
+		D368768E2E1EB70F007CDB75 /* HMapStaticLib_HeaderMap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D368768B2E1EB70F007CDB75 /* HMapStaticLib_HeaderMap.h */; };
+		D36876A42E1EB7AE007CDB75 /* HMPGame.m in Sources */ = {isa = PBXBuildFile; fileRef = D36876962E1EB7AE007CDB75 /* HMPGame.m */; };
+		D36876A52E1EB7AE007CDB75 /* HMPBasketball.m in Sources */ = {isa = PBXBuildFile; fileRef = D36876972E1EB7AE007CDB75 /* HMPBasketball.m */; };
+		D36876A62E1EB7AE007CDB75 /* HMPCat.m in Sources */ = {isa = PBXBuildFile; fileRef = D36876982E1EB7AE007CDB75 /* HMPCat.m */; };
+		D36876A72E1EB7AE007CDB75 /* HMPPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D36876992E1EB7AE007CDB75 /* HMPPerson.m */; };
+		D36876A82E1EB7AE007CDB75 /* HMPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D368769A2E1EB7AE007CDB75 /* HMPPlayer.m */; };
+		D36876A92E1EB7AE007CDB75 /* HMPSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = D368769B2E1EB7AE007CDB75 /* HMPSubject.m */; };
+		D36876AA2E1EB7AE007CDB75 /* HMPStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = D368769C2E1EB7AE007CDB75 /* HMPStudent.m */; };
+		D36876AC2E1EBE16007CDB75 /* HMPGame.h in Headers */ = {isa = PBXBuildFile; fileRef = D368769D2E1EB7AE007CDB75 /* HMPGame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D36876AD2E1EBE16007CDB75 /* HMPPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = D368769E2E1EB7AE007CDB75 /* HMPPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D36876AE2E1EBE16007CDB75 /* HMPCat.h in Headers */ = {isa = PBXBuildFile; fileRef = D368769F2E1EB7AE007CDB75 /* HMPCat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D36876AF2E1EBE16007CDB75 /* HMPBasketball.h in Headers */ = {isa = PBXBuildFile; fileRef = D36876A02E1EB7AE007CDB75 /* HMPBasketball.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D36876B02E1EBE16007CDB75 /* HMPPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D36876A12E1EB7AE007CDB75 /* HMPPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D36876B12E1EBE16007CDB75 /* HMPStudent.h in Headers */ = {isa = PBXBuildFile; fileRef = D36876A22E1EB7AE007CDB75 /* HMPStudent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D36876B22E1EBE16007CDB75 /* HMPSubject.h in Headers */ = {isa = PBXBuildFile; fileRef = D36876A32E1EB7AE007CDB75 /* HMPSubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D36876B32E1EBEA3007CDB75 /* HMapStaticLib_HeaderMap.h in Headers */ = {isa = PBXBuildFile; fileRef = D368768B2E1EB70F007CDB75 /* HMapStaticLib_HeaderMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D36876BD2E1EC105007CDB75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D36876BC2E1EC105007CDB75 /* AppDelegate.m */; };
+		D36876C02E1EC105007CDB75 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D36876BF2E1EC105007CDB75 /* SceneDelegate.m */; };
+		D36876C32E1EC105007CDB75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36876C22E1EC105007CDB75 /* ViewController.m */; };
+		D36876C62E1EC105007CDB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36876C42E1EC105007CDB75 /* Main.storyboard */; };
+		D36876C82E1EC106007CDB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36876C72E1EC106007CDB75 /* Assets.xcassets */; };
+		D36876CB2E1EC106007CDB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36876C92E1EC106007CDB75 /* LaunchScreen.storyboard */; };
+		D36876CE2E1EC106007CDB75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D36876CD2E1EC106007CDB75 /* main.m */; };
 		D375EBD52C394C8F00D3FC87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D375EBD42C394C8F00D3FC87 /* AppDelegate.m */; };
 		D375EBD82C394C8F00D3FC87 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D375EBD72C394C8F00D3FC87 /* SceneDelegate.m */; };
 		D375EBDB2C394C8F00D3FC87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D375EBDA2C394C8F00D3FC87 /* ViewController.m */; };
@@ -413,7 +422,6 @@
 		D375EBE02C394C9100D3FC87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D375EBDF2C394C9100D3FC87 /* Assets.xcassets */; };
 		D375EBE32C394C9100D3FC87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D375EBE12C394C9100D3FC87 /* LaunchScreen.storyboard */; };
 		D375EBE62C394C9100D3FC87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D375EBE52C394C9100D3FC87 /* main.m */; };
-		D375EBEC2C394CA600D3FC87 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D375EBEB2C394CA600D3FC87 /* Person.m */; };
 		D375EBEF2C394CEA00D3FC87 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = D375EBEE2C394CEA00D3FC87 /* Student.m */; };
 		D375EBF22C394D0600D3FC87 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = D375EBF12C394D0600D3FC87 /* Animal.m */; };
 		D375EBF52C394D2D00D3FC87 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = D375EBF42C394D2D00D3FC87 /* Cat.m */; };
@@ -433,7 +441,7 @@
 		D3806D432C3113D900C875DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3806D422C3113D900C875DA /* Assets.xcassets */; };
 		D3806D462C3113D900C875DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3806D442C3113D900C875DA /* LaunchScreen.storyboard */; };
 		D3806D492C3113D900C875DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3806D482C3113D900C875DA /* main.m */; };
-		D3806D4F2C31B6F300C875DA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D3806D4E2C31B6F300C875DA /* Person.m */; };
+		D3806D4F2C31B6F300C875DA /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = D3806D4E2C31B6F300C875DA /* Worker.m */; };
 		D388127C2C3CF3C70025753B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D388127B2C3CF3C70025753B /* main.m */; };
 		D39B4D502C2E7A2D00D59151 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D39B4D4F2C2E7A2D00D59151 /* main.mm */; };
 		D39B4D5C2C2E996500D59151 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D39B4D5B2C2E996500D59151 /* main.mm */; };
@@ -444,7 +452,33 @@
 		D3B122DF2C47C5B1002968AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B122DE2C47C5B1002968AA /* Assets.xcassets */; };
 		D3B122E22C47C5B1002968AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B122E02C47C5B1002968AA /* LaunchScreen.storyboard */; };
 		D3B122E52C47C5B1002968AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B122E42C47C5B1002968AA /* main.m */; };
+		D3D0EC0E2E1E248100898135 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D0EC0D2E1E248100898135 /* AppDelegate.m */; };
+		D3D0EC112E1E248100898135 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D0EC102E1E248100898135 /* SceneDelegate.m */; };
+		D3D0EC142E1E248100898135 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D0EC132E1E248100898135 /* ViewController.m */; };
+		D3D0EC172E1E248100898135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D0EC152E1E248100898135 /* Main.storyboard */; };
+		D3D0EC192E1E248300898135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D0EC182E1E248300898135 /* Assets.xcassets */; };
+		D3D0EC1C2E1E248300898135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D0EC1A2E1E248300898135 /* LaunchScreen.storyboard */; };
+		D3D0EC1F2E1E248300898135 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D0EC1E2E1E248300898135 /* main.m */; };
+		D3D0EC4F2E1E3CA700898135 /* HSPPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D0EC402E1E3CA600898135 /* HSPPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D0EC502E1E3CA700898135 /* HSPGame.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D0EC412E1E3CA600898135 /* HSPGame.m */; };
+		D3D0EC512E1E3CA700898135 /* HSPBasketball.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D0EC422E1E3CA600898135 /* HSPBasketball.m */; };
+		D3D0EC522E1E3CA700898135 /* HSPCat.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D0EC432E1E3CA600898135 /* HSPCat.m */; };
+		D3D0EC532E1E3CA700898135 /* HSPPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D0EC442E1E3CA600898135 /* HSPPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D0EC542E1E3CA700898135 /* HSPStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D0EC452E1E3CA600898135 /* HSPStudent.m */; };
+		D3D0EC552E1E3CA700898135 /* HSPSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D0EC462E1E3CA600898135 /* HSPSubject.m */; };
+		D3D0EC562E1E3CA700898135 /* HSPGame.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D0EC472E1E3CA600898135 /* HSPGame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D0EC572E1E3CA700898135 /* HSPPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D0EC482E1E3CA600898135 /* HSPPerson.m */; };
+		D3D0EC582E1E3CA700898135 /* HSPBasketball.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D0EC492E1E3CA600898135 /* HSPBasketball.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D0EC592E1E3CA700898135 /* HSPCat.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D0EC4A2E1E3CA600898135 /* HSPCat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D0EC5A2E1E3CA700898135 /* HSPStudent.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D0EC4B2E1E3CA600898135 /* HSPStudent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D0EC5B2E1E3CA700898135 /* HSPSubject.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D0EC4C2E1E3CA600898135 /* HSPSubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D0EC5C2E1E3CA700898135 /* HSPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D0EC4D2E1E3CA600898135 /* HSPPlayer.m */; };
+		D3D0EC5D2E1E3CA700898135 /* HMapStaticLib_HeaderSearchPath.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D0EC4E2E1E3CA700898135 /* HMapStaticLib_HeaderSearchPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D0EC652E1E4F0B00898135 /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D0EC642E1E4F0A00898135 /* Worker.m */; };
+		D3D0EC672E1E4F5400898135 /* Worker.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D0EC632E1E4F0A00898135 /* Worker.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D3EBF6EC2C329DD500AF07D1 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EBF6EB2C329DD500AF07D1 /* Cat.m */; };
+		D3F3B13D2E2014A60009F58A /* libHMapStaticLib-HeaderSearchPath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F3B1332E2014A50009F58A /* libHMapStaticLib-HeaderSearchPath.a */; };
+		D3F3B1492E20155A0009F58A /* libHMapStaticLib-HeaderMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F3B13F2E20155A0009F58A /* libHMapStaticLib-HeaderMap.a */; };
 		D73E0891287E738F00718F00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E0890287E738F00718F00 /* AppDelegate.m */; };
 		D73E0894287E738F00718F00 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E0893287E738F00718F00 /* SceneDelegate.m */; };
 		D73E0897287E738F00718F00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E0896287E738F00718F00 /* ViewController.m */; };
@@ -463,18 +497,11 @@
 		D7D63CAA28743A9400690D98 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D63CA928743A9400690D98 /* _____Tests.m */; };
 		D7D63CB428743A9400690D98 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D63CB328743A9400690D98 /* _____UITests.m */; };
 		D7D63CB628743A9400690D98 /* _____UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D63CB528743A9400690D98 /* _____UITestsLaunchTests.m */; };
-		D7D63CC228743AAD00690D98 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D63CC128743AAD00690D98 /* Person.m */; };
+		D7D63CC228743AAD00690D98 /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D63CC128743AAD00690D98 /* Worker.m */; };
 		D7D63CC828743B3300690D98 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D63CC728743B3300690D98 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D307F8232C2FD8070010EF23 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 93DA8F681F4EC7330078163E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D307F81E2C2FD8060010EF23;
-			remoteInfo = HMapStaticLib;
-		};
 		D3356CA12C43F0C700A5EE25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 93DA8F681F4EC7330078163E /* Project object */;
@@ -499,17 +526,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D307F82A2C2FD8080010EF23 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D307F8262C2FD8070010EF23 /* HMapStaticLib.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D3356CA42C43F0C700A5EE25 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -521,6 +537,16 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D36876872E1EB70E007CDB75 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D368768E2E1EB70F007CDB75 /* HMapStaticLib_HeaderMap.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D38812772C3CF3C60025753B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -529,6 +555,16 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D395DA362E16CA97001343DF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D39B4D4B2C2E7A2C00D59151 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -547,6 +583,15 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D3D0EBD92E1E17F600898135 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -1168,24 +1213,6 @@
 		93FE312E1F91A5A8005DE0BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93FE31331F91A5E5005DE0BF /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyView.h; path = "常见系统手势/MyView.h"; sourceTree = SOURCE_ROOT; };
 		93FE31341F91A5E5005DE0BF /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MyView.m; path = "常见系统手势/MyView.m"; sourceTree = SOURCE_ROOT; };
-		D307F8012C2FD7ED0010EF23 /* HMapStaticLibApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMapStaticLibApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D307F8032C2FD7EE0010EF23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D307F8042C2FD7EE0010EF23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D307F8062C2FD7EE0010EF23 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		D307F8072C2FD7EE0010EF23 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		D307F8092C2FD7EE0010EF23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D307F80A2C2FD7EE0010EF23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D307F80D2C2FD7EE0010EF23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D307F80F2C2FD7F00010EF23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D307F8122C2FD7F00010EF23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D307F8142C2FD7F00010EF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D307F8152C2FD7F00010EF23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D307F81F2C2FD8070010EF23 /* HMapStaticLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMapStaticLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D307F8212C2FD8070010EF23 /* HMapStaticLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMapStaticLib.h; sourceTree = "<group>"; };
-		D307F8332C2FD9150010EF23 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
-		D307F8342C2FD9150010EF23 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		D307F8352C2FD9150010EF23 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		D307F8362C2FD9150010EF23 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		D3355E022C43EA3600A5EE25 /* AppHookProtector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppHookProtector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3355E042C43EA3700A5EE25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3355E052C43EA3700A5EE25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1222,6 +1249,35 @@
 		D35E95CB2C3B94D000C5700B /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Aspects.h; path = ../../Aspects/Aspects.h; sourceTree = "<group>"; };
 		D35E95CD2C3B951100C5700B /* UIViewController+Hook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Hook.h"; sourceTree = "<group>"; };
 		D35E95CE2C3B951100C5700B /* UIViewController+Hook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Hook.m"; sourceTree = "<group>"; };
+		D36876892E1EB70E007CDB75 /* libHMapStaticLib-HeaderMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libHMapStaticLib-HeaderMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D368768B2E1EB70F007CDB75 /* HMapStaticLib_HeaderMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMapStaticLib_HeaderMap.h; sourceTree = "<group>"; };
+		D36876932E1EB7AD007CDB75 /* install.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		D36876962E1EB7AE007CDB75 /* HMPGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPGame.m; sourceTree = "<group>"; };
+		D36876972E1EB7AE007CDB75 /* HMPBasketball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPBasketball.m; sourceTree = "<group>"; };
+		D36876982E1EB7AE007CDB75 /* HMPCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPCat.m; sourceTree = "<group>"; };
+		D36876992E1EB7AE007CDB75 /* HMPPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPPerson.m; sourceTree = "<group>"; };
+		D368769A2E1EB7AE007CDB75 /* HMPPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPPlayer.m; sourceTree = "<group>"; };
+		D368769B2E1EB7AE007CDB75 /* HMPSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPSubject.m; sourceTree = "<group>"; };
+		D368769C2E1EB7AE007CDB75 /* HMPStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPStudent.m; sourceTree = "<group>"; };
+		D368769D2E1EB7AE007CDB75 /* HMPGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPGame.h; sourceTree = "<group>"; };
+		D368769E2E1EB7AE007CDB75 /* HMPPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPPerson.h; sourceTree = "<group>"; };
+		D368769F2E1EB7AE007CDB75 /* HMPCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPCat.h; sourceTree = "<group>"; };
+		D36876A02E1EB7AE007CDB75 /* HMPBasketball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPBasketball.h; sourceTree = "<group>"; };
+		D36876A12E1EB7AE007CDB75 /* HMPPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPPlayer.h; sourceTree = "<group>"; };
+		D36876A22E1EB7AE007CDB75 /* HMPStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPStudent.h; sourceTree = "<group>"; };
+		D36876A32E1EB7AE007CDB75 /* HMPSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPSubject.h; sourceTree = "<group>"; };
+		D36876B92E1EC105007CDB75 /* HMapBenchMark-HeaderMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HMapBenchMark-HeaderMap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36876BB2E1EC105007CDB75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D36876BC2E1EC105007CDB75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D36876BE2E1EC105007CDB75 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D36876BF2E1EC105007CDB75 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D36876C12E1EC105007CDB75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D36876C22E1EC105007CDB75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D36876C52E1EC105007CDB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D36876C72E1EC106007CDB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D36876CA2E1EC106007CDB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D36876CC2E1EC106007CDB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36876CD2E1EC106007CDB75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D375EBD12C394C8F00D3FC87 /* BinarayOrderExplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinarayOrderExplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D375EBD32C394C8F00D3FC87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D375EBD42C394C8F00D3FC87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1234,8 +1290,6 @@
 		D375EBE22C394C9100D3FC87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D375EBE42C394C9100D3FC87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D375EBE52C394C9100D3FC87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D375EBEA2C394CA600D3FC87 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		D375EBEB2C394CA600D3FC87 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		D375EBED2C394CEA00D3FC87 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		D375EBEE2C394CEA00D3FC87 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		D375EBF02C394D0600D3FC87 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
@@ -1270,14 +1324,14 @@
 		D3806D452C3113D900C875DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3806D472C3113D900C875DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3806D482C3113D900C875DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D3806D4D2C31B6F300C875DA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		D3806D4E2C31B6F300C875DA /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D3806D4D2C31B6F300C875DA /* Worker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Worker.h; sourceTree = "<group>"; };
+		D3806D4E2C31B6F300C875DA /* Worker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Worker.m; sourceTree = "<group>"; };
 		D38812792C3CF3C60025753B /* HashAndNSDictionaryNSMapTable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HashAndNSDictionaryNSMapTable; sourceTree = BUILT_PRODUCTS_DIR; };
 		D388127B2C3CF3C70025753B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D39B4D4D2C2E7A2C00D59151 /* HMapDump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HMapDump; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39B4D4F2C2E7A2D00D59151 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		D39B4D542C2E7BF300D59151 /* HeaderMapTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderMapTypes.h; sourceTree = "<group>"; };
-		D39B4D592C2E996400D59151 /* HMapWritor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HMapWritor; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39B4D592C2E996400D59151 /* HMapMaker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HMapMaker; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39B4D5B2C2E996500D59151 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		D39B4D602C2E9E6300D59151 /* HeaderMapTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderMapTypes.h; path = HMapDump/HeaderMapTypes.h; sourceTree = SOURCE_ROOT; };
 		D3B122D02C47C5AF002968AA /* ImageDecode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDecode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1292,8 +1346,57 @@
 		D3B122E12C47C5B1002968AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3B122E32C47C5B1002968AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3B122E42C47C5B1002968AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3D0EBDB2E1E17F600898135 /* libHMapStaticLib-HeaderSearchPath.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libHMapStaticLib-HeaderSearchPath.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D0EBFB2E1E1ADC00898135 /* install.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		D3D0EC0A2E1E248100898135 /* HMapBenchMark-HeaderSearchPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HMapBenchMark-HeaderSearchPath.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D0EC0C2E1E248100898135 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3D0EC0D2E1E248100898135 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3D0EC0F2E1E248100898135 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D3D0EC102E1E248100898135 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D3D0EC122E1E248100898135 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3D0EC132E1E248100898135 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3D0EC162E1E248100898135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3D0EC182E1E248300898135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3D0EC1B2E1E248300898135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3D0EC1D2E1E248300898135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D0EC1E2E1E248300898135 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3D0EC402E1E3CA600898135 /* HSPPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPPerson.h; sourceTree = "<group>"; };
+		D3D0EC412E1E3CA600898135 /* HSPGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPGame.m; sourceTree = "<group>"; };
+		D3D0EC422E1E3CA600898135 /* HSPBasketball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPBasketball.m; sourceTree = "<group>"; };
+		D3D0EC432E1E3CA600898135 /* HSPCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPCat.m; sourceTree = "<group>"; };
+		D3D0EC442E1E3CA600898135 /* HSPPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPPlayer.h; sourceTree = "<group>"; };
+		D3D0EC452E1E3CA600898135 /* HSPStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPStudent.m; sourceTree = "<group>"; };
+		D3D0EC462E1E3CA600898135 /* HSPSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPSubject.m; sourceTree = "<group>"; };
+		D3D0EC472E1E3CA600898135 /* HSPGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPGame.h; sourceTree = "<group>"; };
+		D3D0EC482E1E3CA600898135 /* HSPPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPPerson.m; sourceTree = "<group>"; };
+		D3D0EC492E1E3CA600898135 /* HSPBasketball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPBasketball.h; sourceTree = "<group>"; };
+		D3D0EC4A2E1E3CA600898135 /* HSPCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPCat.h; sourceTree = "<group>"; };
+		D3D0EC4B2E1E3CA600898135 /* HSPStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPStudent.h; sourceTree = "<group>"; };
+		D3D0EC4C2E1E3CA600898135 /* HSPSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPSubject.h; sourceTree = "<group>"; };
+		D3D0EC4D2E1E3CA600898135 /* HSPPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPPlayer.m; sourceTree = "<group>"; };
+		D3D0EC4E2E1E3CA700898135 /* HMapStaticLib_HeaderSearchPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMapStaticLib_HeaderSearchPath.h; sourceTree = "<group>"; };
+		D3D0EC632E1E4F0A00898135 /* Worker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Worker.h; sourceTree = "<group>"; };
+		D3D0EC642E1E4F0A00898135 /* Worker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Worker.m; sourceTree = "<group>"; };
 		D3EBF6EA2C329DD500AF07D1 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
 		D3EBF6EB2C329DD500AF07D1 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		D3F3B1332E2014A50009F58A /* libHMapStaticLib-HeaderSearchPath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libHMapStaticLib-HeaderSearchPath.a"; sourceTree = "<group>"; };
+		D3F3B1352E2014A50009F58A /* HSPGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPGame.h; sourceTree = "<group>"; };
+		D3F3B1362E2014A50009F58A /* HSPPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPPerson.h; sourceTree = "<group>"; };
+		D3F3B1372E2014A50009F58A /* HSPCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPCat.h; sourceTree = "<group>"; };
+		D3F3B1382E2014A50009F58A /* HSPBasketball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPBasketball.h; sourceTree = "<group>"; };
+		D3F3B1392E2014A50009F58A /* HMapStaticLib_HeaderSearchPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMapStaticLib_HeaderSearchPath.h; sourceTree = "<group>"; };
+		D3F3B13A2E2014A50009F58A /* HSPPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPPlayer.h; sourceTree = "<group>"; };
+		D3F3B13B2E2014A50009F58A /* HSPStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPStudent.h; sourceTree = "<group>"; };
+		D3F3B13C2E2014A50009F58A /* HSPSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPSubject.h; sourceTree = "<group>"; };
+		D3F3B13F2E20155A0009F58A /* libHMapStaticLib-HeaderMap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libHMapStaticLib-HeaderMap.a"; sourceTree = "<group>"; };
+		D3F3B1412E20155A0009F58A /* HMapStaticLib_HeaderMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMapStaticLib_HeaderMap.h; sourceTree = "<group>"; };
+		D3F3B1422E20155A0009F58A /* HMPBasketball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPBasketball.h; sourceTree = "<group>"; };
+		D3F3B1432E20155A0009F58A /* HMPPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPPerson.h; sourceTree = "<group>"; };
+		D3F3B1442E20155A0009F58A /* HMPStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPStudent.h; sourceTree = "<group>"; };
+		D3F3B1452E20155A0009F58A /* HMPSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPSubject.h; sourceTree = "<group>"; };
+		D3F3B1462E20155A0009F58A /* HMPGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPGame.h; sourceTree = "<group>"; };
+		D3F3B1472E20155A0009F58A /* HMPCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPCat.h; sourceTree = "<group>"; };
+		D3F3B1482E20155A0009F58A /* HMPPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPPlayer.h; sourceTree = "<group>"; };
 		D73E088D287E738E00718F00 /* 完美自定义键盘顶部 View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "完美自定义键盘顶部 View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73E088F287E738F00718F00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D73E0890287E738F00718F00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1325,8 +1428,8 @@
 		D7D63CAF28743A9400690D98 /* 无用类检测UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "无用类检测UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D63CB328743A9400690D98 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		D7D63CB528743A9400690D98 /* _____UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITestsLaunchTests.m"; sourceTree = "<group>"; };
-		D7D63CC028743AAD00690D98 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		D7D63CC128743AAD00690D98 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D7D63CC028743AAD00690D98 /* Worker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Worker.h; sourceTree = "<group>"; };
+		D7D63CC128743AAD00690D98 /* Worker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Worker.m; sourceTree = "<group>"; };
 		D7D63CC628743B3300690D98 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		D7D63CC728743B3300690D98 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1661,21 +1764,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D307F7FE2C2FD7ED0010EF23 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D307F8252C2FD8070010EF23 /* HMapStaticLib.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D307F81C2C2FD8060010EF23 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D3355DFF2C43EA3600A5EE25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1695,6 +1783,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36876862E1EB70E007CDB75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36876B62E1EC104007CDB75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F3B1492E20155A0009F58A /* libHMapStaticLib-HeaderMap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1744,6 +1847,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D0EBD82E1E17F600898135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D0EC072E1E248000898135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F3B13D2E2014A60009F58A /* libHMapStaticLib-HeaderSearchPath.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2755,9 +2873,7 @@
 				D7D63CB228743A9400690D98 /* 无用类检测UITests */,
 				D73E088E287E738F00718F00 /* 完美自定义键盘顶部 View */,
 				D39B4D4E2C2E7A2D00D59151 /* HMapDump */,
-				D39B4D5A2C2E996500D59151 /* HMapWritor */,
-				D307F8022C2FD7EE0010EF23 /* HMapStaticLibApp */,
-				D307F8202C2FD8070010EF23 /* HMapStaticLib */,
+				D39B4D5A2C2E996500D59151 /* HMapMaker */,
 				D3806D352C3113D700C875DA /* APM */,
 				D375EBD22C394C8F00D3FC87 /* BinarayOrderExplore */,
 				D35E95B02C3B87D200C5700B /* AspectsLibExplore */,
@@ -2766,6 +2882,10 @@
 				D3355E032C43EA3700A5EE25 /* AppHookProtector */,
 				D3356C9E2C43F0C700A5EE25 /* AppHook */,
 				D3B122D12C47C5AF002968AA /* ImageDecode */,
+				D3D0EBDC2E1E17F600898135 /* HMapStaticLib-HeaderSearchPath */,
+				D3D0EC0B2E1E248100898135 /* HMapBenchMark-HeaderSearchPath */,
+				D368768A2E1EB70F007CDB75 /* HMapStaticLib-HeaderMap */,
+				D36876BA2E1EC105007CDB75 /* HMapBenchMark-HeaderMap */,
 				93DA8F711F4EC7330078163E /* Products */,
 				930E81681F89271D00EF9652 /* Frameworks */,
 			);
@@ -2826,9 +2946,7 @@
 				D7D63CAF28743A9400690D98 /* 无用类检测UITests.xctest */,
 				D73E088D287E738E00718F00 /* 完美自定义键盘顶部 View.app */,
 				D39B4D4D2C2E7A2C00D59151 /* HMapDump */,
-				D39B4D592C2E996400D59151 /* HMapWritor */,
-				D307F8012C2FD7ED0010EF23 /* HMapStaticLibApp.app */,
-				D307F81F2C2FD8070010EF23 /* HMapStaticLib.framework */,
+				D39B4D592C2E996400D59151 /* HMapMaker */,
 				D3806D342C3113D700C875DA /* APM.app */,
 				D375EBD12C394C8F00D3FC87 /* BinarayOrderExplore.app */,
 				D35E95AF2C3B87D000C5700B /* AspectsLibExplore.app */,
@@ -2837,6 +2955,10 @@
 				D3355E022C43EA3600A5EE25 /* AppHookProtector.app */,
 				D3356C9D2C43F0C600A5EE25 /* AppHook.framework */,
 				D3B122D02C47C5AF002968AA /* ImageDecode.app */,
+				D3D0EBDB2E1E17F600898135 /* libHMapStaticLib-HeaderSearchPath.a */,
+				D3D0EC0A2E1E248100898135 /* HMapBenchMark-HeaderSearchPath.app */,
+				D36876892E1EB70E007CDB75 /* libHMapStaticLib-HeaderMap.a */,
+				D36876B92E1EC105007CDB75 /* HMapBenchMark-HeaderMap.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3041,36 +3163,6 @@
 			path = "基本图形绘制";
 			sourceTree = "<group>";
 		};
-		D307F8022C2FD7EE0010EF23 /* HMapStaticLibApp */ = {
-			isa = PBXGroup;
-			children = (
-				D307F8032C2FD7EE0010EF23 /* AppDelegate.h */,
-				D307F8042C2FD7EE0010EF23 /* AppDelegate.m */,
-				D307F8062C2FD7EE0010EF23 /* SceneDelegate.h */,
-				D307F8072C2FD7EE0010EF23 /* SceneDelegate.m */,
-				D307F8092C2FD7EE0010EF23 /* ViewController.h */,
-				D307F80A2C2FD7EE0010EF23 /* ViewController.m */,
-				D307F80C2C2FD7EE0010EF23 /* Main.storyboard */,
-				D307F80F2C2FD7F00010EF23 /* Assets.xcassets */,
-				D307F8112C2FD7F00010EF23 /* LaunchScreen.storyboard */,
-				D307F8142C2FD7F00010EF23 /* Info.plist */,
-				D307F8152C2FD7F00010EF23 /* main.m */,
-			);
-			path = HMapStaticLibApp;
-			sourceTree = "<group>";
-		};
-		D307F8202C2FD8070010EF23 /* HMapStaticLib */ = {
-			isa = PBXGroup;
-			children = (
-				D307F8352C2FD9150010EF23 /* Person.h */,
-				D307F8342C2FD9150010EF23 /* Person.m */,
-				D307F8362C2FD9150010EF23 /* Student.h */,
-				D307F8332C2FD9150010EF23 /* Student.m */,
-				D307F8212C2FD8070010EF23 /* HMapStaticLib.h */,
-			);
-			path = HMapStaticLib;
-			sourceTree = "<group>";
-		};
 		D3355E032C43EA3700A5EE25 /* AppHookProtector */ = {
 			isa = PBXGroup;
 			children = (
@@ -3125,6 +3217,64 @@
 			path = AspectsLibExplore;
 			sourceTree = "<group>";
 		};
+		D368768A2E1EB70F007CDB75 /* HMapStaticLib-HeaderMap */ = {
+			isa = PBXGroup;
+			children = (
+				D368768B2E1EB70F007CDB75 /* HMapStaticLib_HeaderMap.h */,
+				D36876922E1EB7AD007CDB75 /* scripts */,
+				D36876952E1EB7AE007CDB75 /* Sources */,
+			);
+			path = "HMapStaticLib-HeaderMap";
+			sourceTree = "<group>";
+		};
+		D36876922E1EB7AD007CDB75 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				D36876932E1EB7AD007CDB75 /* install.sh */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		D36876952E1EB7AE007CDB75 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D36876962E1EB7AE007CDB75 /* HMPGame.m */,
+				D36876972E1EB7AE007CDB75 /* HMPBasketball.m */,
+				D36876982E1EB7AE007CDB75 /* HMPCat.m */,
+				D36876992E1EB7AE007CDB75 /* HMPPerson.m */,
+				D368769A2E1EB7AE007CDB75 /* HMPPlayer.m */,
+				D368769B2E1EB7AE007CDB75 /* HMPSubject.m */,
+				D368769C2E1EB7AE007CDB75 /* HMPStudent.m */,
+				D368769D2E1EB7AE007CDB75 /* HMPGame.h */,
+				D368769E2E1EB7AE007CDB75 /* HMPPerson.h */,
+				D368769F2E1EB7AE007CDB75 /* HMPCat.h */,
+				D36876A02E1EB7AE007CDB75 /* HMPBasketball.h */,
+				D36876A12E1EB7AE007CDB75 /* HMPPlayer.h */,
+				D36876A22E1EB7AE007CDB75 /* HMPStudent.h */,
+				D36876A32E1EB7AE007CDB75 /* HMPSubject.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D36876BA2E1EC105007CDB75 /* HMapBenchMark-HeaderMap */ = {
+			isa = PBXGroup;
+			children = (
+				D3F3B13E2E20155A0009F58A /* HMapStaticLib-HeaderMap */,
+				D36876BB2E1EC105007CDB75 /* AppDelegate.h */,
+				D36876BC2E1EC105007CDB75 /* AppDelegate.m */,
+				D36876BE2E1EC105007CDB75 /* SceneDelegate.h */,
+				D36876BF2E1EC105007CDB75 /* SceneDelegate.m */,
+				D36876C12E1EC105007CDB75 /* ViewController.h */,
+				D36876C22E1EC105007CDB75 /* ViewController.m */,
+				D36876C42E1EC105007CDB75 /* Main.storyboard */,
+				D36876C72E1EC106007CDB75 /* Assets.xcassets */,
+				D36876C92E1EC106007CDB75 /* LaunchScreen.storyboard */,
+				D36876CC2E1EC106007CDB75 /* Info.plist */,
+				D36876CD2E1EC106007CDB75 /* main.m */,
+			);
+			path = "HMapBenchMark-HeaderMap";
+			sourceTree = "<group>";
+		};
 		D375EBD22C394C8F00D3FC87 /* BinarayOrderExplore */ = {
 			isa = PBXGroup;
 			children = (
@@ -3136,8 +3286,8 @@
 				D375EBDA2C394C8F00D3FC87 /* ViewController.m */,
 				D375EBFE2C39B14200D3FC87 /* GenerateOrderFileUtils.h */,
 				D375EBFF2C39B14200D3FC87 /* GenerateOrderFileUtils.m */,
-				D375EBEA2C394CA600D3FC87 /* Person.h */,
-				D375EBEB2C394CA600D3FC87 /* Person.m */,
+				D3D0EC632E1E4F0A00898135 /* Worker.h */,
+				D3D0EC642E1E4F0A00898135 /* Worker.m */,
 				D375EBED2C394CEA00D3FC87 /* Student.h */,
 				D375EBEE2C394CEA00D3FC87 /* Student.m */,
 				D375EBF02C394D0600D3FC87 /* Animal.h */,
@@ -3182,8 +3332,8 @@
 				D3806D3A2C3113D700C875DA /* SceneDelegate.m */,
 				D3806D3C2C3113D700C875DA /* ViewController.h */,
 				D3806D3D2C3113D700C875DA /* ViewController.m */,
-				D3806D4D2C31B6F300C875DA /* Person.h */,
-				D3806D4E2C31B6F300C875DA /* Person.m */,
+				D3806D4D2C31B6F300C875DA /* Worker.h */,
+				D3806D4E2C31B6F300C875DA /* Worker.m */,
 				D3EBF6EA2C329DD500AF07D1 /* Cat.h */,
 				D3EBF6EB2C329DD500AF07D1 /* Cat.m */,
 				D3806D3F2C3113D700C875DA /* Main.storyboard */,
@@ -3212,13 +3362,13 @@
 			path = HMapDump;
 			sourceTree = "<group>";
 		};
-		D39B4D5A2C2E996500D59151 /* HMapWritor */ = {
+		D39B4D5A2C2E996500D59151 /* HMapMaker */ = {
 			isa = PBXGroup;
 			children = (
 				D39B4D602C2E9E6300D59151 /* HeaderMapTypes.h */,
 				D39B4D5B2C2E996500D59151 /* main.mm */,
 			);
-			path = HMapWritor;
+			path = HMapMaker;
 			sourceTree = "<group>";
 		};
 		D3B122D12C47C5AF002968AA /* ImageDecode */ = {
@@ -3237,6 +3387,114 @@
 				D3B122E42C47C5B1002968AA /* main.m */,
 			);
 			path = ImageDecode;
+			sourceTree = "<group>";
+		};
+		D3D0EBDC2E1E17F600898135 /* HMapStaticLib-HeaderSearchPath */ = {
+			isa = PBXGroup;
+			children = (
+				D3D0EC4E2E1E3CA700898135 /* HMapStaticLib_HeaderSearchPath.h */,
+				D3D0EC3F2E1E3CA600898135 /* Sources */,
+				D3D0EBFA2E1E1ADC00898135 /* scripts */,
+			);
+			path = "HMapStaticLib-HeaderSearchPath";
+			sourceTree = "<group>";
+		};
+		D3D0EBFA2E1E1ADC00898135 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				D3D0EBFB2E1E1ADC00898135 /* install.sh */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		D3D0EC0B2E1E248100898135 /* HMapBenchMark-HeaderSearchPath */ = {
+			isa = PBXGroup;
+			children = (
+				D3F3B1322E2014A50009F58A /* HMapStaticLib-HeaderSearchPath */,
+				D3D0EC0C2E1E248100898135 /* AppDelegate.h */,
+				D3D0EC0D2E1E248100898135 /* AppDelegate.m */,
+				D3D0EC0F2E1E248100898135 /* SceneDelegate.h */,
+				D3D0EC102E1E248100898135 /* SceneDelegate.m */,
+				D3D0EC122E1E248100898135 /* ViewController.h */,
+				D3D0EC132E1E248100898135 /* ViewController.m */,
+				D3D0EC152E1E248100898135 /* Main.storyboard */,
+				D3D0EC182E1E248300898135 /* Assets.xcassets */,
+				D3D0EC1A2E1E248300898135 /* LaunchScreen.storyboard */,
+				D3D0EC1D2E1E248300898135 /* Info.plist */,
+				D3D0EC1E2E1E248300898135 /* main.m */,
+			);
+			path = "HMapBenchMark-HeaderSearchPath";
+			sourceTree = "<group>";
+		};
+		D3D0EC3F2E1E3CA600898135 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D3D0EC402E1E3CA600898135 /* HSPPerson.h */,
+				D3D0EC482E1E3CA600898135 /* HSPPerson.m */,
+				D3D0EC492E1E3CA600898135 /* HSPBasketball.h */,
+				D3D0EC422E1E3CA600898135 /* HSPBasketball.m */,
+				D3D0EC4A2E1E3CA600898135 /* HSPCat.h */,
+				D3D0EC432E1E3CA600898135 /* HSPCat.m */,
+				D3D0EC442E1E3CA600898135 /* HSPPlayer.h */,
+				D3D0EC4D2E1E3CA600898135 /* HSPPlayer.m */,
+				D3D0EC4B2E1E3CA600898135 /* HSPStudent.h */,
+				D3D0EC452E1E3CA600898135 /* HSPStudent.m */,
+				D3D0EC4C2E1E3CA600898135 /* HSPSubject.h */,
+				D3D0EC462E1E3CA600898135 /* HSPSubject.m */,
+				D3D0EC472E1E3CA600898135 /* HSPGame.h */,
+				D3D0EC412E1E3CA600898135 /* HSPGame.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D3F3B1322E2014A50009F58A /* HMapStaticLib-HeaderSearchPath */ = {
+			isa = PBXGroup;
+			children = (
+				D3F3B1332E2014A50009F58A /* libHMapStaticLib-HeaderSearchPath.a */,
+				D3F3B1342E2014A50009F58A /* Headers */,
+			);
+			name = "HMapStaticLib-HeaderSearchPath";
+			path = "StaticLib/HMapStaticLib-HeaderSearchPath";
+			sourceTree = "<group>";
+		};
+		D3F3B1342E2014A50009F58A /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D3F3B1352E2014A50009F58A /* HSPGame.h */,
+				D3F3B1362E2014A50009F58A /* HSPPerson.h */,
+				D3F3B1372E2014A50009F58A /* HSPCat.h */,
+				D3F3B1382E2014A50009F58A /* HSPBasketball.h */,
+				D3F3B1392E2014A50009F58A /* HMapStaticLib_HeaderSearchPath.h */,
+				D3F3B13A2E2014A50009F58A /* HSPPlayer.h */,
+				D3F3B13B2E2014A50009F58A /* HSPStudent.h */,
+				D3F3B13C2E2014A50009F58A /* HSPSubject.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		D3F3B13E2E20155A0009F58A /* HMapStaticLib-HeaderMap */ = {
+			isa = PBXGroup;
+			children = (
+				D3F3B13F2E20155A0009F58A /* libHMapStaticLib-HeaderMap.a */,
+				D3F3B1402E20155A0009F58A /* Headers */,
+			);
+			name = "HMapStaticLib-HeaderMap";
+			path = "StaticLib/HMapStaticLib-HeaderMap";
+			sourceTree = "<group>";
+		};
+		D3F3B1402E20155A0009F58A /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D3F3B1412E20155A0009F58A /* HMapStaticLib_HeaderMap.h */,
+				D3F3B1422E20155A0009F58A /* HMPBasketball.h */,
+				D3F3B1432E20155A0009F58A /* HMPPerson.h */,
+				D3F3B1442E20155A0009F58A /* HMPStudent.h */,
+				D3F3B1452E20155A0009F58A /* HMPSubject.h */,
+				D3F3B1462E20155A0009F58A /* HMPGame.h */,
+				D3F3B1472E20155A0009F58A /* HMPCat.h */,
+				D3F3B1482E20155A0009F58A /* HMPPlayer.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		D73E088E287E738F00718F00 /* 完美自定义键盘顶部 View */ = {
@@ -3266,8 +3524,8 @@
 				D7D63C8E28743A9300690D98 /* AppDelegate.m */,
 				D7D63C9028743A9300690D98 /* SceneDelegate.h */,
 				D7D63C9128743A9300690D98 /* SceneDelegate.m */,
-				D7D63CC028743AAD00690D98 /* Person.h */,
-				D7D63CC128743AAD00690D98 /* Person.m */,
+				D7D63CC028743AAD00690D98 /* Worker.h */,
+				D7D63CC128743AAD00690D98 /* Worker.m */,
 				D7D63CC628743B3300690D98 /* Dog.h */,
 				D7D63CC728743B3300690D98 /* Dog.m */,
 				D7D63C9328743A9300690D98 /* ViewController.h */,
@@ -3301,16 +3559,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D307F81A2C2FD8060010EF23 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D307F8222C2FD8070010EF23 /* HMapStaticLib.h in Headers */,
-				D307F8392C2FD9160010EF23 /* Person.h in Headers */,
-				D307F83A2C2FD9160010EF23 /* Student.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D3356C982C43F0C600A5EE25 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -3319,6 +3567,44 @@
 				D3356CA02C43F0C700A5EE25 /* AppHook.h in Headers */,
 				D3356CAF2C43F13100A5EE25 /* InjectCode.h in Headers */,
 				D3356CAC2C43F0EE00A5EE25 /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36876AB2E1EBE07007CDB75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36876B32E1EBEA3007CDB75 /* HMapStaticLib_HeaderMap.h in Headers */,
+				D36876AC2E1EBE16007CDB75 /* HMPGame.h in Headers */,
+				D36876AD2E1EBE16007CDB75 /* HMPPerson.h in Headers */,
+				D36876AE2E1EBE16007CDB75 /* HMPCat.h in Headers */,
+				D36876AF2E1EBE16007CDB75 /* HMPBasketball.h in Headers */,
+				D36876B02E1EBE16007CDB75 /* HMPPlayer.h in Headers */,
+				D36876B12E1EBE16007CDB75 /* HMPStudent.h in Headers */,
+				D36876B22E1EBE16007CDB75 /* HMPSubject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D0EBFD2E1E1DD400898135 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D0EC4F2E1E3CA700898135 /* HSPPerson.h in Headers */,
+				D3D0EC5B2E1E3CA700898135 /* HSPSubject.h in Headers */,
+				D3D0EC532E1E3CA700898135 /* HSPPlayer.h in Headers */,
+				D3D0EC5A2E1E3CA700898135 /* HSPStudent.h in Headers */,
+				D3D0EC5D2E1E3CA700898135 /* HMapStaticLib_HeaderSearchPath.h in Headers */,
+				D3D0EC562E1E3CA700898135 /* HSPGame.h in Headers */,
+				D3D0EC582E1E3CA700898135 /* HSPBasketball.h in Headers */,
+				D3D0EC592E1E3CA700898135 /* HSPCat.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D0EC662E1E4F3100898135 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D0EC672E1E4F5400898135 /* Worker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3978,6 +4264,7 @@
 				93DA8F8A1F4EC7480078163E /* Sources */,
 				93DA8F8B1F4EC7480078163E /* Frameworks */,
 				93DA8F8C1F4EC7480078163E /* Resources */,
+				D395DA362E16CA97001343DF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -4124,43 +4411,6 @@
 			productReference = 93FE311D1F91A5A8005DE0BF /* 基本图形绘制.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D307F8002C2FD7ED0010EF23 /* HMapStaticLibApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D307F8192C2FD7F00010EF23 /* Build configuration list for PBXNativeTarget "HMapStaticLibApp" */;
-			buildPhases = (
-				D307F7FD2C2FD7ED0010EF23 /* Sources */,
-				D307F7FE2C2FD7ED0010EF23 /* Frameworks */,
-				D307F7FF2C2FD7ED0010EF23 /* Resources */,
-				D307F82A2C2FD8080010EF23 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D307F8242C2FD8070010EF23 /* PBXTargetDependency */,
-			);
-			name = HMapStaticLibApp;
-			productName = HMapStaticLibApp;
-			productReference = D307F8012C2FD7ED0010EF23 /* HMapStaticLibApp.app */;
-			productType = "com.apple.product-type.application";
-		};
-		D307F81E2C2FD8060010EF23 /* HMapStaticLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D307F8272C2FD8080010EF23 /* Build configuration list for PBXNativeTarget "HMapStaticLib" */;
-			buildPhases = (
-				D307F81A2C2FD8060010EF23 /* Headers */,
-				D307F81B2C2FD8060010EF23 /* Sources */,
-				D307F81C2C2FD8060010EF23 /* Frameworks */,
-				D307F81D2C2FD8060010EF23 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HMapStaticLib;
-			productName = HMapStaticLib;
-			productReference = D307F81F2C2FD8070010EF23 /* HMapStaticLib.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		D3355E012C43EA3600A5EE25 /* AppHookProtector */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3355E182C43EA3900A5EE25 /* Build configuration list for PBXNativeTarget "AppHookProtector" */;
@@ -4215,10 +4465,47 @@
 			productReference = D35E95AF2C3B87D000C5700B /* AspectsLibExplore.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D36876882E1EB70E007CDB75 /* HMapStaticLib-HeaderMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D368768F2E1EB70F007CDB75 /* Build configuration list for PBXNativeTarget "HMapStaticLib-HeaderMap" */;
+			buildPhases = (
+				D36876AB2E1EBE07007CDB75 /* Headers */,
+				D36876852E1EB70E007CDB75 /* Sources */,
+				D36876862E1EB70E007CDB75 /* Frameworks */,
+				D36876872E1EB70E007CDB75 /* CopyFiles */,
+				D36876B42E1EC09E007CDB75 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HMapStaticLib-HeaderMap";
+			productName = "HMapStaticLib-HeaderMap";
+			productReference = D36876892E1EB70E007CDB75 /* libHMapStaticLib-HeaderMap.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D36876B82E1EC104007CDB75 /* HMapBenchMark-HeaderMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36876CF2E1EC106007CDB75 /* Build configuration list for PBXNativeTarget "HMapBenchMark-HeaderMap" */;
+			buildPhases = (
+				D36876B52E1EC104007CDB75 /* Sources */,
+				D36876B62E1EC104007CDB75 /* Frameworks */,
+				D36876B72E1EC104007CDB75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HMapBenchMark-HeaderMap";
+			productName = "HMapBenchMark-HeaderMap";
+			productReference = D36876B92E1EC105007CDB75 /* HMapBenchMark-HeaderMap.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D375EBD02C394C8F00D3FC87 /* BinarayOrderExplore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D375EBE92C394C9100D3FC87 /* Build configuration list for PBXNativeTarget "BinarayOrderExplore" */;
 			buildPhases = (
+				D3D0EC662E1E4F3100898135 /* Headers */,
 				D375EBCD2C394C8F00D3FC87 /* Sources */,
 				D375EBCE2C394C8F00D3FC87 /* Frameworks */,
 				D375EBCF2C394C8F00D3FC87 /* Resources */,
@@ -4300,9 +4587,9 @@
 			productReference = D39B4D4D2C2E7A2C00D59151 /* HMapDump */;
 			productType = "com.apple.product-type.tool";
 		};
-		D39B4D582C2E996400D59151 /* HMapWritor */ = {
+		D39B4D582C2E996400D59151 /* HMapMaker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D39B4D5D2C2E996500D59151 /* Build configuration list for PBXNativeTarget "HMapWritor" */;
+			buildConfigurationList = D39B4D5D2C2E996500D59151 /* Build configuration list for PBXNativeTarget "HMapMaker" */;
 			buildPhases = (
 				D39B4D552C2E996400D59151 /* Sources */,
 				D39B4D562C2E996400D59151 /* Frameworks */,
@@ -4312,9 +4599,9 @@
 			);
 			dependencies = (
 			);
-			name = HMapWritor;
+			name = HMapMaker;
 			productName = HMapWritor;
-			productReference = D39B4D592C2E996400D59151 /* HMapWritor */;
+			productReference = D39B4D592C2E996400D59151 /* HMapMaker */;
 			productType = "com.apple.product-type.tool";
 		};
 		D3B122CF2C47C5AF002968AA /* ImageDecode */ = {
@@ -4332,6 +4619,42 @@
 			name = ImageDecode;
 			productName = ImageDecode;
 			productReference = D3B122D02C47C5AF002968AA /* ImageDecode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3D0EBDA2E1E17F600898135 /* HMapStaticLib-HeaderSearchPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D0EBE12E1E17F600898135 /* Build configuration list for PBXNativeTarget "HMapStaticLib-HeaderSearchPath" */;
+			buildPhases = (
+				D3D0EBFD2E1E1DD400898135 /* Headers */,
+				D3D0EBD72E1E17F600898135 /* Sources */,
+				D3D0EBD82E1E17F600898135 /* Frameworks */,
+				D3D0EBFC2E1E1AE900898135 /* ShellScript */,
+				D3D0EBD92E1E17F600898135 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HMapStaticLib-HeaderSearchPath";
+			productName = "HMapStaticLib-HeaderSearchPath";
+			productReference = D3D0EBDB2E1E17F600898135 /* libHMapStaticLib-HeaderSearchPath.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D3D0EC092E1E248000898135 /* HMapBenchMark-HeaderSearchPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D0EC202E1E248300898135 /* Build configuration list for PBXNativeTarget "HMapBenchMark-HeaderSearchPath" */;
+			buildPhases = (
+				D3D0EC062E1E248000898135 /* Sources */,
+				D3D0EC072E1E248000898135 /* Frameworks */,
+				D3D0EC082E1E248000898135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HMapBenchMark-HeaderSearchPath";
+			productName = "HMapBenchMark-HeaderSearchMap";
+			productReference = D3D0EC0A2E1E248100898135 /* HMapBenchMark-HeaderSearchPath.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D73E088C287E738E00718F00 /* 完美自定义键盘顶部 View */ = {
@@ -4419,17 +4742,17 @@
 					};
 					6E01E5C620AC7E76004384EA = {
 						CreatedOnToolsVersion = 9.3;
-						DevelopmentTeam = YC6738DVDV;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					6E06040620C6F15F00EA9766 = {
 						CreatedOnToolsVersion = 9.4;
-						DevelopmentTeam = YC6738DVDV;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					6E1B399720D1FF9700DD4806 = {
 						CreatedOnToolsVersion = 9.4;
-						DevelopmentTeam = 4BRDZ48JM5;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					6E66CAE322F91D4A002949E5 = {
@@ -4438,42 +4761,42 @@
 					};
 					6E75A1FB20E3D56C0093DFD9 = {
 						CreatedOnToolsVersion = 9.4.1;
-						DevelopmentTeam = 4BRDZ48JM5;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					6E9007CD20CD6A2C002944F1 = {
 						CreatedOnToolsVersion = 9.4;
-						DevelopmentTeam = YC6738DVDV;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					6EAD30DA213F7D18002DCC43 = {
 						CreatedOnToolsVersion = 9.4.1;
-						DevelopmentTeam = YC6738DVDV;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					6EB1F64020B79E96007B5556 = {
 						CreatedOnToolsVersion = 9.3;
-						DevelopmentTeam = YC6738DVDV;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					6EB445AA20C6231E0026A476 = {
 						CreatedOnToolsVersion = 9.4;
-						DevelopmentTeam = YC6738DVDV;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					6EB445C820C676B50026A476 = {
 						CreatedOnToolsVersion = 9.4;
-						DevelopmentTeam = YC6738DVDV;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					6EE7F95220C78F6300168076 = {
 						CreatedOnToolsVersion = 9.4;
-						DevelopmentTeam = YC6738DVDV;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					9315210A2006176C002488FB = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = B6CHRYJ3KP;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					931BF8941F96DC3600512F8C = {
@@ -4486,12 +4809,12 @@
 					};
 					932761E82009C34300875BF3 = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 4BAERDNHRR;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					93289D6F2002F6C900B3489E = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 4BAERDNHRR;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					932942D11F54F96100B45757 = {
@@ -4500,7 +4823,7 @@
 					};
 					932C80761FDE2F5900F858FF = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 4BRDZ48JM5;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					933009A01F5E321800833053 = {
@@ -4513,7 +4836,7 @@
 					};
 					93386A66200A0B2600522B97 = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 4BAERDNHRR;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					93395DF91F938DAC00914454 = {
@@ -4530,12 +4853,12 @@
 					};
 					9341ACE51FA0D910004FF16B = {
 						CreatedOnToolsVersion = 9.0.1;
-						DevelopmentTeam = B6CHRYJ3KP;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					9344A4772015ED3B0011D188 = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 3393ZFX46Q;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					93521FA51F982C86000FC7E1 = {
@@ -4548,17 +4871,17 @@
 					};
 					93521FDC1F9835FE000FC7E1 = {
 						CreatedOnToolsVersion = 9.0;
-						DevelopmentTeam = B6CHRYJ3KP;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					936A4EF4206888CE0036BD49 = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 4BAERDNHRR;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					9388ED1C1FA2BC0600ACF52B = {
 						CreatedOnToolsVersion = 9.0.1;
-						DevelopmentTeam = 3393ZFX46Q;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					939567571F6438FE00662FAC = {
@@ -4567,12 +4890,12 @@
 					};
 					939D091F1FFCA68600C55835 = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 4BAERDNHRR;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					93C4234B20117B3E00DDA769 = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 4BAERDNHRR;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					93D3BE531F905EA70002C6F8 = {
@@ -4585,11 +4908,12 @@
 					};
 					93D633DD1FA175BC00467EC3 = {
 						CreatedOnToolsVersion = 9.0.1;
-						DevelopmentTeam = 3393ZFX46Q;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					93DA8F8D1F4EC7480078163E = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					93DBF1011F8EF3060079D962 = {
@@ -4614,24 +4938,16 @@
 					};
 					93FC6DC32006EE050026E77A = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 4BAERDNHRR;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					93FC6DFC20083EA80026E77A = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 4BAERDNHRR;
+						DevelopmentTeam = 5XLBVZ6W4S;
 						ProvisioningStyle = Automatic;
 					};
 					93FE311C1F91A5A8005DE0BF = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-					};
-					D307F8002C2FD7ED0010EF23 = {
-						CreatedOnToolsVersion = 14.2;
-						ProvisioningStyle = Automatic;
-					};
-					D307F81E2C2FD8060010EF23 = {
-						CreatedOnToolsVersion = 14.2;
 						ProvisioningStyle = Automatic;
 					};
 					D3355E012C43EA3600A5EE25 = {
@@ -4643,6 +4959,14 @@
 						ProvisioningStyle = Automatic;
 					};
 					D35E95AE2C3B87CF00C5700B = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
+					D36876882E1EB70E007CDB75 = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
+					D36876B82E1EC104007CDB75 = {
 						CreatedOnToolsVersion = 14.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -4672,6 +4996,14 @@
 						ProvisioningStyle = Automatic;
 					};
 					D3B122CF2C47C5AF002968AA = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
+					D3D0EBDA2E1E17F600898135 = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
+					D3D0EC092E1E248000898135 = {
 						CreatedOnToolsVersion = 14.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -4761,9 +5093,7 @@
 				D7D63CAE28743A9400690D98 /* 无用类检测UITests */,
 				D73E088C287E738E00718F00 /* 完美自定义键盘顶部 View */,
 				D39B4D4C2C2E7A2C00D59151 /* HMapDump */,
-				D39B4D582C2E996400D59151 /* HMapWritor */,
-				D307F8002C2FD7ED0010EF23 /* HMapStaticLibApp */,
-				D307F81E2C2FD8060010EF23 /* HMapStaticLib */,
+				D39B4D582C2E996400D59151 /* HMapMaker */,
 				D3806D332C3113D700C875DA /* APM */,
 				D375EBD02C394C8F00D3FC87 /* BinarayOrderExplore */,
 				D35E95AE2C3B87CF00C5700B /* AspectsLibExplore */,
@@ -4772,6 +5102,10 @@
 				D3355E012C43EA3600A5EE25 /* AppHookProtector */,
 				D3356C9C2C43F0C600A5EE25 /* AppHook */,
 				D3B122CF2C47C5AF002968AA /* ImageDecode */,
+				D3D0EBDA2E1E17F600898135 /* HMapStaticLib-HeaderSearchPath */,
+				D3D0EC092E1E248000898135 /* HMapBenchMark-HeaderSearchPath */,
+				D36876882E1EB70E007CDB75 /* HMapStaticLib-HeaderMap */,
+				D36876B82E1EC104007CDB75 /* HMapBenchMark-HeaderMap */,
 			);
 		};
 /* End PBXProject section */
@@ -5263,23 +5597,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D307F7FF2C2FD7ED0010EF23 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D307F8132C2FD7F00010EF23 /* LaunchScreen.storyboard in Resources */,
-				D307F8102C2FD7F00010EF23 /* Assets.xcassets in Resources */,
-				D307F80E2C2FD7EE0010EF23 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D307F81D2C2FD8060010EF23 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D3355E002C43EA3600A5EE25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5304,6 +5621,16 @@
 				D35E95C12C3B87D400C5700B /* LaunchScreen.storyboard in Resources */,
 				D35E95BE2C3B87D400C5700B /* Assets.xcassets in Resources */,
 				D35E95BC2C3B87D200C5700B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36876B72E1EC104007CDB75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36876CB2E1EC106007CDB75 /* LaunchScreen.storyboard in Resources */,
+				D36876C82E1EC106007CDB75 /* Assets.xcassets in Resources */,
+				D36876C62E1EC105007CDB75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5347,6 +5674,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3D0EC082E1E248000898135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D0EC1C2E1E248300898135 /* LaunchScreen.storyboard in Resources */,
+				D3D0EC192E1E248300898135 /* Assets.xcassets in Resources */,
+				D3D0EC172E1E248100898135 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D73E088B287E738E00718F00 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5382,6 +5719,43 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D36876B42E1EC09E007CDB75 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${SRCROOT}/HMapStaticLib-HeaderMap/scripts/install.sh\"\n";
+		};
+		D3D0EBFC2E1E1AE900898135 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/HMapStaticLib-HeaderSearchPath/scripts/install.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17253E53283F604900A9EA7D /* Sources */ = {
@@ -5917,26 +6291,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D307F7FD2C2FD7ED0010EF23 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D307F80B2C2FD7EE0010EF23 /* ViewController.m in Sources */,
-				D307F8052C2FD7EE0010EF23 /* AppDelegate.m in Sources */,
-				D307F8162C2FD7F00010EF23 /* main.m in Sources */,
-				D307F8082C2FD7EE0010EF23 /* SceneDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D307F81B2C2FD8060010EF23 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D307F8382C2FD9160010EF23 /* Person.m in Sources */,
-				D307F8372C2FD9160010EF23 /* Student.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D3355DFE2C43EA3600A5EE25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5970,15 +6324,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D36876852E1EB70E007CDB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36876A72E1EB7AE007CDB75 /* HMPPerson.m in Sources */,
+				D36876A52E1EB7AE007CDB75 /* HMPBasketball.m in Sources */,
+				D36876A92E1EB7AE007CDB75 /* HMPSubject.m in Sources */,
+				D36876A62E1EB7AE007CDB75 /* HMPCat.m in Sources */,
+				D36876A42E1EB7AE007CDB75 /* HMPGame.m in Sources */,
+				D36876AA2E1EB7AE007CDB75 /* HMPStudent.m in Sources */,
+				D36876A82E1EB7AE007CDB75 /* HMPPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36876B52E1EC104007CDB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36876C32E1EC105007CDB75 /* ViewController.m in Sources */,
+				D36876BD2E1EC105007CDB75 /* AppDelegate.m in Sources */,
+				D36876CE2E1EC106007CDB75 /* main.m in Sources */,
+				D36876C02E1EC105007CDB75 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D375EBCD2C394C8F00D3FC87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D375EBF52C394D2D00D3FC87 /* Cat.m in Sources */,
 				D375EBDB2C394C8F00D3FC87 /* ViewController.m in Sources */,
+				D3D0EC652E1E4F0B00898135 /* Worker.m in Sources */,
 				D375EBD52C394C8F00D3FC87 /* AppDelegate.m in Sources */,
 				D375EC002C39B14200D3FC87 /* GenerateOrderFileUtils.m in Sources */,
-				D375EBEC2C394CA600D3FC87 /* Person.m in Sources */,
 				D375EBE62C394C9100D3FC87 /* main.m in Sources */,
 				D375EBFD2C397FA000D3FC87 /* RagDoll.swift in Sources */,
 				D375EBF22C394D0600D3FC87 /* Animal.m in Sources */,
@@ -6005,7 +6384,7 @@
 				D3EBF6EC2C329DD500AF07D1 /* Cat.m in Sources */,
 				D3806D3E2C3113D700C875DA /* ViewController.m in Sources */,
 				D3806D382C3113D700C875DA /* AppDelegate.m in Sources */,
-				D3806D4F2C31B6F300C875DA /* Person.m in Sources */,
+				D3806D4F2C31B6F300C875DA /* Worker.m in Sources */,
 				D3806D492C3113D900C875DA /* main.m in Sources */,
 				D3806D3B2C3113D700C875DA /* SceneDelegate.m in Sources */,
 			);
@@ -6046,6 +6425,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3D0EBD72E1E17F600898135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D0EC572E1E3CA700898135 /* HSPPerson.m in Sources */,
+				D3D0EC542E1E3CA700898135 /* HSPStudent.m in Sources */,
+				D3D0EC522E1E3CA700898135 /* HSPCat.m in Sources */,
+				D3D0EC552E1E3CA700898135 /* HSPSubject.m in Sources */,
+				D3D0EC512E1E3CA700898135 /* HSPBasketball.m in Sources */,
+				D3D0EC5C2E1E3CA700898135 /* HSPPlayer.m in Sources */,
+				D3D0EC502E1E3CA700898135 /* HSPGame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D0EC062E1E248000898135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D0EC142E1E248100898135 /* ViewController.m in Sources */,
+				D3D0EC0E2E1E248100898135 /* AppDelegate.m in Sources */,
+				D3D0EC1F2E1E248300898135 /* main.m in Sources */,
+				D3D0EC112E1E248100898135 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D73E0889287E738E00718F00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -6065,7 +6469,7 @@
 				D7D63CC828743B3300690D98 /* Dog.m in Sources */,
 				D7D63C9528743A9300690D98 /* ViewController.m in Sources */,
 				D7D63C8F28743A9300690D98 /* AppDelegate.m in Sources */,
-				D7D63CC228743AAD00690D98 /* Person.m in Sources */,
+				D7D63CC228743AAD00690D98 /* Worker.m in Sources */,
 				D7D63CA028743A9400690D98 /* main.m in Sources */,
 				D7D63C9228743A9300690D98 /* SceneDelegate.m in Sources */,
 			);
@@ -6091,11 +6495,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D307F8242C2FD8070010EF23 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D307F81E2C2FD8060010EF23 /* HMapStaticLib */;
-			targetProxy = D307F8232C2FD8070010EF23 /* PBXContainerItemProxy */;
-		};
 		D3356CA22C43F0C700A5EE25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D3356C9C2C43F0C600A5EE25 /* AppHook */;
@@ -6866,22 +7265,6 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		D307F80C2C2FD7EE0010EF23 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D307F80D2C2FD7EE0010EF23 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D307F8112C2FD7F00010EF23 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D307F8122C2FD7F00010EF23 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		D3355E0D2C43EA3700A5EE25 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -6910,6 +7293,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				D35E95C02C3B87D400C5700B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D36876C42E1EC105007CDB75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36876C52E1EC105007CDB75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D36876C92E1EC106007CDB75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36876CA2E1EC106007CDB75 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -6974,6 +7373,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				D3B122E12C47C5B1002968AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D3D0EC152E1E248100898135 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D0EC162E1E248100898135 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3D0EC1A2E1E248300898135 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D0EC1B2E1E248300898135 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -7085,7 +7500,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6738DVDV;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Block底层研究/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7107,7 +7522,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6738DVDV;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Block底层研究/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7127,7 +7542,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6738DVDV;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "复制层应用3-粒子闪烁效果/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7147,7 +7562,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6738DVDV;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "复制层应用3-粒子闪烁效果/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7167,7 +7582,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BRDZ48JM5;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "native-JS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7187,7 +7602,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BRDZ48JM5;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "native-JS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7248,7 +7663,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BRDZ48JM5;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "约束布局/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7268,7 +7683,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BRDZ48JM5;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "约束布局/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7288,7 +7703,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6738DVDV;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "微博发帖动画/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7308,7 +7723,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6738DVDV;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "微博发帖动画/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7328,7 +7743,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6738DVDV;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "金额的格式化显示/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7348,7 +7763,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6738DVDV;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "金额的格式化显示/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7368,7 +7783,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6738DVDV;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = LBPAttributedStringTools/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7388,7 +7803,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6738DVDV;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = LBPAttributedStringTools/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7408,7 +7823,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6738DVDV;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "$(SRCROOT)/复制层应用1-音量柱动画/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7428,7 +7843,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6738DVDV;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "$(SRCROOT)/复制层应用1-音量柱动画/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7448,7 +7863,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6738DVDV;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "$(SRCROOT)/复制层应用2-倒影效果/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7468,7 +7883,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6738DVDV;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "$(SRCROOT)/复制层应用2-倒影效果/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7488,7 +7903,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6738DVDV;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "QQ粘性动画/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7508,7 +7923,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6738DVDV;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "QQ粘性动画/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7527,7 +7942,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6CHRYJ3KP;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "心跳效果/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7546,7 +7961,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6CHRYJ3KP;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "心跳效果/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7637,7 +8052,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BAERDNHRR;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "动画组/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7656,7 +8071,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BAERDNHRR;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "动画组/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7675,7 +8090,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BAERDNHRR;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "系统时钟效果/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7694,7 +8109,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BAERDNHRR;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "系统时钟效果/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7735,7 +8150,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BRDZ48JM5;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "画板/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7754,7 +8169,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BRDZ48JM5;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "画板/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7831,7 +8246,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BAERDNHRR;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "核心动画与UIView动画区别/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7850,7 +8265,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BAERDNHRR;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "核心动画与UIView动画区别/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7977,7 +8392,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6CHRYJ3KP;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图片部分区域截图/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -7996,7 +8411,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6CHRYJ3KP;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图片部分区域截图/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8015,7 +8430,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3393ZFX46Q;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图像折叠动画/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9;
@@ -8034,7 +8449,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3393ZFX46Q;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图像折叠动画/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9;
@@ -8125,7 +8540,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6CHRYJ3KP;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "圆形图片裁剪/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8144,7 +8559,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6CHRYJ3KP;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "圆形图片裁剪/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8163,7 +8578,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BAERDNHRR;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "KVO 底层原理剖析/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8182,7 +8597,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BAERDNHRR;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "KVO 底层原理剖析/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8201,7 +8616,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3393ZFX46Q;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "手势解锁/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8220,7 +8635,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3393ZFX46Q;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "手势解锁/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8261,7 +8676,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BAERDNHRR;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "CALayer基本操作/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8280,7 +8695,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BAERDNHRR;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "CALayer基本操作/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8299,7 +8714,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BAERDNHRR;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "抽奖转盘动画/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8318,7 +8733,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BAERDNHRR;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "抽奖转盘动画/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8409,7 +8824,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3393ZFX46Q;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图片擦除效果/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8428,7 +8843,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3393ZFX46Q;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图片擦除效果/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8556,6 +8971,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				INFOPLIST_FILE = "模仿微信公众号网页效果，长按webview图片保存到相册/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.--------------webview-------";
@@ -8567,6 +8983,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				INFOPLIST_FILE = "模仿微信公众号网页效果，长按webview图片保存到相册/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.--------------webview-------";
@@ -8762,7 +9179,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BAERDNHRR;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图标抖动动画（关键帧动画）/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8781,7 +9198,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BAERDNHRR;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "图标抖动动画（关键帧动画）/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8800,7 +9217,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BAERDNHRR;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "转场动画/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8819,7 +9236,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BAERDNHRR;
+				DEVELOPMENT_TEAM = 5XLBVZ6W4S;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "转场动画/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -8863,136 +9280,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		D307F8172C2FD7F00010EF23 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HMapStaticLibApp/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.HMapStaticLibApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D307F8182C2FD7F00010EF23 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HMapStaticLibApp/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.HMapStaticLibApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		D307F8282C2FD8080010EF23 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = "${SRCROOT}/HMapStaticLib/StaticLibUsage.hmap";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 杭城小刘. All rights reserved.";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.HMapStaticLib;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				USE_HEADERMAP = NO;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D307F8292C2FD8080010EF23 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = "${SRCROOT}/HMapStaticLib/StaticLibUsage.hmap";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 杭城小刘. All rights reserved.";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 1.0;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.HMapStaticLib;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				USE_HEADERMAP = NO;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -9176,6 +9463,118 @@
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.AspectsLibExplore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D36876902E1EB70F007CDB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/HMapStaticLib-HeaderMap/hmap/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		D36876912E1EB70F007CDB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/HMapStaticLib-HeaderMap/hmap/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		D36876D02E1EC106007CDB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/HMapBenchMark-HeaderMap/StaticLib/HMapStaticLib-HeaderMap/Headers/**";
+				INFOPLIST_FILE = "HMapBenchMark-HeaderMap/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HMapBenchMark-HeaderMap/StaticLib/HMapStaticLib-HeaderMap",
+					"$(PROJECT_DIR)/HMapBenchMark-HeaderMap/StaticLib/HMapStaticLib-HeaderMap\\ 11.14.02\\ PM",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unix.kernel.HMapBenchMark-HeaderMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D36876D12E1EC106007CDB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/HMapBenchMark-HeaderMap/StaticLib/HMapStaticLib-HeaderMap/Headers/**";
+				INFOPLIST_FILE = "HMapBenchMark-HeaderMap/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HMapBenchMark-HeaderMap/StaticLib/HMapStaticLib-HeaderMap",
+					"$(PROJECT_DIR)/HMapBenchMark-HeaderMap/StaticLib/HMapStaticLib-HeaderMap\\ 11.14.02\\ PM",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unix.kernel.HMapBenchMark-HeaderMap";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -9524,6 +9923,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.ImageDecode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -9553,7 +9953,118 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.unix.kernel.ImageDecode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3D0EBE22E1E17F600898135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3D0EBE32E1E17F600898135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3D0EC212E1E248300898135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/HMapBenchMark-HeaderSearchPath/StaticLib/HMapStaticLib-HeaderSearchPath/Headers/**";
+				INFOPLIST_FILE = "HMapBenchMark-HeaderSearchPath/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HMapBenchMark-HeaderSearchPath/StaticLib/HMapStaticLib-HeaderSearchPath",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "-H";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unix.kernel.HMapBenchMark-HeaderSearchPath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3D0EC222E1E248300898135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/HMapBenchMark-HeaderSearchPath/StaticLib/HMapStaticLib-HeaderSearchPath/Headers/**";
+				INFOPLIST_FILE = "HMapBenchMark-HeaderSearchPath/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HMapBenchMark-HeaderSearchPath/StaticLib/HMapStaticLib-HeaderSearchPath",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "-H";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unix.kernel.HMapBenchMark-HeaderSearchPath";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -10211,24 +10722,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D307F8192C2FD7F00010EF23 /* Build configuration list for PBXNativeTarget "HMapStaticLibApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D307F8172C2FD7F00010EF23 /* Debug */,
-				D307F8182C2FD7F00010EF23 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D307F8272C2FD8080010EF23 /* Build configuration list for PBXNativeTarget "HMapStaticLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D307F8282C2FD8080010EF23 /* Debug */,
-				D307F8292C2FD8080010EF23 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D3355E182C43EA3900A5EE25 /* Build configuration list for PBXNativeTarget "AppHookProtector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -10252,6 +10745,24 @@
 			buildConfigurations = (
 				D35E95C52C3B87D400C5700B /* Debug */,
 				D35E95C62C3B87D400C5700B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D368768F2E1EB70F007CDB75 /* Build configuration list for PBXNativeTarget "HMapStaticLib-HeaderMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36876902E1EB70F007CDB75 /* Debug */,
+				D36876912E1EB70F007CDB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36876CF2E1EC106007CDB75 /* Build configuration list for PBXNativeTarget "HMapBenchMark-HeaderMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36876D02E1EC106007CDB75 /* Debug */,
+				D36876D12E1EC106007CDB75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -10301,7 +10812,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D39B4D5D2C2E996500D59151 /* Build configuration list for PBXNativeTarget "HMapWritor" */ = {
+		D39B4D5D2C2E996500D59151 /* Build configuration list for PBXNativeTarget "HMapMaker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D39B4D5E2C2E996500D59151 /* Debug */,
@@ -10315,6 +10826,24 @@
 			buildConfigurations = (
 				D3B122E72C47C5B1002968AA /* Debug */,
 				D3B122E82C47C5B1002968AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D0EBE12E1E17F600898135 /* Build configuration list for PBXNativeTarget "HMapStaticLib-HeaderSearchPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D0EBE22E1E17F600898135 /* Debug */,
+				D3D0EBE32E1E17F600898135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D0EC202E1E248300898135 /* Build configuration list for PBXNativeTarget "HMapBenchMark-HeaderSearchPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D0EC212E1E248300898135 /* Debug */,
+				D3D0EC222E1E248300898135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

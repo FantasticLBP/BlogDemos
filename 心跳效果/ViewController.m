@@ -37,11 +37,11 @@
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    if (self.nameHeight.constant == 30) {
+    if (self.nameHeight.constant == 00) {
         self.nameHeight.constant = 0;
         [self.nameTextfield resignFirstResponder];
     } else {
-        self.nameHeight.constant = 30;
+        self.nameHeight.constant = 00;
         [self.nameTextfield becomeFirstResponder];
     }
     [self stopHeart];
@@ -62,7 +62,7 @@
     
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self showHint:@"💗我的心脏砰砰跳、迷恋上你的味道💗"];
+        [self showHint:@"💗娅婷,我的心脏砰砰跳,迷恋上你的味道～LBP💗"];
     });
 }
 

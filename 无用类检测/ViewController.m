@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import <objc/message.h>
-#import "Person.h"
+#import "Worker.h"
 #import "Dog.h"
 
 #define FAST_DATA_MASK  0x00007ffffffffff8UL
@@ -23,7 +23,7 @@
 #pragma mark - life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    Person *person = [[Person alloc] init];
+    Worker *person = [[Worker alloc] init];
     [person work];
 //    Dog *dog = [[Dog alloc] init];
 //    [dog work];

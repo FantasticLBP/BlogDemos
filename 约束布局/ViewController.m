@@ -37,6 +37,10 @@
                                 ]];
     
 }
+- (IBAction)didClick:(id)sender {
+}
+- (IBAction)didClickButton:(id)sender {
+}
 
 
 

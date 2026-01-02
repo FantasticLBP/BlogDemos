@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-@class Person;
+@class Worker;
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Cat : NSObject
 
-@property (nonatomic, strong) Person *hoster;
+@property (nonatomic, strong) Worker *hoster;
 
 @end
 

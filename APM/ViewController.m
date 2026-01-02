@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "Person.h"
+#import "Worker.h"
 #import "Cat.h"
 @interface ViewController ()
 @property (nonatomic, assign) NSInteger count;
@@ -98,7 +98,7 @@
 
 #pragma mark - Retain cycle
 - (void)mockRetainCycle {
-    Person *p = [[Person alloc] init];
+    Worker *p = [[Worker alloc] init];
     Cat *cat = [[Cat alloc] init];
     p.cat = cat;
     cat.hoster = p;

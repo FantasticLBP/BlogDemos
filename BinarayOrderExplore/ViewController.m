@@ -7,16 +7,17 @@
 //
 
 #import "ViewController.h"
-
+#import "Student.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong) Student *st;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.st = [[Student alloc] init];
     
 }
 

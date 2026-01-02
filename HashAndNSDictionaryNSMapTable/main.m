@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Person : NSObject<NSCopying>
+@interface Worker : NSObject<NSCopying>
 @property (nonatomic, copy) NSString *name;
 
 - (instancetype)initWithName:(NSString *)name;
 @end
 
-@implementation Person
+@implementation Worker
 - (instancetype)initWithName:(NSString *)name {
     if (self = [super init]) {
         _name = name;
@@ -23,7 +23,7 @@
 }
 
 - (id)copyWithZone:(NSZone *)zone {
-    Person *p = [[self class] allocWithZone:zone];
+    Worker *p = [[self class] allocWithZone:zone];
     p.name = self.name;
     return p;
 }
@@ -33,16 +33,16 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Person *person1 = [[Person alloc] initWithName:@"张三"];
-        Person *person2 = [[Person alloc] initWithName:@"李四"];
-        Person *person3 = [[Person alloc] initWithName:@"王麻子"];
+        Worker *person1 = [[Worker alloc] initWithName:@"张三"];
+        Worker *person2 = [[Worker alloc] initWithName:@"李四"];
+        Worker *person3 = [[Worker alloc] initWithName:@"王麻子"];
         NSLog(@"person1 - %@, person2 - %@, person3 - %@", person1, person2, person3);
 
         NSMutableDictionary *dic = [NSMutableDictionary dictionaryWithCapacity:0];
         NSMapTable *table1 = [[NSMapTable alloc] initWithKeyOptions:NSPointerFunctionsWeakMemory valueOptions:NSPointerFunctionsStrongMemory capacity:2];
         NSMapTable *table2 = [[NSMapTable alloc] initWithKeyOptions:NSPointerFunctionsCopyIn valueOptions:NSPointerFunctionsStrongMemory capacity:2];
 
-        Person *p1 = [[Person alloc] initWithName:@"Key"];
+        Worker *p1 = [[Worker alloc] initWithName:@"Key"];
         NSLog(@"Before p1 - %@", p1);
         [dic setObject:@[person1, person2] forKey:p1];
         NSLog(@"After p1 - %@", p1);

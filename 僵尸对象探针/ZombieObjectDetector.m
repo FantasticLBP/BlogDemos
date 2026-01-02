@@ -82,7 +82,7 @@ void safeFree(void* p) {
     }
 }
 
-// 加载野指针自定义类
+// 加载野指针自定义类x
 void loadCatchProxyClass(void) {
     // 把所有 oc 类，添加到 registeredClasses 中
     registeredClasses = CFSetCreateMutable(NULL, 0, NULL);
