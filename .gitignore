@@ -1,0 +1,42 @@
+# ========== Node.js/前端 ==========
+node_modules/
+dist/
+build/
+.env
+.env.local
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# ========== iOS + CocoaPods ==========
+ios/Pods/
+# ios/Podfile.lock  # 推荐保留，不忽略
+ios/build/
+ios/DerivedData/
+ios/*.ipa
+ios/*.dSYM/
+ios/*.xcuserstate
+
+# ========== Android ==========
+android/build/
+android/app/build/
+android/.gradle/
+android/local.properties
+android/gradle.properties
+android/gradlew
+android/gradlew.bat
+android/gradle/
+android/captures/
+android/.idea/
+android/*.iml
+
+# ========== Weex 额外 ==========
+.weex/
+weex_dist/
+*.weex.js.map
+
+# ========== React Native 额外（按需） ==========
+*.jsbundle
+metro.config.js.local
+react-native-error.log
