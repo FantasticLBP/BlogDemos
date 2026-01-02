@@ -1,0 +1,6 @@
+platform :ios, '11.0'
+target 'WeexAPM' do 
+    # 个人本地源码级别调试引入
+    # pod 'WeexSDK', :path => '/Users/unix_kernel/Desktop/Hybrid/weex'
+    pod 'WeexSDK'
+end

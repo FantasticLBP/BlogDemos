@@ -1,0 +1,1 @@
+../../../../../../../Hybrid/weex/weex_core/Source/core/render/node/factory/render_type.h

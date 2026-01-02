@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-WeexAPM/Pods-WeexAPM-resources.sh
+${PODS_ROOT}/../../../../Hybrid/weex/pre-build/native-bundle-main.js
+${PODS_ROOT}/../../../../Hybrid/weex/pre-build/weex-main-jsfm.js
+${PODS_ROOT}/../../../../Hybrid/weex/pre-build/weex-polyfill.js
+${PODS_ROOT}/../../../../Hybrid/weex/pre-build/weex-rax-api.js
+${PODS_ROOT}/../../../../Hybrid/weex/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png

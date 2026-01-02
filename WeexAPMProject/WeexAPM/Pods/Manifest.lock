@@ -1,0 +1,16 @@
+PODS:
+  - WeexSDK (0.28.0)
+
+DEPENDENCIES:
+  - WeexSDK (from `/Users/unix_kernel/Desktop/Hybrid/weex`)
+
+EXTERNAL SOURCES:
+  WeexSDK:
+    :path: "/Users/unix_kernel/Desktop/Hybrid/weex"
+
+SPEC CHECKSUMS:
+  WeexSDK: 69c7e18c8367d80c8ecc359376bb419218596fd2
+
+PODFILE CHECKSUM: c7492a225c408b86f8bcba22e15db48007cb5139
+
+COCOAPODS: 1.16.2
